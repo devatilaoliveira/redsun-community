@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RedSun Rulebook Website
 
-## Getting Started
+Personal SSR-first rulebook site for the RedSun tabletop RPG.
 
-First, run the development server:
+The MVP reads local YAML content through a repository-backed content service:
+
+```text
+app route/page -> contentService -> ContentRepository -> local YAML
+```
+
+Pages should not read files directly. Repository implementations live under
+`lib/content/`, and local content lives under `content/`.
+
+## Local Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Useful first routes:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/`
+- `/rules`
+- `/rules/aggravated-damage`
 
-## Learn More
+## Content Source
 
-To learn more about Next.js, take a look at the following resources:
+Use `.env.local` for local overrides:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+CONTENT_SOURCE=local
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`CONTENT_SOURCE=supabase` is reserved for a future repository implementation and
+currently fails with a clear not-implemented error.
 
-## Deploy on Vercel
+## Verification
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Repository instructions prohibit running tests and build commands from the agent
+environment. Use static inspection and manual browser checks for this MVP.

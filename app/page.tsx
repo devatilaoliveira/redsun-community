@@ -1,65 +1,49 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-12 px-6 py-16 sm:px-10 lg:px-12">
+      <section className="max-w-3xl">
+        <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-red-700">
+          RedSun Rulebook
+        </p>
+        <h1 className="text-4xl font-semibold tracking-tight text-zinc-950 sm:text-5xl">
+          A server-rendered reference for the RedSun tabletop RPG.
+        </h1>
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-700">
+          Browse rules, lore, callings, powers, races, monsters, equipment, and
+          glossary content from local validated files while the MVP content
+          model settles.
+        </p>
+      </section>
+
+      <section aria-labelledby="start-heading">
+        <h2 id="start-heading" className="text-xl font-semibold text-zinc-950">
+          First Content Slice
+        </h2>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          <Link
+            className="rounded-lg border border-zinc-200 bg-white p-5 transition hover:border-red-300 hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-700"
+            href="/rules"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <span className="block font-medium text-zinc-950">Rules index</span>
+            <span className="mt-2 block text-sm leading-6 text-zinc-600">
+              List local rule entries through the content service.
+            </span>
+          </Link>
+          <Link
+            className="rounded-lg border border-zinc-200 bg-white p-5 transition hover:border-red-300 hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-700"
+            href="/rules/aggravated-damage"
           >
-            Documentation
-          </a>
+            <span className="block font-medium text-zinc-950">
+              Aggravated Damage
+            </span>
+            <span className="mt-2 block text-sm leading-6 text-zinc-600">
+              Render one YAML-backed rule detail page on the server.
+            </span>
+          </Link>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }

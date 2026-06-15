@@ -1,10 +1,8 @@
 [CmdletBinding()]
 param(
-  [ValidateSet("all", "web", "api", "repo")]
-  [string]$App = "repo",
   [string[]]$Core = @("methodical"),
-  [string[]]$Project,
-  [string[]]$Stack,
+  [string[]]$Project = @("redsun-web", "domain-map"),
+  [string[]]$Stack = @("react"),
   [string[]]$Skill,
   [string]$Model,
   [ValidateSet("none", "low", "medium", "high", "xhigh")]
@@ -73,11 +71,17 @@ function Resolve-SkillFiles {
       continue
     }
 
+    $reactPath = Join-Path $skillsRoot (Join-Path "react" $filename)
+    if (Test-Path $reactPath) {
+      $resolved += (Resolve-Path $reactPath).Path
+      continue
+    }
+
     $leafName = Split-Path $filename -Leaf
     $matches = @(Get-ChildItem -Path $skillsRoot -Recurse -File -Filter $leafName -ErrorAction SilentlyContinue)
 
     if ($matches.Count -eq 0) {
-      throw "Layer file not found: $directPath"
+      throw "Skill layer file not found: $directPath"
     }
 
     if ($matches.Count -gt 1) {
@@ -91,36 +95,10 @@ function Resolve-SkillFiles {
   return $resolved
 }
 
-function Get-DefaultProjects {
-  switch ($App) {
-    "web" { return @("redsun-web") }
-    "api" { return @("redsun-api", "domain-map") }
-    "repo" { return @() }
-    default { return @("redsun-web", "redsun-api", "domain-map") }
-  }
-}
-
-function Get-DefaultStacks {
-  switch ($App) {
-    "web" { return @("angular") }
-    "api" { return @("spring-boot", "persistence-storage") }
-    "repo" { return @() }
-    default { return @("angular", "spring-boot", "persistence-storage") }
-  }
-}
-
 $selectedSkillLayers = @($Skill | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
 $selectedCoreLayers = @($Core | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
-$selectedProjectLayers = if ($PSBoundParameters.ContainsKey("Project")) {
-  @($Project | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
-} else {
-  Get-DefaultProjects
-}
-$selectedStackLayers = if ($PSBoundParameters.ContainsKey("Stack")) {
-  @($Stack | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
-} else {
-  Get-DefaultStacks
-}
+$selectedProjectLayers = @($Project | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+$selectedStackLayers = @($Stack | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
 
 $layerFiles = @()
 
@@ -172,7 +150,7 @@ If instructions conflict, apply this precedence:
 4. Project-specific layer files.
 5. Stack-specific layer files.
 
-Active app selection: $App
+Active app context: RedSun Next.js web app
 
 Active layers:
 $activeFilesList
@@ -214,12 +192,18 @@ if (-not [string]::IsNullOrWhiteSpace($ReasoningEffort)) {
 }
 
 if ($layerFiles.Count -gt 0) {
-  $codexArgs += $sessionPrompt
+  $nativeSessionPrompt = $sessionPrompt
+
+  if (-not (Get-Variable -Name PSNativeCommandArgumentPassing -Scope Global -ErrorAction SilentlyContinue)) {
+    $nativeSessionPrompt = $nativeSessionPrompt.Replace('"', '\"')
+  }
+
+  $codexArgs += $nativeSessionPrompt
 }
 
 if ($DryRun) {
   Write-Host "Dry run: Codex was not started."
-  Write-Host "App: $App"
+  Write-Host "Active app context: RedSun Next.js web app"
   Write-Host "Active layers:"
   foreach ($relativeFile in $relativeFiles) {
     Write-Host "- $relativeFile"

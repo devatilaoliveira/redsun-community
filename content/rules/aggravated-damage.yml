@@ -1,0 +1,32 @@
+id: aggravated-damage
+slug: aggravated-damage
+title: Aggravated Damage
+category: rules
+subcategory: combat
+type: rule
+status: published
+visibility: public
+
+summary: Damage that is severe, supernatural, or otherwise difficult to recover from.
+
+tags:
+  - combat
+  - damage
+  - healing
+
+aliases:
+  - severe damage
+  - lasting wounds
+
+related: []
+
+content: |
+  Aggravated damage represents harm that cannot be shrugged off with ordinary rest or simple treatment.
+
+  Use aggravated damage when an attack, hazard, or supernatural effect is meant to leave a lasting mark on the character.
+
+  The exact recovery requirements should be defined by the rule, creature, power, or scene that caused the damage.
+
+data:
+  severity: high
+  recovery: special
