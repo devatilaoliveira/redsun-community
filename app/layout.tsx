@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { siteMetadata } from "@/lib/constants";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,13 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "RedSun Rulebook",
-    template: "%s | RedSun Rulebook",
-  },
-  description: "A personal SSR-first rulebook site for the RedSun tabletop RPG.",
-};
+export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
   children,

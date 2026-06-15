@@ -31,10 +31,14 @@ Use `.env.local` for local overrides:
 
 ```env
 CONTENT_SOURCE=local
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
 `CONTENT_SOURCE=supabase` is reserved for a future repository implementation and
 currently fails with a clear not-implemented error.
+
+`NEXT_PUBLIC_SITE_URL` is used only for public metadata URLs. Do not put secrets
+in `NEXT_PUBLIC_` variables.
 
 ## Verification
 
