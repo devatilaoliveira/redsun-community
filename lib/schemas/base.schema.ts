@@ -11,9 +11,14 @@ export const ContentCategorySchema = z.enum([
   "glossary",
 ]);
 
+export const ContentSlugSchema = z
+  .string()
+  .min(1)
+  .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
+
 export const BaseContentSchema = z.object({
   id: z.string().min(1),
-  slug: z.string().min(1),
+  slug: ContentSlugSchema,
   title: z.string().min(1),
   category: ContentCategorySchema,
   subcategory: z.string().optional(),

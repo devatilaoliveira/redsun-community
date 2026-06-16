@@ -1,4 +1,4 @@
 interface:
   display_name: "RedSun Design Reference"
   short_description: "Guide RedSun UI from legacy style notes"
-  default_prompt: "Use $redsun-design-reference to adapt a RedSun rulebook UI screen."
+  default_prompt: "Use -design-reference to adapt a RedSun rulebook UI screen."

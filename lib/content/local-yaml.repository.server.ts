@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import "server-only";
 import { load } from "js-yaml";
 
 import { BaseContentSchema } from "@/lib/schemas/base.schema";
@@ -15,32 +16,33 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 export class LocalYamlRepository implements ContentRepository {
   async getAll(category?: ContentCategory): Promise<ContentEntry[]> {
     const categories = category ? [category] : CONTENT_CATEGORIES;
-    const entries: ContentEntry[] = [];
 
-    for (const currentCategory of categories) {
-      const dir = path.join(CONTENT_DIR, currentCategory);
+    const entriesByCategory = await Promise.all(
+      categories.map(async (currentCategory) => {
+        const dir = path.join(CONTENT_DIR, currentCategory);
 
-      let files: string[];
-      try {
-        files = await fs.readdir(dir);
-      } catch {
-        continue;
-      }
-
-      for (const file of files) {
-        if (!file.endsWith(".yml") && !file.endsWith(".yaml")) {
-          continue;
+        let files: string[];
+        try {
+          files = await fs.readdir(dir);
+        } catch {
+          return [];
         }
 
-        const raw = await fs.readFile(path.join(dir, file), "utf8");
-        const parsed = load(raw);
-        const validated = BaseContentSchema.parse(parsed);
+        const contentFiles = files.filter(
+          (file) => file.endsWith(".yml") || file.endsWith(".yaml"),
+        );
 
-        entries.push(validated);
-      }
-    }
+        return Promise.all(
+          contentFiles.map(async (file) => {
+            const raw = await fs.readFile(path.join(dir, file), "utf8");
+            const parsed = load(raw);
+            return BaseContentSchema.parse(parsed);
+          }),
+        );
+      }),
+    );
 
-    return entries;
+    return entriesByCategory.flat();
   }
 
   async getBySlug(
@@ -83,7 +85,8 @@ export class LocalYamlRepository implements ContentRepository {
       return [];
     }
 
+    const idSet = new Set(ids);
     const entries = await this.getAll();
-    return entries.filter((entry) => ids.includes(entry.id));
+    return entries.filter((entry) => idSet.has(entry.id));
   }
 }

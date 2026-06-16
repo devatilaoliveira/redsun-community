@@ -1,22 +1,26 @@
+import { cache } from "react";
+import "server-only";
+
+import { ContentSlugSchema } from "@/lib/schemas/base.schema";
 import { getContentRepository } from "./content-source.server";
 import type { ContentCategory } from "./content-types";
 
 const repository = getContentRepository();
 
 export const contentService = {
-  getAll(category?: ContentCategory) {
-    return repository.getAll(category);
-  },
+  getAll: cache((category?: ContentCategory) => repository.getAll(category)),
 
-  getBySlug(category: ContentCategory, slug: string) {
-    return repository.getBySlug(category, slug);
-  },
+  getBySlug: cache((category: ContentCategory, slug: string) => {
+    const parsedSlug = ContentSlugSchema.safeParse(slug);
 
-  search(query: string) {
-    return repository.search(query);
-  },
+    if (!parsedSlug.success) {
+      return Promise.resolve(null);
+    }
 
-  getRelated(ids: string[]) {
-    return repository.getRelated(ids);
-  },
+    return repository.getBySlug(category, parsedSlug.data);
+  }),
+
+  search: cache((query: string) => repository.search(query)),
+
+  getRelated: cache((ids: string[]) => repository.getRelated(ids)),
 };

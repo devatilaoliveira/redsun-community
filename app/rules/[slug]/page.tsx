@@ -8,7 +8,13 @@ type RulePageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  const rules = await contentService.getAll("rules");
+
+  return rules.map((rule) => ({
+    slug: rule.slug,
+  }));
+}
 
 export async function generateMetadata({
   params,

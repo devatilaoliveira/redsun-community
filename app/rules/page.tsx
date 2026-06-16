@@ -3,8 +3,6 @@ import Link from "next/link";
 
 import { contentService } from "@/lib/content/content-service.server";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Rules",
   description: "Browse RedSun rules loaded through the content service.",

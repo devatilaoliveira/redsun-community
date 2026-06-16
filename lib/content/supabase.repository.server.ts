@@ -1,3 +1,5 @@
+import "server-only";
+
 import type { ContentRepository } from "./content-repository.interface";
 import type { ContentCategory, ContentEntry } from "./content-types";
 
