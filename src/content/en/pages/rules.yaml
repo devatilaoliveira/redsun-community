@@ -1,0 +1,22 @@
+slug: "rules"
+path: "/rules/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Rules"
+  group: "primary"
+  order: 10
+seo:
+  title: "Rules"
+  description: "Browse RedSun rulebook entries and core tabletop procedures."
+placeholder:
+  message: "Rules"
+sections:
+  - kicker: "Reference"
+    title: "Rules"
+    intro: "Rules pages collect the procedures and definitions that players need during play."
+    body:
+      - "The current static architecture treats this page as ordinary localized content. Additional rule entries can be added as YAML pages without creating new App Router files."
+    items:
+      - title: "Aggravated Damage"
+        text: "Damage that is severe, supernatural, or otherwise difficult to recover from."
+        icon: "/assets/svg/warning.svg"

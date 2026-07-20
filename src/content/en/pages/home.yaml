@@ -1,0 +1,40 @@
+slug: "home"
+path: "/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Home"
+  group: "primary"
+  order: 0
+seo:
+  title: "RedSun Rulebook"
+  description: "Browse public RedSun tabletop RPG rules, lore, callings, powers, races, monsters, equipment, and glossary material."
+placeholder:
+  message: "RedSun Rulebook"
+homeBanner:
+  kicker: "RedSun Tabletop RPG"
+  title: "A static, localized rulebook for RedSun."
+  intro: "Explore the first public content slice while the RedSun rulebook grows into a complete reference for rules, lore, and play material."
+  primaryLink:
+    label: "Read the rules"
+    href: "/rules/"
+featureCards:
+  - title: "Rules"
+    text: "Core reference material for combat, recovery, and tabletop procedures."
+    href: "/rules/"
+    icon: "/assets/svg/book.svg"
+  - title: "Lore"
+    text: "Setting notes and world material prepared for future content expansion."
+    href: "/lore/"
+    icon: "/assets/svg/sun.svg"
+sections:
+  - kicker: "MVP Direction"
+    title: "Local content first"
+    intro: "Every public page is authored as YAML and rendered into static HTML."
+    body:
+      - "The site keeps routes, metadata, navigation, and structured data connected to the same validated content source."
+      - "Future integrations can replace the loader behind server-side abstractions without rewriting the public route structure."
+    items:
+      - title: "Static export"
+        text: "Generated pages can be hosted from the out directory without a Node.js server."
+      - title: "Localized paths"
+        text: "Locale-prefixed routes keep the URL model ready for translated RedSun content."

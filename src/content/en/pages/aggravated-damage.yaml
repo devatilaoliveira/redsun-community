@@ -1,0 +1,24 @@
+slug: "aggravated-damage"
+path: "/rules/aggravated-damage/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Aggravated Damage"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Aggravated Damage"
+  description: "A RedSun rule for severe, supernatural, or otherwise difficult to recover from damage."
+placeholder:
+  message: "Aggravated Damage"
+sections:
+  - kicker: "Combat"
+    title: "Aggravated Damage"
+    intro: "Aggravated damage represents harm that cannot be shrugged off with ordinary rest or simple treatment."
+    body:
+      - "Use aggravated damage when an attack, hazard, or supernatural effect is meant to leave a lasting mark on the character."
+      - "The exact recovery requirements should be defined by the rule, creature, power, or scene that caused the damage."
+    items:
+      - title: "Severity"
+        text: "High"
+      - title: "Recovery"
+        text: "Special"
