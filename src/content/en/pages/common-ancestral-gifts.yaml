@@ -1,0 +1,31 @@
+slug: "common-ancestral-gifts"
+path: "/magic/common-ancestral-gifts/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Common Ancestral Gifts"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Common Ancestral Gifts"
+  description: "Explore the Ancestral Gifts most frequently found among Half-Zeraphirs."
+placeholder:
+  message: "Common Ancestral Gifts"
+sections:
+  - kicker: "Ancestral Gifts"
+    title: "Common affinities"
+    body:
+      - "Ancestral Gifts are tools that allow their bearers to alter the weave of reality with precision. Each Gift represents a deep understanding of one aspect of existence and an inherited affinity with a pattern of creation."
+      - "Common Ancestral Gifts manifest more frequently among Half-Zeraphirs. The greater the affinity between a Gift and the intended effect, the less the weave is disturbed."
+    items:
+      - title: "Speed"
+        text: "Grants extra actions each turn for attacking or defending without penalties."
+        href: "/magic/common-ancestral-gifts/speed/"
+      - title: "Fortitude"
+        text: "Reinforces tests to resist damage, disease, poison, and similar effects."
+        href: "/magic/common-ancestral-gifts/fortitude/"
+      - title: "Potence"
+        text: "Increases Strength and grants additional automatic successes on close-combat damage."
+        href: "/magic/common-ancestral-gifts/potence/"
+      - title: "Resilience"
+        text: "Allows increasingly powerful absorption, recovery, and regeneration of wounds."
+        href: "/magic/common-ancestral-gifts/resilience/"

@@ -1,0 +1,47 @@
+slug: "resilience"
+path: "/magic/common-ancestral-gifts/resilience/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Resilience"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Resilience"
+  description: "Resilience allows a Half-Zeraphir to endure, recover from, and regenerate severe wounds, eventually restoring limbs and healing aggravated damage."
+placeholder:
+  message: "Resilience"
+sections:
+  - title: "Core Rules"
+    body:
+      - "Resilience represents the Half-Zeraphir's supernatural ability to endure, recover from, and regenerate severe wounds."
+      - "Aggravated damage requires twice as many successes to soak."
+      - "Aggravated damage can be healed only through Momentum, Resilience's level 5 power, or periods of rest."
+  - title: "1. Lethal Soak"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can use Vigor to soak lethal damage."
+  - title: "2. Rest Recovery"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir recovers 1d6 damage for every 8-hour period of rest."
+  - title: "3. Active Recovery"
+    subsections:
+      - title: "System"
+        body:
+          - "The Half-Zeraphir can give up all actions during a combat turn to recover 1d4 damage."
+          - "Outside combat, while resting, they can recover 1d10 damage."
+  - title: "4. Advanced Regeneration"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can regenerate entire limbs."
+          - "The Half-Zeraphir suffers no permanent impairments caused by combat wounds."
+  - title: "5. Superior Regeneration"
+    subsections:
+      - title: "System"
+        body:
+          - "The Half-Zeraphir passively recovers 1d3 damage once per turn."
+          - "They may also gain 1 Momentum to recover 1d6 damage, provided they give up all actions during that turn."
+          - "After a long rest, they recover all bashing and lethal damage, plus 1d6 aggravated damage."

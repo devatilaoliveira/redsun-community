@@ -1,0 +1,17 @@
+slug: "potence"
+path: "/magic/common-ancestral-gifts/potence/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Potence"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Potence"
+  description: "Potence increases a character's physical strength, turning every point in the Calling into additional Strength and more reliable close-combat damage."
+placeholder:
+  message: "Potence"
+sections:
+  - title: "Effect per point"
+    body:
+      - "Each point in Potence counts as one additional point of Strength."
+      - "When calculating Strength-based close-combat damage, each point in Potence grants one additional automatic success."

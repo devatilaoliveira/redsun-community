@@ -1,0 +1,17 @@
+slug: "potence"
+path: "/gaben/potenz/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Potenz"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Potenz"
+  description: "Potenz steigert die körperliche Stärke einer Figur und verwandelt jeden Punkt der Gabe in zusätzliche Stärke und zuverlässigeren Nahkampfschaden."
+placeholder:
+  message: "Potenz"
+sections:
+  - title: "Wirkung pro Punkt"
+    body:
+      - "Jeder Punkt in Potenz entspricht einem zusätzlichen Punkt Stärke."
+      - "Bei der Berechnung von stärkebasiertem Nahkampfschaden gewährt jeder Punkt in Potenz einen zusätzlichen automatischen Erfolg."

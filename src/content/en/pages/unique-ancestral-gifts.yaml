@@ -1,0 +1,24 @@
+slug: "unique-ancestral-gifts"
+path: "/magic/unique-ancestral-gifts/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Unique Ancestral Gifts"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Unique Ancestral Gifts"
+  description: "Explore rare Ancestral Gifts manifested by only some Half-Zeraphirs."
+placeholder:
+  message: "Unique Ancestral Gifts"
+sections:
+  - kicker: "Ancestral Gifts"
+    title: "Unique affinities"
+    body:
+      - "Unique Ancestral Gifts are rare magical affinities. Unlike common Gifts, only some Half-Zeraphirs manifest a natural connection to these particular patterns of reality."
+    items:
+      - title: "Betrüger"
+        text: "Masters of illusion who reshape perception, identity, and expectation."
+        href: "/magic/unique-ancestral-gifts/betruger/"
+      - title: "Mörder"
+        text: "Shadow-bound killers who conceal weapons, silence combat, and vanish from sight."
+        href: "/magic/unique-ancestral-gifts/morder/"

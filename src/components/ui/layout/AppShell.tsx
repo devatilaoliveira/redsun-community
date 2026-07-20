@@ -14,12 +14,17 @@ type AppShellProps = {
 
 const primaryNavigationIcons: Record<string, `/${string}`> = {
   "/": "/svgs/home.svg",
-  "/callings/": "/svgs/badge.svg",
-  "/dons/": "/svgs/badge.svg",
+  "/gaben/": "/svgs/badge.svg",
   "/historia/": "/svgs/rs.svg",
   "/lore/": "/svgs/rs.svg",
+  "/magia/": "/svgs/badge.svg",
+  "/magic/": "/svgs/badge.svg",
+  "/racas/": "/svgs/contacts.svg",
+  "/races/": "/svgs/contacts.svg",
   "/regras/": "/svgs/auto_stories.svg",
+  "/regeln/": "/svgs/auto_stories.svg",
   "/rules/": "/svgs/auto_stories.svg",
+  "/welt/": "/svgs/rs.svg",
 };
 
 export async function AppShell({ children, locale }: AppShellProps) {

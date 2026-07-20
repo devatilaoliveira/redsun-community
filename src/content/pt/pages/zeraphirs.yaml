@@ -1,0 +1,25 @@
+slug: "zeraphirs"
+path: "/racas/zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Zeraphirs"
+  description: "Conheça a antiga espécie que dominou a magia, construiu os portais e influenciou os povos de Ardenya."
+placeholder:
+  message: "Zeraphirs"
+sections:
+  - kicker: "Raça ancestral"
+    title: "Arquitetos da realidade"
+    body:
+      - "Os Zeraphirs foram uma antiga espécie senciente, anterior à maioria das civilizações conhecidas. Em tempos esquecidos, dominaram artes hoje perdidas e foram capazes de construir portais entre mundos que orbitavam o mesmo Sol."
+      - "Eles não eram apenas exploradores, mas arquitetos da realidade com a capacidade de invocar magias poderosas. Seus portais atravessavam o vazio entre planetas, permitiam a colonização de diferentes mundos e influenciaram diretamente o surgimento de outras espécies inteligentes. Muitas culturas acreditam que parte da vida senciente existente hoje foi criada, modificada ou guiada por eles."
+      - "Cada portal Zeraphir rasgava a trama da realidade, conectando mundos separados pelo firmamento. Durante eras, essas passagens sustentaram impérios, comércio, guerras, alianças e migrações inteiras."
+  - kicker: "Desaparecimento"
+    title: "O Sol vermelho"
+    body:
+      - "Com o tempo, algo mudou. O Sol perdeu sua luz dourada e passou a brilhar com um tom vermelho permanente, como um entardecer que nunca termina. Pouco depois, os portais ruíram, as rotas entre os mundos desapareceram e os Zeraphirs sumiram da história."
+      - "Hoje, são lembrados apenas em fragmentos de ruínas, mitos antigos e registros incompletos. Para muitos povos, eles são deuses mortos, ancestrais esquecidos ou monstros de uma era anterior ao mundo atual."
+      - "Os Zeraphirs não são uma opção de raça jogável no período atual do RedSun."

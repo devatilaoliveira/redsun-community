@@ -1,0 +1,17 @@
+slug: "potence"
+path: "/magia/dons-comuns/potencia/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Potência"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Potência"
+  description: "Potência amplia a força física do personagem e transforma cada ponto do Dom em força adicional e dano corpo a corpo mais confiável."
+placeholder:
+  message: "Potência"
+sections:
+  - title: "Efeito por ponto"
+    body:
+      - "Cada ponto em Potência equivale a um ponto adicional de Força."
+      - "Ao calcular dano corpo a corpo baseado em Força, cada ponto em Potência garante um sucesso automático adicional."

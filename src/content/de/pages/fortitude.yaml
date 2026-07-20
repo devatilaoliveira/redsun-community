@@ -1,0 +1,18 @@
+slug: "fortitude"
+path: "/gaben/standhaftigkeit/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Standhaftigkeit"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Standhaftigkeit"
+  description: "Standhaftigkeit verstärkt die übernatürliche Widerstandskraft einer Figur gegen Verletzungen, Krankheiten, Gifte und andere körperliche Gefahren."
+placeholder:
+  message: "Standhaftigkeit"
+sections:
+  - title: "Wirkung pro Punkt"
+    body:
+      - "Standhaftigkeit wird bei Proben gegen Schaden, Krankheiten, Gifte und ähnliche Effekte zu Vigor addiert."
+      - "Jeder Punkt in Standhaftigkeit gewährt bei diesen Proben einen automatischen Erfolg."
+      - "Diese Regel gilt nicht gegen verschärften Schaden."

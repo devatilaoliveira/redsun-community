@@ -1,0 +1,17 @@
+slug: "rituals"
+path: "/magic/rituals/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Rituals"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Rituals"
+  description: "A provisional introduction to magical rituals in RedSun."
+placeholder:
+  message: "Rituals"
+sections:
+  - kicker: "In development"
+    title: "Rituals"
+    body:
+      - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rules and examples will be added when this form of magic is defined."

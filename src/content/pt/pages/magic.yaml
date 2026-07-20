@@ -1,0 +1,37 @@
+slug: "magic"
+path: "/magia/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Magia"
+  group: "primary"
+  order: 30
+seo:
+  title: "Magia"
+  description: "Conheça a trama da realidade, o Ímpeto e as diferentes formas de magia do RedSun."
+placeholder:
+  message: "Magia"
+sections:
+  - kicker: "A trama da realidade"
+    title: "Sistema de Magia"
+    body:
+      - "A realidade é como uma vasta rede de fios invisíveis. Toda magia altera essa trama de alguma forma, mas o preço dessa alteração não depende apenas da força do efeito produzido."
+      - "Imagine tentar cortar um único fio usando uma lâmina cega. O esforço faz toda a rede vibrar. Essas vibrações retornam ao conjurador na forma de um choque de retorno, conhecido como Ímpeto."
+      - "Agora imagine uma lâmina perfeitamente afiada. Com ela, é possível cortar diversos fios de uma só vez sem perturbar a rede ao redor. A alteração é maior, mas a resistência encontrada é menor."
+      - "Por essa razão, algumas magias simples podem gerar grande Ímpeto, enquanto outras, muito mais poderosas, não produzem qualquer choque de retorno. O fator determinante não é a magnitude da mudança causada na realidade, mas a forma como ela é realizada."
+      - "A magia não é limitada pelo que o conjurador deseja fazer, mas por sua capacidade de fazê-lo em harmonia com os fios do mundo."
+  - kicker: "Formas de magia"
+    title: "Conhecimentos mágicos"
+    intro: "Cada forma de magia oferece uma maneira diferente de compreender e alterar a trama da realidade."
+    items:
+      - title: "Dons Ancestrais Comuns"
+        text: "Afinidades ancestrais recorrentes entre os Meio-Zeraphirs, como Rapidez, Fortitude, Potência e Resiliência."
+        href: "/magia/dons-comuns/"
+      - title: "Dons Ancestrais Únicos"
+        text: "Afinidades raras que se manifestam apenas em alguns Meio-Zeraphirs, como Betrüger e Mörder."
+        href: "/magia/dons-unicos/"
+      - title: "Rituais"
+        text: "Práticas mágicas estruturadas que serão detalhadas conforme novas regras forem definidas."
+        href: "/magia/rituais/"
+      - title: "Feitiços Estáticos e Grimórios"
+        text: "Fórmulas registradas na Língua Ancestral que permitem aos humanos produzir efeitos mágicos determinados."
+        href: "/magia/feiticos-estaticos/"

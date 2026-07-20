@@ -1,0 +1,34 @@
+slug: "magic"
+path: "/magic/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Magic"
+  group: "primary"
+  order: 30
+seo:
+  title: "Magic"
+  description: "Explore the weave of reality, Momentum, and the different forms of magic in RedSun."
+placeholder:
+  message: "Magic"
+sections:
+  - kicker: "The weave of reality"
+    title: "Magic System"
+    body:
+      - "Reality resembles a vast network of invisible threads. All magic alters this weave, but the price of that change does not depend only on the strength of the effect."
+      - "Trying to cut one thread with a blunt blade makes the entire network vibrate. Those vibrations return to the caster as a backlash known as Momentum."
+      - "A perfectly sharp blade can cut several threads without disturbing the surrounding network. The change may be greater while encountering less resistance."
+      - "For this reason, simple magic can generate considerable Momentum while much more powerful effects may produce none. What matters is not only the magnitude of the change, but how it is performed."
+      - "Magic is limited not by what the caster wishes to accomplish, but by their ability to act in harmony with the threads of the world."
+  - kicker: "Forms of magic"
+    title: "Magical knowledge"
+    intro: "Each form of magic offers a different way to understand and alter the weave of reality."
+    items:
+      - title: "Common Ancestral Gifts"
+        text: "Ancestral affinities frequently found among Half-Zeraphirs, including Speed, Fortitude, Potence, and Resilience."
+        href: "/magic/common-ancestral-gifts/"
+      - title: "Unique Ancestral Gifts"
+        text: "Rare affinities manifested by only some Half-Zeraphirs, including Betrüger and Mörder."
+        href: "/magic/unique-ancestral-gifts/"
+      - title: "Rituals"
+        text: "Structured magical practices that will be expanded as their rules are defined."
+        href: "/magic/rituals/"

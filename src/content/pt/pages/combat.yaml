@@ -1,0 +1,26 @@
+slug: "combat"
+path: "/regras/combate/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Combate"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Combate"
+  description: "Regras fundamentais para iniciativa, ataques e defesas durante o combate no RedSun."
+placeholder:
+  message: "Combate"
+sections:
+  - kicker: "Início do turno"
+    title: "Iniciativa"
+    body:
+      - "No início do turno, cada personagem realiza um teste de Destreza + Prontidão ou Intelecto + Prontidão, usando a combinação que resultar na ação mais rápida. O resultado determina a ordem de ataque."
+  - kicker: "Economia de ações"
+    title: "Ataque e Defesa"
+    body:
+      - "Todo personagem tem direito a uma manobra de ataque e uma manobra de defesa durante o turno."
+      - "Cada manobra de defesa posterior à primeira sofre uma penalidade cumulativa de −2 dados, até o mínimo de 0 dados."
+    items:
+      - title: "Talentos de Combate"
+        text: "Consulte os Estilos de Combate e as Manobras disponíveis para cada perícia."
+        href: "/regras/talentos-de-combate/"

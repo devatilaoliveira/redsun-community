@@ -1,0 +1,17 @@
+slug: "speed"
+path: "/magia/dons-comuns/rapidez/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Rapidez"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Rapidez"
+  description: "Rapidez acelera o personagem sobrenaturalmente, concedendo ações adicionais para atacar ou se defender durante cada turno."
+placeholder:
+  message: "Rapidez"
+sections:
+  - title: "Efeito por ponto"
+    body:
+      - "Cada ponto em Rapidez concede ao personagem uma ação extra por turno."
+      - "Essa ação extra pode ser usada apenas para atacar ou se defender, sem penalidades."

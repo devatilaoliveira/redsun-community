@@ -1,0 +1,17 @@
+slug: "speed"
+path: "/gaben/schnelligkeit/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Schnelligkeit"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Schnelligkeit"
+  description: "Schnelligkeit beschleunigt eine Figur auf übernatürliche Weise und gewährt zusätzliche Aktionen zum Angreifen oder Verteidigen."
+placeholder:
+  message: "Schnelligkeit"
+sections:
+  - title: "Wirkung pro Punkt"
+    body:
+      - "Jeder Punkt in Schnelligkeit gewährt der Figur eine zusätzliche Aktion pro Runde."
+      - "Diese zusätzliche Aktion kann ohne Abzüge ausschließlich zum Angreifen oder Verteidigen eingesetzt werden."

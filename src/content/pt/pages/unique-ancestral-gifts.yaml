@@ -1,0 +1,24 @@
+slug: "unique-ancestral-gifts"
+path: "/magia/dons-unicos/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Dons Ancestrais Únicos"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Dons Ancestrais Únicos"
+  description: "Conheça os Dons Ancestrais raros que se manifestam apenas em alguns Meio-Zeraphirs."
+placeholder:
+  message: "Dons Ancestrais Únicos"
+sections:
+  - kicker: "Dons Ancestrais"
+    title: "Afinidades únicas"
+    body:
+      - "Dons Ancestrais Únicos são afinidades mágicas raras. Diferentemente dos Dons comuns, apenas alguns Meio-Zeraphirs manifestam uma conexão natural com esses padrões específicos da realidade."
+    items:
+      - title: "Betrüger"
+        text: "Mestres da ilusão que transformam percepção, identidade e expectativa."
+        href: "/magia/dons-unicos/betruger/"
+      - title: "Mörder"
+        text: "Assassinos ligados às sombras que ocultam armas, silenciam o combate e desaparecem de vista."
+        href: "/magia/dons-unicos/morder/"

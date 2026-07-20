@@ -1,0 +1,18 @@
+slug: "fortitude"
+path: "/magic/common-ancestral-gifts/fortitude/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Fortitude"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Fortitude"
+  description: "Fortitude reinforces a character's supernatural resistance to wounds, disease, poison, and other physical threats."
+placeholder:
+  message: "Fortitude"
+sections:
+  - title: "Effect per point"
+    body:
+      - "Fortitude is added to Vigor in tests to resist damage, disease, poison, and similar effects."
+      - "Each point in Fortitude grants one automatic success on these tests."
+      - "This rule does not apply against aggravated damage."

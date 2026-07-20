@@ -1,0 +1,16 @@
+slug: "lore"
+path: "/welt/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Welt"
+  group: "primary"
+  order: 20
+seo:
+  title: "Welt"
+  description: "Hintergrundwissen und Erzählmaterial für das RedSun-Tischrollenspiel."
+placeholder:
+  message: "Welt"
+sections:
+  - kicker: "Hintergrund"
+    title: "Welt"
+    intro: "Dieser Bereich sammelt Schauplätze, Regionen, Fraktionen und weiteres Erzählmaterial für RedSun."

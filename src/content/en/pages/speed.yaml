@@ -1,0 +1,17 @@
+slug: "speed"
+path: "/magic/common-ancestral-gifts/speed/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Speed"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Speed"
+  description: "Speed accelerates a character supernaturally, granting additional actions for attacking or defending during each turn."
+placeholder:
+  message: "Speed"
+sections:
+  - title: "Effect per point"
+    body:
+      - "Each point in Speed grants the character one extra action per turn."
+      - "This extra action can be used only to attack or defend, without penalties."

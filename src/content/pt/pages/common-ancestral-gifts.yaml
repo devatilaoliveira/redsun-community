@@ -1,0 +1,31 @@
+slug: "common-ancestral-gifts"
+path: "/magia/dons-comuns/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Dons Ancestrais Comuns"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Dons Ancestrais Comuns"
+  description: "Conheça os Dons Ancestrais encontrados com maior frequência entre os Meio-Zeraphirs."
+placeholder:
+  message: "Dons Ancestrais Comuns"
+sections:
+  - kicker: "Dons Ancestrais"
+    title: "Afinidades comuns"
+    body:
+      - "Os Dons Ancestrais são ferramentas que permitem alterar a trama da realidade com precisão. Cada Dom representa uma compreensão profunda de um aspecto da existência e uma sintonia herdada com determinados padrões da criação."
+      - "Os Dons Ancestrais Comuns manifestam-se com maior frequência entre os Meio-Zeraphirs. Quanto maior a afinidade entre o Dom utilizado e o efeito desejado, menor será a perturbação causada na trama da realidade."
+    items:
+      - title: "Rapidez"
+        text: "Concede ações extras por turno para atacar ou se defender sem penalidades."
+        href: "/magia/dons-comuns/rapidez/"
+      - title: "Fortitude"
+        text: "Reforça testes para resistir a dano, doenças, venenos e efeitos semelhantes."
+        href: "/magia/dons-comuns/fortitude/"
+      - title: "Potência"
+        text: "Aumenta a Força e garante sucessos automáticos adicionais no dano corpo a corpo."
+        href: "/magia/dons-comuns/potencia/"
+      - title: "Resiliência"
+        text: "Permite absorver, recuperar e regenerar ferimentos cada vez mais graves."
+        href: "/magia/dons-comuns/resiliencia/"

@@ -1,0 +1,47 @@
+slug: "resilience"
+path: "/magia/dons-comuns/resiliencia/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Resiliência"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Resiliência"
+  description: "Resiliência permite ao Meio-Zeraphir resistir, recuperar-se e regenerar ferimentos graves, chegando a restaurar membros e curar dano agravado."
+placeholder:
+  message: "Resiliência"
+sections:
+  - title: "Regras Gerais"
+    body:
+      - "Resiliência representa a capacidade sobrenatural do Meio-Zeraphir de resistir, recuperar-se e regenerar ferimentos graves."
+      - "Dano agravado exige o dobro de sucessos para ser absorvido."
+      - "Dano agravado só pode ser curado por meio de Ímpeto, pelo poder de nível 5 de Resiliência ou durante períodos de descanso."
+  - title: "1. Absorção Letal"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode usar Vigor para absorver dano letal."
+  - title: "2. Recuperação em Descanso"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir recupera 1d6 de dano a cada período de 8 horas de descanso."
+  - title: "3. Recuperação Ativa"
+    subsections:
+      - title: "Sistema"
+        body:
+          - "O Meio-Zeraphir pode abrir mão de todas as suas ações no turno de combate para recuperar 1d4 de dano."
+          - "Fora de combate, ao descansar, pode recuperar 1d10 de dano."
+  - title: "4. Regeneração Avançada"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode regenerar membros inteiros."
+          - "O Meio-Zeraphir não sofre sequelas permanentes causadas por ferimentos de combate."
+  - title: "5. Regeneração Superior"
+    subsections:
+      - title: "Sistema"
+        body:
+          - "O Meio-Zeraphir recupera 1d3 de dano uma vez por turno, de maneira passiva."
+          - "Também pode receber 1 ponto de Ímpeto para recuperar 1d6 de dano, desde que abra mão de todas as suas ações naquele turno."
+          - "Depois de um descanso longo, recupera todo o dano por contusão e letal, além de 1d6 de dano agravado."

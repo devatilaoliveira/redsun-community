@@ -1,0 +1,29 @@
+slug: "static-spells"
+path: "/magia/feiticos-estaticos/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Feitiços Estáticos e Grimórios"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Feitiços Estáticos e Grimórios"
+  description: "Conheça as fórmulas, os grimórios, a Língua Ancestral e o Véu que permitem aos humanos praticar magia."
+placeholder:
+  message: "Feitiços Estáticos e Grimórios"
+sections:
+  - kicker: "Magia humana"
+    title: "Feitiços Estáticos"
+    body:
+      - "Humanos não conseguem manipular a realidade de forma intuitiva, mas ainda podem lançar magia por meio de fórmulas rígidas conhecidas como feitiços estáticos, chamados no dia a dia simplesmente de feitiços."
+      - "Um feitiço estático é uma sequência exata de palavras, gestos ou rituais que produz sempre o mesmo efeito. Para funcionar, suas instruções devem ser registradas e pronunciadas na Língua Ancestral, uma linguagem muito mais complexa do que qualquer idioma moderno. Não é possível traduzir seus termos com precisão absoluta, e mesmo pequenas alterações podem invalidar ou distorcer o resultado do feitiço."
+  - kicker: "Memória"
+    title: "A Língua Ancestral e o Véu"
+    body:
+      - "A Língua Ancestral é afetada por um fenômeno conhecido como o Véu. Os humanos têm extrema dificuldade em reter suas palavras e significados, esquecendo-os gradualmente com o tempo. Por essa razão, a maioria dos humanos consegue memorizar apenas dois ou três feitiços estáticos. Tentar aprender um quarto geralmente faz com que o mais antigo seja esquecido."
+      - "Os Meio-Zeraphirs possuem resistência muito maior aos efeitos do Véu. Em média, conseguem memorizar três ou quatro vezes mais feitiços do que um humano comum. Por isso, muitos se dedicam ao estudo da magia, especialmente aqueles cujos Dons naturais não se manifestam de forma evidente ou poderosa."
+  - kicker: "Preservação"
+    title: "Grimórios"
+    body:
+      - "Para contornar as limitações da memória, os praticantes utilizam livros especiais chamados grimórios. Neles são registradas as palavras de invocação, as instruções rituais e os demais elementos necessários para conjurar um feitiço. Os magos costumam revisitar regularmente seus grimórios para reforçar o conhecimento dos feitiços que dominam."
+      - "O Véu também impede que a Língua Ancestral seja preservada em suportes comuns. Quando escrita em papel, pergaminho, pedra ou outra superfície ordinária, a escrita ancestral desaparece gradualmente. Na prática, um livro comum conserva um texto ancestral apenas por alguns dias ou até o momento em que alguém o lê pela primeira vez."
+      - "A criação de um grimório exige um ritual específico capaz de protegê-lo dos efeitos do Véu. Mesmo assim, esses livros possuem limitações. Grimórios capazes de armazenar mais de uma dezena de feitiços são extremamente raros, valiosos e frequentemente considerados tesouros arcanos."

@@ -1,0 +1,29 @@
+slug: "races"
+path: "/racas/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Raças"
+  group: "primary"
+  order: 40
+seo:
+  title: "Raças Sencientes"
+  description: "Conheça os povos sencientes de Ardenya, suas origens e seu papel no mundo de RedSun."
+placeholder:
+  message: "Raças Sencientes"
+sections:
+  - kicker: "Povos de Ardenya"
+    title: "Raças Sencientes"
+    intro: "Ardenya abriga povos originários de diferentes mundos, muitos deles trazidos durante a Era dos Portais."
+    body:
+      - "Algumas dessas espécies desenvolveram civilizações, idiomas, crenças e culturas tão antigas quanto os próprios reinos humanos. Outras permaneceram isoladas em regiões remotas, ruínas esquecidas ou territórios hostis."
+      - "Mesmo após o fechamento dos portais, seus descendentes continuam presentes por todo o continente, tornando Ardenya um mosaico de povos vindos de incontáveis origens."
+    items:
+      - title: "Zeraphirs"
+        text: "A antiga espécie que dominou a magia e construiu portais entre os mundos que orbitavam o mesmo Sol."
+        href: "/racas/zeraphirs/"
+      - title: "Meio-Zeraphirs"
+        text: "A única raça jogável atual, marcada por uma herança ancestral incompleta e por sua afinidade com a magia."
+        href: "/racas/meio-zeraphirs/"
+      - title: "Outros Povos"
+        text: "Espécies sencientes de origens distantes que estabeleceram suas próprias culturas em Ardenya."
+        href: "/racas/outros-povos/"

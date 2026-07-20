@@ -7,7 +7,7 @@ navigation:
   order: 0
 seo:
   title: "Livro de Regras RedSun"
-  description: "Consulte regras, história e Dons do RPG de mesa RedSun."
+  description: "Consulte regras, história, magia e raças do RPG de mesa RedSun."
 placeholder:
   message: "Livro de Regras RedSun"
 homeBanner:
@@ -30,6 +30,14 @@ featureCards:
     text: "Cenário e material de mundo do RedSun."
     href: "/historia/"
     icon: "/assets/svg/sun.svg"
+  - title: "Magia"
+    text: "A trama da realidade, os Dons Ancestrais, os rituais e os feitiços estáticos."
+    href: "/magia/"
+    icon: "/assets/svg/sun.svg"
+  - title: "Raças"
+    text: "Os Zeraphirs, os Meio-Zeraphirs e os demais povos sencientes de Ardenya."
+    href: "/racas/"
+    icon: "/assets/svg/book.svg"
 sections:
   - kicker: "Livro de Regras"
     title: "Conteúdo local e validado"

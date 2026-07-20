@@ -1,0 +1,65 @@
+slug: "combat-talents"
+path: "/regras/talentos-de-combate/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Talentos de Combate"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Talentos de Combate"
+  description: "Estilos e manobras especiais adquiridos por meio das perícias de combate do RedSun."
+placeholder:
+  message: "Talentos de Combate"
+sections:
+  - kicker: "Progressão"
+    title: "Aquisição de talentos"
+    body:
+      - "As perícias de combate concedem técnicas especiais à medida que o personagem se torna mais experiente."
+      - "Sempre que adquirir um novo ponto em uma perícia de combate, o personagem pode escolher uma Manobra Especial ou um Estilo de Combate associado àquela perícia."
+      - "Um personagem pode aprender várias manobras e estilos ao longo da progressão. Entretanto, na maioria das vezes apenas um Estilo de Combate pode estar ativo por vez, enquanto todas as manobras conhecidas permanecem disponíveis para uso."
+    subsections:
+      - title: "Exemplo"
+        body:
+          - "Um personagem com Armas Brancas 3 pode ter escolhido o Estilo Defensivo, a manobra Desarmar e o estilo Duelista, totalizando três talentos adquiridos por meio da perícia."
+  - kicker: "Perícia de combate"
+    title: "Armas Brancas"
+    subsections:
+      - title: "Estilos de Combate"
+        bullets:
+          - "Estilo Defensivo: recebe +1 dado em testes para bloquear ataques utilizando um escudo."
+          - "Duelista: recebe +1 dado em ataques realizados com uma arma de uma mão. Não pode utilizar escudo na mão secundária."
+          - "Combate com Duas Armas: pode substituir uma ação defensiva por um ataque adicional. Esse ataque sofre penalidade de −2 dados de Força ou Destreza, conforme o atributo utilizado. Apenas armas curtas ou médias podem ser usadas dessa forma."
+          - "Especialista em Armas Longas: recebe +1 dado de dano ao utilizar armas longas."
+          - "Muralha: abre mão da ação defensiva para esconder-se atrás do escudo e executar várias manobras defensivas sem penalidade. Exige um escudo grande."
+      - title: "Manobras"
+        bullets:
+          - "Desarmar: em vez de causar dano, pode tentar arrancar a arma da mão do adversário. Em caso de sucesso, a arma cai a até um metro de distância. O número de sucessos deve ser maior que a Força do alvo."
+          - "Ataque Poderoso: recebe +1 dado de dano, mas sofre +1 de dificuldade no teste de ataque."
+          - "Golpe de Escudo: se acertar, a próxima ação de ataque do adversário recebe +2 de dificuldade."
+  - kicker: "Perícia de combate"
+    title: "Armas à Distância"
+    subsections:
+      - title: "Estilos de Combate"
+        bullets:
+          - "Atirador de Elite: não recebe penalidade em ataques contra alvos a longa distância."
+          - "Caçador: ignora até +2 de dificuldade causada por cobertura parcial ou condições adversas de terreno."
+          - "Disparo Preciso: recebe +2 dados de dano em ataques contra alvos surpresos."
+          - "Arqueiro Móvel: pode atirar enquanto se move sem penalidades."
+      - title: "Manobras"
+        bullets:
+          - "Mirar: abre mão da ação defensiva durante o turno para receber +2 dados no próximo ataque à distância."
+          - "Tiro Rápido: abre mão da ação defensiva para realizar um ataque adicional. Ambos os ataques sofrem +1 de dificuldade. Apenas arcos curtos podem utilizar esta manobra."
+          - "Disparo de Supressão: atira três flechas ao mesmo tempo com +2 de dificuldade. Apenas alvos relativamente próximos podem ser atacados ao mesmo tempo, e o mesmo alvo só pode sofrer dano de uma flecha."
+  - kicker: "Perícia de combate"
+    title: "Combate Desarmado"
+    subsections:
+      - title: "Estilos de Combate"
+        bullets:
+          - "Esquiva Instintiva: recebe +1 dado em ações defensivas quando não estiver usando armadura pesada ou escudo."
+          - "Contra-atacador: sempre ataca depois do adversário, mas, se tiver sucesso na esquiva, recebe −1 de dificuldade em seu turno de ataque."
+      - title: "Manobras"
+        bullets:
+          - "Rasteira: em vez de causar dano, pode tentar derrubar o adversário."
+          - "Imobilizar: tenta agarrar e restringir os movimentos do alvo. A manobra sofre +2 de dificuldade caso o alvo não esteja surpreendido. Em caso de sucesso, o alvo fica imobilizado."
+          - "Quebra-Ossos: só pode ser utilizado contra alvos imobilizados. Não exige uma nova jogada de ataque; o dano é calculado diretamente."
+          - "Golpe Atordoante: em vez de causar dano adicional, pode tentar desorientar o alvo. O ataque causa −2 de dano e, caso ainda cause dano, o alvo sofre +2 de dificuldade em sua próxima ação."

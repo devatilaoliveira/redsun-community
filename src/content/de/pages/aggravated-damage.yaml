@@ -1,0 +1,24 @@
+slug: "aggravated-damage"
+path: "/regeln/verschaerfter-schaden/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Verschärfter Schaden"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Verschärfter Schaden"
+  description: "Die RedSun-Regel für schwere, übernatürliche oder nur schwer heilbare Verletzungen."
+placeholder:
+  message: "Verschärfter Schaden"
+sections:
+  - kicker: "Kampf"
+    title: "Verschärfter Schaden"
+    intro: "Verschärfter Schaden steht für Verletzungen, die nicht durch gewöhnliche Ruhe oder einfache Behandlung überwunden werden können."
+    body:
+      - "Verwende verschärften Schaden, wenn ein Angriff, eine Gefahr oder ein übernatürlicher Effekt eine bleibende Spur hinterlassen soll."
+      - "Die genauen Voraussetzungen für die Heilung werden durch die verursachende Regel, Kreatur, Kraft oder Szene bestimmt."
+    items:
+      - title: "Schweregrad"
+        text: "Hoch"
+      - title: "Heilung"
+        text: "Besonders"

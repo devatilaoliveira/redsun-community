@@ -1,0 +1,21 @@
+slug: "rules"
+path: "/regeln/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Regeln"
+  group: "primary"
+  order: 10
+seo:
+  title: "Regeln"
+  description: "Regeln und grundlegende Spielabläufe für RedSun."
+placeholder:
+  message: "Regeln"
+sections:
+  - kicker: "Referenz"
+    title: "Regeln"
+    intro: "Die Regelseiten sammeln die Abläufe und Definitionen, die während des Spiels benötigt werden."
+    items:
+      - title: "Verschärfter Schaden"
+        text: "Schwerer, übernatürlicher oder nur schwer heilbarer Schaden."
+        href: "/regeln/verschaerfter-schaden/"
+        icon: "/assets/svg/warning.svg"

@@ -1,0 +1,19 @@
+slug: "other-peoples"
+path: "/racas/outros-povos/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Outros Povos"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Outros Povos de Ardenya"
+  description: "Uma introdução às demais espécies sencientes que chegaram a Ardenya durante a Era dos Portais."
+placeholder:
+  message: "Outros Povos de Ardenya"
+sections:
+  - kicker: "Era dos Portais"
+    title: "Povos de mundos distantes"
+    body:
+      - "Existem inúmeras outras espécies sencientes habitando Ardenya, muitas delas originárias de mundos distantes e desconhecidos. Elas chegaram durante a Era dos Portais, quando passagens entre realidades e planetas permaneciam abertas."
+      - "Muitas desenvolveram civilizações próprias, idiomas, crenças e culturas tão antigas quanto os reinos humanos. Outras permaneceram isoladas em regiões remotas, ruínas esquecidas ou territórios hostis, onde raramente entram em contato com os povos conhecidos."
+      - "Algumas são conhecidas e catalogadas. Outras existem apenas em relatos fragmentados, lendas de viajantes ou registros preservados em bibliotecas antigas. Há ainda aquelas que, segundo dizem, aguardam nas fronteiras entre os mundos, onde a realidade se torna tênue e os ecos da Era dos Portais nunca desapareceram por completo."

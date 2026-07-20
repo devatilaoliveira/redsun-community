@@ -1,0 +1,28 @@
+slug: "half-zeraphirs"
+path: "/racas/meio-zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Meio-Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Meio-Zeraphirs"
+  description: "Conheça a raça jogável descendente dos antigos Zeraphirs e sua ligação natural com magia, portais e distorções da realidade."
+placeholder:
+  message: "Meio-Zeraphirs"
+sections:
+  - kicker: "Raça jogável"
+    title: "Herança ancestral incompleta"
+    body:
+      - "Meio-Zeraphirs são descendentes distantes dos antigos Zeraphirs, nascidos da mistura entre sangue Zeraphir e outras espécies sencientes."
+      - "Eles não possuem todo o poder de seus ancestrais, mas carregam vestígios dessa herança. Em alguns, isso aparece como sentidos incomuns, afinidade com magia antiga, traços animalescos ou resistência a distorções da realidade."
+      - "A existência dos Meio-Zeraphirs costuma ser rara e cercada de desconfiança. Alguns povos os tratam como herdeiros sagrados de uma civilização perdida. Outros os veem como aberrações, sinais de mau presságio ou resquícios de uma era que deveria permanecer esquecida."
+  - kicker: "No mundo"
+    title: "Portais e a Ordem do Sol Negro"
+    body:
+      - "Com o surgimento da Ordem do Sol Negro e o retorno dos portais durante os eclipses, os Meio-Zeraphirs tornaram-se ainda mais importantes. Seu sangue pode reagir aos portais, às máquinas invasoras ou à corrupção deixada pela Ordem. Por isso, podem ser caçados, estudados, venerados ou usados como armas."
+      - "Dentro do jogo, um Meio-Zeraphir é um personagem marcado por uma herança ancestral incompleta. Ele não é um Zeraphir verdadeiro, mas possui uma conexão natural com os mistérios deixados por eles."
+    items:
+      - title: "Magia"
+        text: "Conheça os Dons Ancestrais e outras maneiras de interagir com a trama da realidade."
+        href: "/magia/"

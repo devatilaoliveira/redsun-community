@@ -1,0 +1,18 @@
+slug: "fortitude"
+path: "/magia/dons-comuns/fortitude/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Fortitude"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Fortitude"
+  description: "Fortitude reforça a resistência sobrenatural do personagem contra ferimentos, doenças, venenos e outras ameaças físicas."
+placeholder:
+  message: "Fortitude"
+sections:
+  - title: "Efeito por ponto"
+    body:
+      - "Fortitude soma-se ao Vigor em testes para resistir a dano, doenças, venenos e efeitos semelhantes."
+      - "Cada ponto em Fortitude garante um sucesso automático nesses testes."
+      - "Essa regra não se aplica contra dano agravado."

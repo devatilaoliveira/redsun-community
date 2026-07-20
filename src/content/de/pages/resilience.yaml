@@ -1,0 +1,47 @@
+slug: "resilience"
+path: "/gaben/resilienz/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Resilienz"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Resilienz"
+  description: "Resilienz lässt einen Halb-Zeraphir schwere Verletzungen überstehen, heilen und regenerieren, bis hin zur Wiederherstellung von Gliedmaßen und verschärftem Schaden."
+placeholder:
+  message: "Resilienz"
+sections:
+  - title: "Grundregeln"
+    body:
+      - "Resilienz steht für die übernatürliche Fähigkeit eines Halb-Zeraphirs, schwere Verletzungen zu überstehen, sich davon zu erholen und sie zu regenerieren."
+      - "Zum Absorbieren von verschärftem Schaden sind doppelt so viele Erfolge erforderlich."
+      - "Verschärfter Schaden kann nur durch Momentum, die Kraft auf Stufe 5 von Resilienz oder während Ruhephasen geheilt werden."
+  - title: "1. Tödlichen Schaden absorbieren"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann Vigor verwenden, um tödlichen Schaden zu absorbieren."
+  - title: "2. Erholung durch Ruhe"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir heilt nach jeweils 8 Stunden Ruhe 1d6 Schaden."
+  - title: "3. Aktive Erholung"
+    subsections:
+      - title: "System"
+        body:
+          - "Der Halb-Zeraphir kann in einer Kampfrunde auf alle Aktionen verzichten, um 1d4 Schaden zu heilen."
+          - "Außerhalb des Kampfes kann er während einer Ruhephase 1d10 Schaden heilen."
+  - title: "4. Fortgeschrittene Regeneration"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann vollständige Gliedmaßen regenerieren."
+          - "Der Halb-Zeraphir erleidet keine dauerhaften Beeinträchtigungen durch Kampfverletzungen."
+  - title: "5. Überlegene Regeneration"
+    subsections:
+      - title: "System"
+        body:
+          - "Der Halb-Zeraphir heilt passiv einmal pro Runde 1d3 Schaden."
+          - "Er kann außerdem 1 Momentum erhalten, um 1d6 Schaden zu heilen, sofern er in dieser Runde auf alle Aktionen verzichtet."
+          - "Nach einer langen Ruhephase heilt er sämtlichen stumpfen und tödlichen Schaden sowie 1d6 verschärften Schaden."

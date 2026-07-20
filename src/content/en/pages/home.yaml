@@ -7,7 +7,7 @@ navigation:
   order: 0
 seo:
   title: "RedSun Rulebook"
-  description: "Browse public RedSun tabletop RPG rules, lore, callings, powers, races, monsters, equipment, and glossary material."
+  description: "Browse public RedSun tabletop RPG rules, lore, magic, races, monsters, equipment, and glossary material."
 placeholder:
   message: "RedSun Rulebook"
 homeBanner:
@@ -29,6 +29,10 @@ featureCards:
   - title: "Lore"
     text: "Setting notes and world material prepared for future content expansion."
     href: "/lore/"
+    icon: "/assets/svg/sun.svg"
+  - title: "Magic"
+    text: "The weave of reality, Ancestral Gifts, rituals, and other magical practices."
+    href: "/magic/"
     icon: "/assets/svg/sun.svg"
 sections:
   - kicker: "MVP Direction"

@@ -1,0 +1,72 @@
+slug: "character-creation"
+path: "/regras/criacao-de-personagem/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Criação de Personagem"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Criação de Personagem"
+  description: "Distribuição inicial de atributos, habilidades, Dons, especializações, combate e pontos bônus no RedSun."
+placeholder:
+  message: "Criação de Personagem"
+sections:
+  - kicker: "1. Atributos"
+    title: "Distribuição de Atributos"
+    body:
+      - "Distribua os valores 7, 5 e 3 entre os três grupos de atributos: 7 pontos no grupo primário, 5 no secundário e 3 no terciário."
+    subsections:
+      - title: "Pontos extras"
+        bullets:
+          - "Pontos bônus: cada ponto adicional custa 4 pontos bônus, independentemente do nível."
+          - "Experiência: cada ponto adicional custa o nível atual × 5 em XP."
+  - kicker: "2. Habilidades"
+    title: "Talentos, Perícias e Conhecimentos"
+    body:
+      - "Distribua os valores 13, 9 e 5 entre as três categorias: 13 pontos na categoria principal, 9 na secundária e 5 na terciária."
+    subsections:
+      - title: "Pontos extras"
+        bullets:
+          - "Pontos bônus: cada ponto adicional custa 2 pontos bônus, independentemente do nível."
+          - "Experiência: cada ponto adicional custa o nível atual × 2 em XP. O primeiro ponto custa 3 XP."
+  - kicker: "3. Magia"
+    title: "Dons Ancestrais"
+    body:
+      - "O personagem começa com 4 pontos para distribuir em Dons Ancestrais. Todo personagem jogador inicia com 2 pontos em Resiliência."
+      - "Escolha três opções entre um Dom personalizado, Rapidez, Fortitude e Potência. Fortitude concede um sucesso automático para absorção de dano."
+      - "Na ficha inicial, o nível máximo de um Dom é 3, seja adquirido com XP ou pontos bônus."
+    subsections:
+      - title: "Pontos extras"
+        bullets:
+          - "Pontos bônus: cada ponto adicional custa 7 pontos bônus, independentemente do nível."
+          - "Experiência: cada ponto adicional custa o nível atual × 7 em XP. O primeiro nível custa 10 XP."
+    items:
+      - title: "Consulte Magia"
+        text: "Conheça os Dons Ancestrais comuns, os Dons únicos e outras formas de magia."
+        href: "/magia/"
+  - kicker: "4. Especializações"
+    title: "Especializações"
+    body:
+      - "O personagem recebe 3 pontos de Especialização."
+    subsections:
+      - title: "Pontos extras"
+        bullets:
+          - "Pontos bônus: cada ponto adicional custa 3 pontos bônus, independentemente do nível."
+          - "Experiência: cada ponto adicional custa o nível atual × 3 em XP. O primeiro ponto custa 4 XP."
+  - kicker: "5. Combate"
+    title: "Combate"
+    body:
+      - "O personagem recebe 4 pontos de Combate."
+    subsections:
+      - title: "Pontos extras"
+        bullets:
+          - "Pontos bônus: cada ponto adicional custa 3 pontos bônus, independentemente do nível."
+          - "Experiência: cada ponto adicional custa o nível atual × 3 em XP. O primeiro ponto custa 4 XP."
+    items:
+      - title: "Talentos de Combate"
+        text: "Veja os Estilos de Combate e as Manobras que podem ser adquiridos por meio das perícias."
+        href: "/regras/talentos-de-combate/"
+  - kicker: "Recursos iniciais"
+    title: "Pontos Bônus"
+    body:
+      - "O personagem começa com 15 pontos bônus. Os pontos bônus sempre devem ser gastos antes dos pontos de XP."

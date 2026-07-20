@@ -1,0 +1,17 @@
+slug: "rituals"
+path: "/magia/rituais/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Rituais"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Rituais"
+  description: "Introdução provisória aos rituais mágicos do RedSun."
+placeholder:
+  message: "Rituais"
+sections:
+  - kicker: "Em desenvolvimento"
+    title: "Rituais"
+    body:
+      - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. As regras e os exemplos de rituais serão acrescentados quando esta forma de magia for definida."
