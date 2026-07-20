@@ -125,7 +125,7 @@ export function SideNav({
     <div className="fixed inset-x-0 bottom-0 top-[var(--topbar-height)] z-40">
       <button
         aria-label={closeLabel}
-        className={`absolute inset-0 cursor-default bg-zinc-950/55 backdrop-blur-[1px] ${
+        className={`absolute inset-0 cursor-default bg-black/70 ${
           isClosing
             ? "motion-safe:animate-[rs-fade-out_160ms_ease-in_forwards]"
             : "motion-safe:animate-[rs-fade-in_160ms_ease-out]"
@@ -135,7 +135,7 @@ export function SideNav({
       />
       <nav
         aria-label={navigationLabel}
-        className={`absolute inset-y-0 left-0 flex w-[min(17.5rem,calc(100%-2rem))] flex-col overflow-y-auto border-r border-zinc-800 bg-zinc-950 px-4 py-3 text-zinc-100 shadow-2xl overscroll-contain ${
+        className={`absolute inset-y-0 left-0 flex w-[min(17.5rem,calc(100%-2rem))] flex-col overflow-y-auto border-r border-zinc-800 bg-black px-4 py-3 text-zinc-100 shadow-2xl overscroll-contain ${
           isClosing
             ? "motion-safe:animate-[rs-drawer-out_220ms_ease-in_forwards]"
             : "motion-safe:animate-[rs-drawer-in_220ms_ease-out]"

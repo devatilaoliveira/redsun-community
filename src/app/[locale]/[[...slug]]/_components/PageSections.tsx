@@ -84,13 +84,13 @@ export function PageSections({ locale, sections }: PageSectionsProps) {
                   <li key={item.title}>
                     {item.href ? (
                       <Link
-                        className="block h-full rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition hover:border-zinc-600 hover:bg-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
+                        className="block h-full rounded-lg border border-zinc-800 bg-black p-5 transition hover:border-zinc-600 hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
                         href={localizedPagePath(locale, item.href)}
                       >
                         {content}
                       </Link>
                     ) : (
-                      <article className="h-full rounded-lg border border-zinc-800 bg-zinc-900/60 p-5">
+                      <article className="h-full rounded-lg border border-zinc-800 bg-black p-5">
                         {content}
                       </article>
                     )}

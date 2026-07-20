@@ -10,7 +10,7 @@ type SiteFooterProps = {
 
 export function SiteFooter({ navigation, text }: SiteFooterProps) {
   return (
-    <footer className="border-t border-zinc-900 bg-zinc-950 px-6 py-8 text-sm text-zinc-500">
+    <footer className="border-t border-zinc-900 bg-black px-6 py-8 text-sm text-zinc-500">
       <div className="mx-auto flex w-full max-w-[var(--content-max)] flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <p>{text.description}</p>
         {navigation.length > 0 ? (

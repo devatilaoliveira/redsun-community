@@ -105,7 +105,7 @@ export function HomePageView({ locale, page }: HomePageViewProps) {
               if (!card.href) {
                 return (
                   <article
-                    className="rounded-lg border border-zinc-800 bg-zinc-900/60 p-5"
+                    className="rounded-lg border border-zinc-800 bg-black p-5"
                     key={card.title}
                   >
                     {content}
@@ -115,7 +115,7 @@ export function HomePageView({ locale, page }: HomePageViewProps) {
 
               return (
                 <Link
-                  className="block rounded-lg border border-zinc-800 bg-zinc-900/60 p-5 transition hover:border-red-800 hover:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-amber-400"
+                  className="block rounded-lg border border-zinc-800 bg-black p-5 transition hover:border-red-800 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-amber-400"
                   href={localizedPagePath(locale, card.href)}
                   key={card.title}
                 >
