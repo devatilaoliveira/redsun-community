@@ -1,0 +1,113 @@
+slug: "morder"
+path: "/callings/morder/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Mörder"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Mörder"
+  description: "Mörder masters concealment, silence, and movement through shadow, hiding weapons, muffling actions, and becoming invisible to act without being noticed."
+placeholder:
+  message: "Mörder"
+sections:
+  - title: "1. Hidden Shadow"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can conceal objects within their clothing or equipment almost imperceptibly."
+      - title: "System"
+        body:
+          - "Objects no larger than the character's forearm are automatically hidden from targets that do not use magical means of detection."
+          - "Larger objects can be hidden with an opposed Manipulation + Stealth test against the observer's Perception + Security/Readiness."
+          - "Typical difficulties:"
+        bullets:
+          - "4 successes to conceal a longsword."
+          - "9 successes, reduced by 1 for each success rolled, to conceal a full suit of armor."
+      - title: "Momentum"
+        body:
+          - "Normally, this ability does not generate Momentum."
+          - "Concealing several small objects or two or more medium objects may generate Momentum at the GM's discretion."
+      - title: "Cost"
+        body:
+          - "1 action"
+  - title: "2.1 Ethereal Step"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can walk across any solid surface as though walking on the ground."
+      - title: "System"
+        body:
+          - "Slippery surfaces, such as oil, still present the normal risk of slipping."
+      - title: "Momentum"
+        body:
+          - "Generates +1 Momentum per scene."
+      - title: "Cost"
+        body:
+          - "No action"
+  - title: "2.2 Deadly Silence"
+    subsections:
+      - title: "Description"
+        body:
+          - "While engaged in close combat, all the Half-Zeraphir's actions are naturally muffled."
+      - title: "System"
+        body:
+          - "In Stealth tests, this reduces the difficulty by 2 and may provide additional benefits under favorable conditions."
+      - title: "Examples"
+        bullets:
+          - "The cries of pain of enemies who are struck."
+          - "Footsteps through puddles or dry leaves."
+      - title: "Momentum"
+        body:
+          - "Not specified."
+      - title: "Cost"
+        body:
+          - "No action"
+  - title: "3. Phantom Veil"
+    subsections:
+      - title: "Description"
+        body:
+          - "In dimly lit environments, the Half-Zeraphir becomes practically invisible as long as they do not interact with the environment."
+      - title: "System"
+        body:
+          - "Any interaction—moving objects, attacking, or opening doors—immediately reveals their position."
+          - "If activated while being observed, make an opposed Mörder + Stealth test against the observer's Perception + Readiness."
+          - "If the observer wins, the Half-Zeraphir does not become invisible."
+      - title: "Momentum"
+        body:
+          - "If revealed, the Half-Zeraphir gains +1 Momentum."
+          - "If the observer wins, the Half-Zeraphir gains +1 Momentum."
+      - title: "Cost"
+        body:
+          - "1 action"
+  - title: "4. Shadow's Edge"
+    subsections:
+      - title: "Description"
+        body:
+          - "For the next 3 turns, the Half-Zeraphir's weapon is wrapped in shadowy energy and deals aggravated damage."
+      - title: "System"
+        body:
+          - "For the next 3 turns, the Half-Zeraphir's weapon deals aggravated damage."
+      - title: "Momentum"
+        body:
+          - "First activation: +2 Momentum."
+          - "Subsequent activations: +1 Momentum."
+      - title: "Cost"
+        body:
+          - "No action"
+  - title: "5. Total Veil"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir becomes truly invisible."
+      - title: "System"
+        body:
+          - "While invisible, opponents in close combat have +2 difficulty when attacking the Half-Zeraphir or defending against their actions."
+          - "Area attacks or defenses using a large shield may reduce the penalty to +1 at the GM's discretion."
+      - title: "Momentum"
+        body:
+          - "Upon activation, gain +1 Momentum."
+          - "Interacting with the environment or participating in combat increases Momentum by +1 every 3 turns, beginning on the first turn of interaction."
+      - title: "Cost"
+        body:
+          - "1 action"

@@ -1,0 +1,23 @@
+slug: "callings"
+path: "/dons/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Dons"
+  group: "primary"
+  order: 30
+seo:
+  title: "Dons"
+  description: "Consulte os Dons do RedSun e seus poderes."
+placeholder:
+  message: "Dons"
+sections:
+  - kicker: "Opções de Personagem"
+    title: "Dons"
+    intro: "Os Dons definem talentos sobrenaturais e os poderes que os personagens desbloqueiam conforme avançam."
+    items:
+      - title: "Betrüger"
+        text: "Mestres da ilusão que transformam percepção, identidade e expectativa."
+        href: "/dons/betruger/"
+      - title: "Mörder"
+        text: "Assassinos ligados às sombras que ocultam armas, silenciam o combate e desaparecem de vista."
+        href: "/dons/morder/"

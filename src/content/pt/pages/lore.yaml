@@ -1,0 +1,16 @@
+slug: "lore"
+path: "/historia/"
+lastModified: "2026-07-20"
+navigation:
+  label: "História"
+  group: "primary"
+  order: 20
+seo:
+  title: "História"
+  description: "Cenário e material narrativo para o RPG de mesa RedSun."
+placeholder:
+  message: "História"
+sections:
+  - kicker: "Mundo"
+    title: "História"
+    intro: "Esta seção reúne o cenário, as regiões, as facções e outros materiais narrativos do RedSun."

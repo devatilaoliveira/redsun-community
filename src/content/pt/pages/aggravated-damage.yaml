@@ -1,0 +1,24 @@
+slug: "aggravated-damage"
+path: "/regras/dano-agravado/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Dano Agravado"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Dano Agravado"
+  description: "Regra do RedSun para dano grave, sobrenatural ou difícil de recuperar."
+placeholder:
+  message: "Dano Agravado"
+sections:
+  - kicker: "Combate"
+    title: "Dano Agravado"
+    intro: "Dano agravado representa ferimentos que não podem ser superados com descanso comum ou tratamento simples."
+    body:
+      - "Use dano agravado quando um ataque, perigo ou efeito sobrenatural deve deixar uma marca duradoura no personagem."
+      - "Os requisitos exatos de recuperação devem ser definidos pela regra, criatura, poder ou cena que causou o dano."
+    items:
+      - title: "Gravidade"
+        text: "Alta"
+      - title: "Recuperação"
+        text: "Especial"

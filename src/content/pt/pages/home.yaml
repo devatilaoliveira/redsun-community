@@ -1,0 +1,38 @@
+slug: "home"
+path: "/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Início"
+  group: "primary"
+  order: 0
+seo:
+  title: "Livro de Regras RedSun"
+  description: "Consulte regras, história e Dons do RPG de mesa RedSun."
+placeholder:
+  message: "Livro de Regras RedSun"
+homeBanner:
+  kicker: "RPG de Mesa RedSun"
+  title: "Bem-vindo ao Livro de Regras RedSun"
+  intro: "Inspirado no livro RedSun, escrito por Átila Oliveira Jr. Explore o cenário e as regras do RPG, jogue RedSun online ou baixe uma edição digital do livro quando ela estiver disponível."
+  actions:
+    - label: "Jogar RedSun online"
+      href: "https://redsunrpg.com.br"
+    - label: "Livro digital em breve"
+      href: "/downloads/redsun-rulebook.pdf"
+      download: true
+      disabled: true
+featureCards:
+  - title: "Regras"
+    text: "Material de referência para combate, recuperação e procedimentos de mesa."
+    href: "/regras/"
+    icon: "/assets/svg/book.svg"
+  - title: "História"
+    text: "Cenário e material de mundo do RedSun."
+    href: "/historia/"
+    icon: "/assets/svg/sun.svg"
+sections:
+  - kicker: "Livro de Regras"
+    title: "Conteúdo local e validado"
+    intro: "Cada página pública é escrita em YAML e renderizada como HTML localizado."
+    body:
+      - "Rotas, metadados, navegação e dados estruturados permanecem ligados à mesma fonte de conteúdo validada."

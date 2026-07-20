@@ -25,6 +25,16 @@ export const HomeBannerSchema = z.object({
       href: LinkPathSchema,
     })
     .optional(),
+  actions: z
+    .array(
+      z.object({
+        label: z.string().min(1),
+        href: z.union([LinkPathSchema, z.url()]),
+        download: z.boolean().default(false),
+        disabled: z.boolean().default(false),
+      }),
+    )
+    .default([]),
 });
 
 export const FeatureCardSchema = z.object({

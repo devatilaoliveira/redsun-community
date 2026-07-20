@@ -14,7 +14,11 @@ type AppShellProps = {
 
 const primaryNavigationIcons: Record<string, `/${string}`> = {
   "/": "/svgs/home.svg",
+  "/callings/": "/svgs/badge.svg",
+  "/dons/": "/svgs/badge.svg",
+  "/historia/": "/svgs/rs.svg",
   "/lore/": "/svgs/rs.svg",
+  "/regras/": "/svgs/auto_stories.svg",
   "/rules/": "/svgs/auto_stories.svg",
 };
 

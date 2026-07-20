@@ -12,11 +12,15 @@ placeholder:
   message: "RedSun Rulebook"
 homeBanner:
   kicker: "RedSun Tabletop RPG"
-  title: "A static, localized rulebook for RedSun."
-  intro: "Explore the first public content slice while the RedSun rulebook grows into a complete reference for rules, lore, and play material."
-  primaryLink:
-    label: "Read the rules"
-    href: "/rules/"
+  title: "Welcome to the RedSun Rulebook"
+  intro: "Inspired by the book RedSun, written by Átila Oliveira Jr. Explore its setting and tabletop rules here, play RedSun online, or download a digital edition of the book when it becomes available."
+  actions:
+    - label: "Play RedSun online"
+      href: "https://redsunrpg.com.br"
+    - label: "Digital book coming soon"
+      href: "/downloads/redsun-rulebook.pdf"
+      download: true
+      disabled: true
 featureCards:
   - title: "Rules"
     text: "Core reference material for combat, recovery, and tabletop procedures."

@@ -18,17 +18,23 @@ export function CmsPageView({ locale, page }: CmsPageViewProps) {
     return (
       <main className="mx-auto w-full max-w-5xl bg-black px-6 py-12 text-zinc-100 sm:px-10">
         <header className="max-w-3xl border-b border-zinc-800 pb-8">
-          <p className="text-sm font-semibold uppercase text-amber-400">
-            {page.navigation.label}
-          </p>
-          <h1 className="mt-3 text-4xl font-semibold text-zinc-50">
+          {page.navigation.label !== page.seo.title ? (
+            <p className="text-sm font-semibold uppercase text-amber-400">
+              {page.navigation.label}
+            </p>
+          ) : null}
+          <h1
+            className={`${
+              page.navigation.label !== page.seo.title ? "mt-3 " : ""
+            }text-4xl font-semibold text-zinc-50`}
+          >
             {page.seo.title}
           </h1>
           <p className="mt-4 text-lg leading-8 text-zinc-300">
             {page.seo.description}
           </p>
         </header>
-        <PageSections sections={page.sections} />
+        <PageSections locale={locale} sections={page.sections} />
       </main>
     );
   }

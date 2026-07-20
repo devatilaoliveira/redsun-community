@@ -1,0 +1,178 @@
+slug: "betruger"
+path: "/dons/betruger/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Betrüger"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Betrüger"
+  description: "Poderes padronizados do Dom Betrüger no RedSun."
+placeholder:
+  message: "Betrüger"
+sections:
+  - title: "1. Ilusão Simples"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Pode criar uma ilusão que afeta apenas um sentido à escolha: visão, audição, tato, olfato ou paladar."
+          - "A ilusão deve estar associada a um objeto ou local fixo e não é capaz de reproduzir movimentos complexos ou comportamentos autônomos."
+      - title: "Sistema"
+        body:
+          - "Para quebrar a ilusão, o alvo precisa de algum motivo para desconfiar."
+          - "O observador normalmente precisa de algum motivo para desconfiar antes de realizar o teste."
+          - "Qualquer interação cuidadosa ou evidência contraditória pode revelar sua natureza ilusória."
+          - "A dificuldade para perceber a ilusão depende da diferença entre a aparência ilusória e a realidade. Quanto mais próxima a ilusão estiver das características reais do objeto, mais difícil será identificá-la."
+          - "Dificuldade para perceber:"
+        bullets:
+          - "Uma chapa de ferro parecer outro tipo de metal: Dif. 8 ou superior."
+          - "Um pedaço de madeira parecer ferro: Dif. 4–6, pois textura, peso e som são muito diferentes."
+          - "Uma carta parecer outra carta do mesmo baralho: Dif. 9 ou superior."
+          - "Exige uma ação de Performance para ser criada."
+          - "Pode ser desfeita automaticamente quando evidências físicas contradizem a ilusão."
+      - title: "Exemplos"
+        bullets:
+          - "Aquela espada lendária não consegue cortar um objeto mole."
+          - "Fazer uma pedra parecer uma pepita de ouro."
+          - "Produzir o som distante de passos ou vozes."
+          - "Fazer uma carta de baralho parecer ter outro valor."
+          - "Alterar o cheiro de um objeto ou alimento."
+      - title: "Ímpeto"
+        body:
+          - "Não gera Ímpeto se utilizada apenas uma vez durante a cena."
+      - title: "Custo"
+        body:
+          - "Não especificado."
+  - title: "2. Ilusão Completa"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Pode afetar múltiplos sentidos simultaneamente, criando ilusões muito mais convincentes."
+          - "A ilusão pode ser aplicada sobre objetos inanimados, inclusive aqueles que possuam partes móveis, como roupas, mecanismos, veículos ou máquinas."
+          - "A ilusão acompanha seus movimentos naturais e mantém coerência entre aparência, som, cheiro e outras características perceptíveis."
+          - "Ainda não pode ser aplicada diretamente sobre criaturas vivas."
+      - title: "Sistema"
+        body:
+          - "A dificuldade para perceber a ilusão depende de quão plausível ela é e do grau de interação que o observador possui com o objeto."
+          - "Dificuldade para perceber:"
+        bullets:
+          - "Uma armadura enferrujada parecer uma armadura bem cuidada: Dif. 8."
+          - "Um tecido grosseiro parecer um tecido nobre: Dif. 8."
+          - "Uma fruta podre parecer fresca: Dif. 8 visualmente, mas menor após contato direto ou degustação."
+          - "Exige uma ação de Performance para ser criada."
+          - "A ilusão pode acompanhar movimentos naturais do objeto, mas não pode criar comportamentos independentes."
+      - title: "Exemplos"
+        bullets:
+          - "Fazer uma armadura velha parecer nova e ornamentada."
+          - "Fazer um tecido comum parecer seda fina."
+          - "Fazer uma fruta estragada parecer rara e saborosa."
+          - "Simular fogo, fumaça ou sons de batalha."
+          - "Fazer uma porta parecer uma parede."
+      - title: "Ímpeto"
+        body:
+          - "Não gera Ímpeto se utilizada apenas uma vez durante a cena."
+      - title: "Custo"
+        body:
+          - "Não especificado."
+  - title: "3. Ilusão Viva"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Pode aplicar ilusões diretamente sobre criaturas vivas, incluindo si mesmo."
+          - "É possível alterar aparência, voz, cheiro, vestimentas aparentes e outras características perceptíveis."
+          - "A ilusão acompanha os movimentos do alvo e reage naturalmente às suas ações."
+          - "Disfarces simples exigem pouca atenção, mas personagens fictícios, transformações complexas ou alterações constantes exigem concentração contínua."
+      - title: "Sistema"
+        body:
+          - "Dificuldade para perceber:"
+        bullets:
+          - "Assumir uma identidade previamente treinada: Dif. 9 ou superior."
+          - "Assumir a identidade de alguém conhecido pelos observadores: Dif. 6–10, dependendo da familiaridade."
+          - "Fazer um cavalo comum parecer um cavalo de guerra: Dif. 8."
+          - "Exige uma ação de Performance para ser criada."
+          - "Enquanto mantém uma ilusão complexa, o usuário sofre +2 de dificuldade em tarefas complexas."
+          - "Esse modificador não se aplica ao alterar a própria aparência que a ilusão já foi praticada."
+          - "Sempre que sofrer dano, o usuário pode ser obrigado a realizar um teste de Vigor ou Persistência para manter a ilusão."
+          - "Ilusões dos níveis 1 e 2 podem tornar-se permanentes até serem descobertas."
+          - "Para isso, o usuário deve investir 1 ponto de Força de Vontade enquanto a ilusão existir."
+      - title: "Exemplos"
+        bullets:
+          - "Assumir a aparência de outra pessoa."
+          - "Disfarçar um aliado."
+          - "Ocultar cicatrizes, ferimentos ou características marcantes."
+          - "Fazer um pangaré parecer um cavalo de guerra de raça."
+          - "Fazer um grupo parecer pertencer a outra facção."
+      - title: "Ímpeto"
+        body:
+          - "Não especificado."
+      - title: "Custo"
+        body:
+          - "Não especificado."
+  - title: "4. Duplicação Ilusória"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O usuário pode criar até três duplicatas ilusórias de si mesmo."
+          - "As duplicatas reproduzem seus movimentos de forma autônoma e não exigem concentração para serem mantidas."
+          - "Todas parecem igualmente reais, tornando difícil determinar qual é o verdadeiro."
+          - "A ilusão passa a afetar a percepção imediata da realidade dos observadores, confundindo memória recente, posicionamento e atenção."
+          - "Mesmo criaturas que suspeitem da ilusão podem não conseguir identificar instantaneamente o original."
+      - title: "Sistema"
+        body:
+          - "Exige uma ação de Performance para ser criada."
+          - "Criar as duplicatas exige uma ação de Performance."
+          - "As duplicatas podem andar, correr, falar e simular reações físicas."
+          - "Elas não podem interagir fisicamente com objetos nem causar dano."
+          - "Quando atacadas, reagem como criaturas reais, podendo aparentar dor, sangramento ou ferimentos."
+          - "Percebendo as duplicatas:"
+        bullets:
+          - "Dif. 9 para perceber que uma cópia é ilusória."
+          - "Qualquer situação que revele a incapacidade da cópia de interagir fisicamente com o mundo reduz a dificuldade do teste, a critério do narrador."
+          - "Cada duplicata é dissipada após receber 4 pontos de dano."
+          - "Quando destruída, desaparece imediatamente, revelando sua natureza ilusória."
+      - title: "Exemplos"
+        bullets:
+          - "Cercar-se de cópias idênticas durante um combate."
+          - "Enviar uma duplicata para investigar um grupo suspeito."
+          - "Fazer um pequeno grupo parecer muito maior do que realmente é."
+      - title: "Ímpeto"
+        body:
+          - "Gera +1 de Ímpeto a cada 3 turnos, ou se o dom foi reativado."
+      - title: "Custo"
+        body:
+          - "Não especificado."
+  - title: "5. Identidade Quebrada"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "A ilusão passa a agir diretamente sobre a mente do alvo, alterando sua capacidade de reconhecer e interpretar a identidade das pessoas ao seu redor."
+          - "O alvo pode passar a perceber aliados como inimigos, inimigos como aliados, estranhos como conhecidos ou conhecidos como completos desconhecidos."
+          - "A magia não controla suas ações, apenas modifica a forma como ele interpreta quem está diante dele."
+          - "Como consequência, suas reações dependerão de sua personalidade, objetivos e da situação em que se encontra."
+          - "O usuário não escolhe exatamente como a confusão irá se manifestar. Ao utilizar o dom, ele define apenas o alvo da ilusão. Os detalhes da interpretação equivocada ficam a cargo do narrador."
+          - "Após a utilização, o usuário passa a perceber os efeitos causados pela magia."
+          - "Por agir diretamente sobre a mente, não é necessário criar uma aparência ilusória visível. O alvo simplesmente acredita que está vendo a pessoa que sua mente espera ver."
+      - title: "Sistema"
+        body:
+          - "Limitações e regras:"
+        bullets:
+          - "A magia altera reconhecimento e identidade, mas não implanta memórias ou conhecimentos complexos."
+          - "Evidências muito fortes podem levar o alvo a questionar sua percepção."
+          - "Criaturas sem inteligência ou incapazes de distinguir identidades normalmente não podem ser afetadas."
+          - "O efeito afeta um único alvo por padrão."
+          - "Para cada alvo adicional, o usuário deve gerar +1 ponto de Ímpeto ou gastar 1 ponto de Força de Vontade."
+          - "O narrador determina a dificuldade para resistir ao efeito de acordo com a familiaridade entre o alvo e as pessoas envolvidas."
+      - title: "Exemplos"
+        bullets:
+          - "Um guarda permite a entrada de um invasor acreditando tratar-se de um companheiro de patrulha."
+          - "Um soldado passa a enxergar um aliado como um combatente inimigo."
+          - "Um nobre confunde um rival político com um velho amigo."
+          - "Um mercador reconhece um desconhecido como um cliente habitual."
+          - "Durante uma batalha, um combatente pode atacar os próprios companheiros acreditando estar enfrentando adversários."
+      - title: "Ímpeto"
+        body:
+          - "Sempre gera 1 ponto de Ímpeto ao ser utilizada."
+          - "Para cada alvo adicional, o usuário deve gerar +1 ponto de Ímpeto ou gastar 1 ponto de Força de Vontade."
+      - title: "Custo"
+        body:
+          - "Não especificado."

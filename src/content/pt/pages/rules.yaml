@@ -1,0 +1,21 @@
+slug: "rules"
+path: "/regras/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Regras"
+  group: "primary"
+  order: 10
+seo:
+  title: "Regras"
+  description: "Consulte regras e procedimentos fundamentais do RedSun."
+placeholder:
+  message: "Regras"
+sections:
+  - kicker: "Referência"
+    title: "Regras"
+    intro: "As páginas de regras reúnem os procedimentos e definições necessários durante o jogo."
+    items:
+      - title: "Dano Agravado"
+        text: "Dano grave, sobrenatural ou difícil de recuperar."
+        href: "/regras/dano-agravado/"
+        icon: "/assets/svg/warning.svg"

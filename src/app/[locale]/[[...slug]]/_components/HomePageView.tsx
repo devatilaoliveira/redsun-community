@@ -36,6 +36,51 @@ export function HomePageView({ locale, page }: HomePageViewProps) {
               {banner.primaryLink.label}
             </Link>
           ) : null}
+          {banner.actions.length > 0 ? (
+            <div className="mt-8 flex flex-wrap gap-3">
+              {banner.actions.map((action) => {
+                const actionClassName =
+                  "inline-flex min-h-11 items-center rounded-md border border-zinc-700 px-5 py-2 font-semibold text-zinc-100 transition hover:border-zinc-500 hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400";
+
+                if (action.disabled) {
+                  return (
+                    <span
+                      aria-disabled="true"
+                      className={`${actionClassName} cursor-not-allowed opacity-50`}
+                      key={action.label}
+                    >
+                      {action.label}
+                    </span>
+                  );
+                }
+
+                if (action.href.startsWith("http")) {
+                  return (
+                    <a
+                      className={actionClassName}
+                      href={action.href}
+                      key={action.label}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {action.label}
+                    </a>
+                  );
+                }
+
+                return (
+                  <a
+                    className={actionClassName}
+                    download={action.download || undefined}
+                    href={action.href}
+                    key={action.label}
+                  >
+                    {action.label}
+                  </a>
+                );
+              })}
+            </div>
+          ) : null}
         </section>
       ) : null}
 
@@ -82,7 +127,7 @@ export function HomePageView({ locale, page }: HomePageViewProps) {
         </section>
       ) : null}
 
-      <PageSections sections={page.sections} />
+      <PageSections locale={locale} sections={page.sections} />
     </main>
   );
 }

@@ -1,0 +1,177 @@
+slug: "betruger"
+path: "/callings/betruger/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Betrüger"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Betrüger"
+  description: "The standardized RedSun powers for the Betrüger Calling."
+placeholder:
+  message: "Betrüger"
+sections:
+  - title: "1. Simple Illusion"
+    subsections:
+      - title: "Description"
+        body:
+          - "Creates an illusion that affects only one chosen sense: sight, hearing, touch, smell, or taste."
+          - "The illusion must be associated with an object or fixed location and cannot reproduce complex movement or autonomous behavior."
+      - title: "System"
+        body:
+          - "To break the illusion, the target needs a reason to be suspicious."
+          - "An observer normally needs a reason for suspicion before making the test."
+          - "Careful interaction or contradictory evidence may reveal its illusory nature."
+          - "The difficulty to perceive the illusion depends on the difference between its appearance and reality. The closer the illusion is to the object's real characteristics, the harder it is to identify."
+          - "Perception difficulties:"
+        bullets:
+          - "Making an iron plate appear to be another kind of metal: Dif. 8 or higher."
+          - "Making a piece of wood appear to be iron: Dif. 4–6, because its texture, weight, and sound are very different."
+          - "Making one card appear to be another card from the same deck: Dif. 9 or higher."
+          - "Requires a Performance action to create."
+          - "May automatically end when physical evidence contradicts the illusion."
+      - title: "Examples"
+        bullets:
+          - "That legendary sword cannot cut a soft object."
+          - "Make a stone appear to be a gold nugget."
+          - "Produce the distant sound of footsteps or voices."
+          - "Make a playing card appear to have a different value."
+          - "Alter the smell of an object or food."
+      - title: "Momentum"
+        body:
+          - "Does not generate Momentum if used only once during the scene."
+      - title: "Cost"
+        body:
+          - "Not specified."
+  - title: "2. Complete Illusion"
+    subsections:
+      - title: "Description"
+        body:
+          - "Can affect multiple senses simultaneously, creating much more convincing illusions."
+          - "The illusion can be applied to inanimate objects, including those with moving parts such as clothing, mechanisms, vehicles, or machines."
+          - "It follows their natural movement and maintains consistency among appearance, sound, smell, and other perceptible characteristics."
+          - "It still cannot be applied directly to living creatures."
+      - title: "System"
+        body:
+          - "The difficulty to perceive the illusion depends on how plausible it is and how closely the observer interacts with the object."
+          - "Perception difficulties:"
+        bullets:
+          - "Making rusty armor appear well maintained: Dif. 8."
+          - "Making coarse fabric appear noble: Dif. 8."
+          - "Making rotten fruit appear fresh: Dif. 8 visually, but lower after direct contact or tasting."
+          - "Requires a Performance action to create."
+          - "The illusion can follow an object's natural movements but cannot create independent behavior."
+      - title: "Examples"
+        bullets:
+          - "Make old armor appear new and ornate."
+          - "Make ordinary fabric appear to be fine silk."
+          - "Make spoiled fruit appear rare and delicious."
+          - "Simulate fire, smoke, or the sounds of battle."
+          - "Make a door appear to be a wall."
+      - title: "Momentum"
+        body:
+          - "Does not generate Momentum if used only once during the scene."
+      - title: "Cost"
+        body:
+          - "Not specified."
+  - title: "3. Living Illusion"
+    subsections:
+      - title: "Description"
+        body:
+          - "Can apply illusions directly to living creatures, including the user."
+          - "It can alter appearance, voice, smell, apparent clothing, and other perceptible characteristics."
+          - "The illusion follows the target's movements and reacts naturally to their actions."
+          - "Simple disguises require little attention, but fictional characters, complex transformations, or constant changes require continuous concentration."
+      - title: "System"
+        body:
+          - "Perception difficulties:"
+        bullets:
+          - "Assume a previously practiced identity: Dif. 9 or higher."
+          - "Assume the identity of someone known to the observers: Dif. 6–10, depending on familiarity."
+          - "Make an ordinary horse appear to be a warhorse: Dif. 8."
+          - "Requires a Performance action to create."
+          - "While maintaining a complex illusion, the user suffers +2 difficulty on complex tasks."
+          - "This modifier does not apply when changing the user's own appearance to an identity whose illusion has already been practiced."
+          - "Whenever the user takes damage, they may be required to make a Vigor or Persistence test to maintain the illusion."
+          - "Level 1 and 2 illusions can become permanent until discovered."
+          - "To do so, the user must invest 1 Willpower point for as long as the illusion exists."
+      - title: "Examples"
+        bullets:
+          - "Assume another person's appearance."
+          - "Disguise an ally."
+          - "Hide scars, wounds, or distinctive features."
+          - "Make a nag appear to be a pedigreed warhorse."
+          - "Make a group appear to belong to another faction."
+      - title: "Momentum"
+        body:
+          - "Not specified."
+      - title: "Cost"
+        body:
+          - "Not specified."
+  - title: "4. Illusory Duplication"
+    subsections:
+      - title: "Description"
+        body:
+          - "The user can create up to three illusory duplicates of themself."
+          - "The duplicates reproduce the user's movements autonomously and require no concentration to maintain."
+          - "All appear equally real, making it difficult to determine which one is the original."
+          - "The illusion affects the observers' immediate perception of reality, confusing recent memory, positioning, and attention."
+          - "Even creatures that suspect an illusion may not immediately identify the original."
+      - title: "System"
+        body:
+          - "Requires a Performance action to create."
+          - "The duplicates can walk, run, speak, and simulate physical reactions."
+          - "They cannot physically interact with objects or deal damage."
+          - "When attacked, they react like real creatures and may appear to feel pain, bleed, or suffer wounds."
+          - "Perceiving the duplicates:"
+        bullets:
+          - "Dif. 9 to perceive that a copy is illusory."
+          - "Any situation that reveals a copy's inability to interact physically with the world reduces the test difficulty at the Narrator's discretion."
+          - "Each duplicate dissipates after receiving 4 points of damage."
+          - "When destroyed, it disappears immediately and reveals its illusory nature."
+      - title: "Examples"
+        bullets:
+          - "Surround yourself with identical copies during combat."
+          - "Send a duplicate to investigate a suspicious group."
+          - "Make a small group appear much larger than it really is."
+      - title: "Momentum"
+        body:
+          - "Generates +1 Momentum every 3 turns, or when the gift is reactivated."
+      - title: "Cost"
+        body:
+          - "Not specified."
+  - title: "5. Broken Identity"
+    subsections:
+      - title: "Description"
+        body:
+          - "The illusion acts directly on the target's mind, altering their ability to recognize and interpret the identities of people around them."
+          - "The target may perceive allies as enemies, enemies as allies, strangers as acquaintances, or acquaintances as complete strangers."
+          - "The magic does not control their actions; it only changes how they interpret the person before them."
+          - "Their reactions therefore depend on their personality, goals, and situation."
+          - "The user does not choose exactly how the confusion manifests. They define only the illusion's target, while the Narrator determines the mistaken interpretation."
+          - "After using the gift, the user becomes aware of the effects caused by the magic."
+          - "Because it acts directly on the mind, no visible illusory appearance is required. The target simply believes they see the person their mind expects."
+      - title: "System"
+        body:
+          - "Limitations and rules:"
+        bullets:
+          - "The magic changes recognition and identity but does not implant memories or complex knowledge."
+          - "Very strong evidence may cause the target to question their perception."
+          - "Creatures without intelligence or unable to distinguish identities normally cannot be affected."
+          - "The effect targets one creature by default."
+          - "For each additional target, the user must generate +1 Momentum or spend 1 Willpower point."
+          - "The Narrator determines the difficulty to resist according to the familiarity between the target and the people involved."
+      - title: "Examples"
+        bullets:
+          - "A guard allows an intruder to enter, believing them to be a fellow patrol member."
+          - "A soldier sees an ally as an enemy combatant."
+          - "A noble mistakes a political rival for an old friend."
+          - "A merchant recognizes a stranger as a regular customer."
+          - "During battle, a combatant may attack their companions while believing they are fighting adversaries."
+      - title: "Momentum"
+        body:
+          - "Always generates 1 Momentum when used."
+          - "For each additional target, the user must generate +1 Momentum or spend 1 Willpower point."
+      - title: "Cost"
+        body:
+          - "Not specified."

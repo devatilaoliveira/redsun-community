@@ -1,0 +1,113 @@
+slug: "morder"
+path: "/dons/morder/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Mörder"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Mörder"
+  description: "Mörder domina a ocultação, o silêncio e o movimento pelas sombras, escondendo armas, abafando suas ações e tornando-se invisível para agir sem ser percebido."
+placeholder:
+  message: "Mörder"
+sections:
+  - title: "1. Sombra Oculta"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode ocultar objetos em seu vestuário ou equipamentos de forma quase imperceptível."
+      - title: "Sistema"
+        body:
+          - "Objetos com tamanho igual ou inferior ao antebraço do personagem ficam automaticamente ocultos de alvos que não usem meios mágicos de detecção."
+          - "Objetos maiores podem ser escondidos mediante teste resistido de Manipulação + Furtividade contra Percepção + Segurança/Prontidão do observador."
+          - "Dificuldades típicas:"
+        bullets:
+          - "4 sucessos para ocultar uma espada longa."
+          - "9 sucessos, reduzidos em 1 sucesso para cada sucesso obtido, para ocultar uma armadura completa."
+      - title: "Ímpeto"
+        body:
+          - "Normalmente, esta habilidade não gera Ímpeto."
+          - "Ocultar vários objetos pequenos ou dois ou mais objetos médios pode gerar Ímpeto a critério do Mestre."
+      - title: "Custo"
+        body:
+          - "1 ação"
+  - title: "2.1 Passo Etéreo"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode caminhar sobre qualquer superfície sólida como se estivesse andando no chão."
+      - title: "Sistema"
+        body:
+          - "Superfícies escorregadias, como óleo, ainda oferecem risco normal de escorregar."
+      - title: "Ímpeto"
+        body:
+          - "Gera +1 de Ímpeto por cena."
+      - title: "Custo"
+        body:
+          - "Nenhuma ação"
+  - title: "2.2 Silêncio Mortal"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Enquanto estiver em combate corpo a corpo, todas as ações do Meio-Zeraphir têm seus sons naturalmente abafados."
+      - title: "Sistema"
+        body:
+          - "Em testes de Furtividade, isso reduz a dificuldade em 2 pontos, podendo gerar benefícios adicionais em condições favoráveis."
+      - title: "Exemplos"
+        bullets:
+          - "Gritos de dor de inimigos atingidos."
+          - "Passos sobre poças de água ou folhas secas."
+      - title: "Ímpeto"
+        body:
+          - "Não especificado."
+      - title: "Custo"
+        body:
+          - "Nenhuma ação"
+  - title: "3. Véu Fantasma"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Em ambientes de iluminação precária, o Meio-Zeraphir se torna praticamente invisível, desde que não interaja com o ambiente."
+      - title: "Sistema"
+        body:
+          - "Qualquer interação, mover objetos, atacar ou abrir portas, revela imediatamente sua posição."
+          - "Se ativada enquanto observado, realiza-se um teste resistido de Mörder + Furtividade contra Percepção + Prontidão do observador."
+          - "Se o observador vencer, o Meio-Zeraphir não se torna invisível."
+      - title: "Ímpeto"
+        body:
+          - "Se for revelado, recebe +1 de Ímpeto."
+          - "Se o observador vencer, o Meio-Zeraphir recebe +1 de Ímpeto."
+      - title: "Custo"
+        body:
+          - "1 ação"
+  - title: "4. Gume das Sombras"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "Durante os próximos 3 turnos, a arma do Meio-Zeraphir é envolta por uma energia sombria, causando dano agravado."
+      - title: "Sistema"
+        body:
+          - "Durante os próximos 3 turnos, a arma do Meio-Zeraphir causa dano agravado."
+      - title: "Ímpeto"
+        body:
+          - "Primeira ativação: +2 de Ímpeto."
+          - "Ativações subsequentes: +1 de Ímpeto."
+      - title: "Custo"
+        body:
+          - "Nenhuma ação"
+  - title: "5. Véu Total"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir torna-se verdadeiramente invisível."
+      - title: "Sistema"
+        body:
+          - "Enquanto estiver invisível, adversários em combate corpo a corpo têm +2 de dificuldade para atacá-lo ou se defender de suas ações."
+          - "Ataques em área ou defesas com escudo grande podem reduzir a penalidade para +1, a critério do Mestre."
+      - title: "Ímpeto"
+        body:
+          - "Ao ativar, recebe +1 de Ímpeto."
+          - "Interações com o ambiente ou combate aumentam o Ímpeto em +1 a cada 3 turnos, começando no primeiro turno de interação."
+      - title: "Custo"
+        body:
+          - "1 ação"
