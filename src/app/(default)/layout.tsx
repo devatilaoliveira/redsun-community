@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import { defaultLocaleHomePath } from "@/lib/content/routing";
-import { siteMetadata } from "@/lib/constants";
+import { DEFAULT_LOCALE, siteMetadata } from "@/lib/constants";
 import "../globals.css";
 
 const vendSans = localFont({
@@ -45,7 +45,7 @@ export default function DefaultRootLayout({
   return (
     <html
       className={`${vendSans.variable} ${cinzelDecorative.variable} antialiased`}
-      lang="en"
+      lang={DEFAULT_LOCALE}
     >
       <body className="min-h-dvh bg-background text-foreground">{children}</body>
     </html>

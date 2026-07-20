@@ -1,6 +1,6 @@
 export const SUPPORTED_LOCALES = ["en", "pt", "de"] as const;
 export const PUBLISHED_LOCALES = ["en", "pt", "de"] as const;
-export const DEFAULT_LOCALE = "en";
+export const DEFAULT_LOCALE = "pt";
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type PublishedLocale = (typeof PUBLISHED_LOCALES)[number];

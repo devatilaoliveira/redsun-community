@@ -1,0 +1,187 @@
+slug: "animalismus"
+path: "/magia/dons-unicos/animalismus/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Animalismus"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Animalismus"
+  description: "Animalismus permite ao Meio-Zeraphir comunicar-se com animais, influenciar seu comportamento e controlar indivíduos ou grupos inteiros."
+placeholder:
+  message: "Animalismus"
+sections:
+  - kicker: "Dom Ancestral Único"
+    title: "Animalismus"
+    body:
+      - "Animalismus permite ao Meio-Zeraphir comunicar-se com animais, influenciar seu comportamento e, nos níveis mais avançados, controlar seus corpos ou liderar grupos inteiros."
+      - "Os efeitos deste Dom funcionam apenas sobre animais não sencientes. Criaturas como dragões, górgonas, sereias e gnolls não são consideradas animais para esse propósito."
+  - title: "1. Falar com Animais"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode compreender animais e comunicar-se com eles. A qualidade da conversa depende da inteligência e da capacidade de percepção do animal. Mamíferos geralmente conseguem transmitir informações mais complexas do que insetos, por exemplo."
+      - title: "Sistema"
+        body:
+          - "Nenhum teste é necessário para iniciar ou manter a comunicação. Entretanto, tentativas de convencer, enganar, negociar ou acalmar o animal podem exigir testes sociais, normalmente de Influência + Adestrar Animais."
+          - "O animal continua limitado por sua inteligência, seus sentidos e seu conhecimento. Ele não consegue explicar conceitos que não compreende."
+      - title: "Exemplos"
+        bullets:
+          - "Perguntar a um corvo o que ele viu do alto."
+          - "Descobrir se um cavalo percebeu algum predador nas proximidades."
+          - "Convencer um rato a indicar uma passagem usada por outros animais."
+      - title: "Ímpeto"
+        body:
+          - "A primeira utilização diária não gera Ímpeto. Cada nova ativação no mesmo dia gera +1 de Ímpeto."
+          - "Falar com Animais, Invocar Animais e Acalmar a Besta compartilham essa contagem diária."
+      - title: "Custo"
+        body:
+          - "Nenhuma ação para iniciar a comunicação. A conversa utiliza o tempo normal da cena."
+  - title: "2. Invocar Animais"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir imita um som animal para convocar criaturas daquela espécie que estejam nas proximidades. Ele pode uivar como um lobo, cantar como um pássaro, guinchar como um rato ou produzir outro chamado semelhante."
+          - "O Dom não cria animais nem os obriga a aparecer. Apenas criaturas capazes de ouvir o chamado e alcançá-lo podem responder."
+      - title: "Sistema"
+        body:
+          - "Realiza-se um teste de Influência + Adestrar Animais. A dificuldade depende da quantidade de animais disponíveis no ambiente."
+          - "Dificuldades típicas:"
+        bullets:
+          - "Dificuldade 4 em uma floresta ou região com muitos animais."
+          - "Dificuldade 6 em uma área urbana."
+          - "Dificuldade 8 ou 9 em uma região desértica ou quase sem vida animal."
+          - "A quantidade e o tipo de animais que respondem dependem dos sucessos obtidos, das espécies presentes e da interpretação do Mestre."
+          - "Os animais convocados aproximam-se do personagem, mas não ficam automaticamente sob seu controle."
+      - title: "Exemplos"
+        bullets:
+          - "Uivar para chamar lobos que estejam na região."
+          - "Imitar o canto de uma ave para convocar pássaros próximos."
+          - "Guinchar para atrair ratos escondidos em uma cidade."
+      - title: "Ímpeto"
+        body:
+          - "A primeira utilização diária não gera Ímpeto. Cada nova ativação no mesmo dia gera +1 de Ímpeto."
+          - "Invocar Animais, Falar com Animais e Acalmar a Besta compartilham essa contagem diária."
+      - title: "Custo"
+        body:
+          - "1 ação e performance. O personagem precisa emitir um som animal audível."
+  - title: "2.1 Acalmar a Besta"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir pode reduzir o medo, a agitação ou a agressividade de qualquer animal, independentemente de seu estado emocional inicial."
+          - "O animal se torna receptivo à aproximação e aos demais níveis de Animalismus, mas não passa automaticamente a obedecer ao personagem."
+      - title: "Sistema"
+        body:
+          - "Realiza-se um teste de Influência + Adestrar Animais, com dificuldade entre 4 e 8, definida de acordo com o estado do animal e a causa de sua hostilidade."
+          - "Um sucesso é suficiente para acalmá-lo. Enquanto permanecer nesse estado, outros níveis de Animalismus podem ser utilizados normalmente sobre ele."
+          - "O efeito pode terminar se o animal for atacado, ameaçado ou novamente exposto à causa de seu estresse."
+      - title: "Exemplos"
+        bullets:
+          - "Acalmar um cavalo assustado por um incêndio."
+          - "Fazer uma fera acuada deixar de atacar."
+          - "Tranquilizar um animal ferido antes de se aproximar."
+      - title: "Ímpeto"
+        body:
+          - "A primeira utilização diária não gera Ímpeto. Cada nova ativação no mesmo dia gera +1 de Ímpeto."
+          - "Acalmar a Besta, Falar com Animais e Invocar Animais compartilham essa contagem diária."
+      - title: "Custo"
+        body:
+          - "1 ação."
+  - title: "3. Comandar Animal"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir impõe uma ordem direta a um animal que não esteja hostil. A ordem deve ser simples e compatível com aquilo que o animal consegue compreender e executar."
+          - "Ordens confusas, complexas ou com várias etapas podem ser interpretadas de maneira imprevisível."
+      - title: "Sistema"
+        body:
+          - "Realiza-se um teste de Influência + Adestrar Animais com dificuldade igual à Força de Vontade do animal."
+          - "Um sucesso permite impor uma tarefa simples, como seguir alguém, vigiar um lugar ou buscar uma informação que o animal seja capaz de compreender."
+          - "Três sucessos são necessários para obrigá-lo a atacar ou colocar-se diretamente em risco de morte."
+          - "A ordem deve ser cumprida antes do próximo período de sono do animal. O efeito termina imediatamente se ele dormir ou ficar atordoado."
+          - "Quando o efeito acaba, o animal percebe que foi manipulado e pode reagir de acordo com seu temperamento e com a ordem recebida."
+          - "Este Dom não funciona sobre criaturas sencientes, como dragões, górgonas, sereias e gnolls."
+      - title: "Exemplos"
+        bullets:
+          - "Ordenar a um cão que siga determinado cheiro."
+          - "Mandar um pássaro observar uma estrada."
+          - "Obrigar um lobo a atacar um inimigo."
+      - title: "Ímpeto"
+        body:
+          - "Cada utilização gera +1 de Ímpeto."
+      - title: "Custo"
+        body:
+          - "1 ação e performance. A ordem deve ser transmitida ao animal de maneira clara."
+  - title: "4.1 Cavalgar a Carne"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir projeta sua consciência para o corpo de um animal e assume o controle de seus movimentos. Durante a possessão, ele percebe o mundo pelos sentidos da criatura, enquanto seu próprio corpo permanece imóvel e vulnerável."
+          - "O Dom só pode ser usado sobre um animal que não esteja hostil."
+      - title: "Sistema"
+        body:
+          - "O Meio-Zeraphir e o animal realizam um teste resistido. O personagem testa Influência + Adestrar Animais, enquanto o alvo testa Força de Vontade. Ambos os testes possuem dificuldade 6."
+          - "O personagem precisa acumular 5 sucessos líquidos para assumir o controle."
+          - "Durante a possessão, qualquer teste realizado pelo Meio-Zeraphir para perceber acontecimentos ao redor de seu corpo original sofre +2 de dificuldade."
+          - "Se seu corpo for ferido, ele sente a dor normalmente e pode retornar imediatamente. Para continuar no animal, precisa realizar um teste de Força de Vontade com dificuldade igual a 2 + o dano sofrido."
+          - "Se o animal morrer durante a possessão, a consciência do Meio-Zeraphir retorna violentamente ao corpo original. Ele desmaia e permanece inconsciente por 6 − Vigor horas, com duração mínima de 1 hora."
+      - title: "Exemplos"
+        bullets:
+          - "Controlar um pássaro para observar uma fortaleza pelo alto."
+          - "Utilizar um rato para atravessar uma passagem estreita."
+          - "Assumir o corpo de um cavalo para fugir sem expor o próprio corpo."
+      - title: "Ímpeto"
+        body:
+          - "Gera +1 de Ímpeto por hora de possessão. A primeira hora é contabilizada no momento em que o controle é estabelecido."
+      - title: "Custo"
+        body:
+          - "1 ação para iniciar a possessão. Manter o controle não exige ações adicionais."
+  - title: "4.2 Companheiro Animal"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir estabelece um vínculo profundo com um animal de estimação, transformando-o em seu companheiro. O animal o reconhece como uma figura de confiança e torna-se especialmente receptivo aos seus dons."
+      - title: "Sistema"
+        body:
+          - "Todos os níveis de Animalismus podem ser utilizados sobre o companheiro sem testes."
+          - "Esse benefício não permite que o animal realize tarefas incompatíveis com sua inteligência, suas capacidades físicas ou seus sentidos."
+          - "O personagem pode possuir apenas um companheiro animal por vez. A definição de um novo companheiro encerra o vínculo anterior."
+      - title: "Exemplos"
+        bullets:
+          - "Comunicar-se livremente com seu corvo companheiro."
+          - "Comandar seu cão sem precisar realizar testes."
+          - "Cavalgar a Carne de seu companheiro sem disputar o controle."
+      - title: "Ímpeto"
+        body:
+          - "O Ímpeto gerado por Animalismus ao afetar o companheiro é reduzido pela metade, arredondado para cima."
+      - title: "Custo"
+        body:
+          - "Nenhuma ação. O vínculo é permanente até ser desfeito ou substituído."
+  - title: "5. Liderar a Horda"
+    subsections:
+      - title: "Descrição"
+        body:
+          - "O Meio-Zeraphir expande seu domínio mental e passa a controlar vários animais simultaneamente. Ele pode agir normalmente enquanto também determina as ações das criaturas dominadas."
+          - "Apenas animais não hostis podem ser incluídos inicialmente na horda."
+      - title: "Sistema"
+        body:
+          - "Realiza-se um teste de Influência + Adestrar Animais. O número de sucessos determina quantos animais podem ser controlados durante a cena."
+          - "A quantidade máxima também é limitada pela Força de Vontade do personagem e pelo número de animais disponíveis. Um personagem com Força de Vontade 2, por exemplo, pode controlar no máximo dois animais, mesmo que obtenha mais sucessos."
+          - "O Mestre pode exigir testes adicionais para coordenar ações complexas ou incompatíveis com o comportamento natural dos animais."
+      - title: "Exemplos"
+        bullets:
+          - "Controlar um grupo de ratos para vasculhar uma construção."
+          - "Comandar vários pássaros para observar diferentes caminhos."
+          - "Liderar uma matilha durante um combate."
+      - title: "Ímpeto"
+        body:
+          - "O Ímpeto é determinado pela quantidade de animais controlados:"
+        bullets:
+          - "1 animal: +1 de Ímpeto."
+          - "2 a 4 animais: +2 de Ímpeto."
+          - "5 a 8 animais: +3 de Ímpeto."
+          - "9 ou mais animais: +4 de Ímpeto."
+      - title: "Custo"
+        body:
+          - "1 ação para estabelecer o controle. Dar ordens simples durante a cena não exige ações adicionais."

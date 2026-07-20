@@ -51,9 +51,7 @@ function breadcrumbData(page: PageContent, locale: PublishedLocale) {
   };
 }
 
-function homeData(locale: PublishedLocale) {
-  const homeUrl = absoluteUrl(localizedPagePath(locale, "/"));
-
+function homeData() {
   return [
     {
       "@type": "Organization",
@@ -68,11 +66,6 @@ function homeData(locale: PublishedLocale) {
       name: SITE_NAME,
       description: SITE_DESCRIPTION,
       inLanguage: PUBLISHED_LOCALES,
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${homeUrl}?q={search_term_string}`,
-        "query-input": "required name=search_term_string",
-      },
     },
   ];
 }
@@ -81,7 +74,7 @@ export function getPageJsonLd(page: PageContent, locale: PublishedLocale) {
   const graph = [webPageData(page, locale), breadcrumbData(page, locale)];
 
   if (page.slug === "home" && locale === DEFAULT_LOCALE) {
-    graph.unshift(...homeData(locale));
+    graph.unshift(...homeData());
   }
 
   return {

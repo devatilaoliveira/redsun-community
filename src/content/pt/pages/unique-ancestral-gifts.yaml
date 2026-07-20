@@ -16,6 +16,9 @@ sections:
     body:
       - "Dons Ancestrais Únicos são afinidades mágicas raras. Diferentemente dos Dons comuns, apenas alguns Meio-Zeraphirs manifestam uma conexão natural com esses padrões específicos da realidade."
     items:
+      - title: "Animalismus"
+        text: "Comunica-se com animais, influencia seu comportamento e pode controlar indivíduos ou grupos inteiros."
+        href: "/magia/dons-unicos/animalismus/"
       - title: "Betrüger"
         text: "Mestres da ilusão que transformam percepção, identidade e expectativa."
         href: "/magia/dons-unicos/betruger/"

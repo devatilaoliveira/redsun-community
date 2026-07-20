@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { defaultLocaleHomePath } from "@/lib/content/routing";
-import { DEFAULT_LOCALE, SITE_NAME } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
 
 export default function DefaultPage() {
   const href = defaultLocaleHomePath();
@@ -19,14 +19,14 @@ export default function DefaultPage() {
           {SITE_NAME}
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-zinc-50">
-          Continue to the {DEFAULT_LOCALE} rulebook.
+          Continue para o livro de regras em português.
         </h1>
         <p className="mt-5 text-zinc-300">
           <Link
             className="font-semibold text-red-300 underline-offset-4 hover:text-red-200 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
             href={href}
           >
-            Open RedSun Rulebook
+            Abrir o livro de regras RedSun
           </Link>
         </p>
       </div>
