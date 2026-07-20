@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import type { FooterText } from "@/lib/content/componentText";
-import type { NavigationItem } from "./SiteHeader";
+import type { NavigationItem } from "./TopBarNavigator";
 
 type SiteFooterProps = {
   navigation: NavigationItem[];

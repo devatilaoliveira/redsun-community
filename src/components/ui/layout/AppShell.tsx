@@ -5,11 +5,17 @@ import { getNavigationPages } from "@/lib/content/pages";
 import { localizedPagePath } from "@/lib/content/routing";
 import type { PublishedLocale } from "@/lib/constants/locales";
 import { SiteFooter } from "./SiteFooter";
-import { SiteHeader } from "./SiteHeader";
+import { TopBarNavigator } from "./TopBarNavigator";
 
 type AppShellProps = {
   children: ReactNode;
   locale: PublishedLocale;
+};
+
+const primaryNavigationIcons: Record<string, `/${string}`> = {
+  "/": "/svgs/home.svg",
+  "/lore/": "/svgs/rs.svg",
+  "/rules/": "/svgs/auto_stories.svg",
 };
 
 export async function AppShell({ children, locale }: AppShellProps) {
@@ -22,6 +28,7 @@ export async function AppShell({ children, locale }: AppShellProps) {
 
   const primaryNavigation = primaryPages.map((page) => ({
     href: localizedPagePath(locale, page.path),
+    iconSrc: primaryNavigationIcons[page.path] ?? "/svgs/auto_stories.svg",
     label: page.navigation.label,
   }));
 
@@ -38,7 +45,7 @@ export async function AppShell({ children, locale }: AppShellProps) {
       >
         {headerText.skipToContent}
       </a>
-      <SiteHeader
+      <TopBarNavigator
         locale={locale}
         navigation={primaryNavigation}
         text={headerText}
