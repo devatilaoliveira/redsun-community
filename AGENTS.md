@@ -38,7 +38,7 @@ The app is built with Next.js App Router, React, TypeScript, and Tailwind CSS. T
 
 ## App Selection
 
-Use `scripts/rsAgents.ps1` from the repository root to start a layered Codex session.
+Use `scripts/codexLaucher.ps1` from the repository root to start a layered Codex session.
 
 This repository has only one app context, so the launcher does not need `-App web`, `-App api`, `-App all`, or `-App repo`.
 

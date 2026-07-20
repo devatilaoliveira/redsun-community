@@ -17,6 +17,9 @@ $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $layersRoot = Join-Path $repoRoot ".agents"
+$additionalSandboxRoots = @(
+  "C:\Users\Admin\Desktop\Projects\OnGoing\redsun"
+)
 
 if (-not [string]::IsNullOrWhiteSpace($Model) -and -not [string]::IsNullOrWhiteSpace($ModelPreset)) {
   throw "Use either -Model or -ModelPreset, not both."
@@ -169,8 +172,12 @@ $codexArgs = @(
   "--search"
 )
 
+foreach ($sandboxRoot in $additionalSandboxRoots) {
+  $codexArgs += @("--add-dir", $sandboxRoot)
+}
+
 $presetModels = @{
-  Frontier = "gpt-5.5"
+  Frontier = "gpt-5.6-sol"
   Balanced = "gpt-5.4"
   Mini     = "gpt-5.4-mini"
 }
@@ -204,6 +211,10 @@ if ($layerFiles.Count -gt 0) {
 if ($DryRun) {
   Write-Host "Dry run: Codex was not started."
   Write-Host "Active app context: RedSun Next.js web app"
+  Write-Host "Additional sandbox roots:"
+  foreach ($sandboxRoot in $additionalSandboxRoots) {
+    Write-Host "- $sandboxRoot"
+  }
   Write-Host "Active layers:"
   foreach ($relativeFile in $relativeFiles) {
     Write-Host "- $relativeFile"

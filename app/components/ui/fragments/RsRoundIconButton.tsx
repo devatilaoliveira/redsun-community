@@ -34,7 +34,7 @@ const buttonClasses =
 
 const variantClasses: Record<RsRoundIconButtonVariant, string> = {
   default:
-    "border-transparent bg-transparent text-zinc-900 hover:bg-zinc-200 focus-visible:outline-red-700",
+    "border-transparent bg-transparent text-zinc-100 hover:bg-white/10 focus-visible:outline-amber-400",
   primary:
     "border-red-800 bg-red-800 text-white hover:bg-red-900 focus-visible:outline-red-700",
 };

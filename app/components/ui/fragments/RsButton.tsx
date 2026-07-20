@@ -38,7 +38,7 @@ export type RsButtonProps = Omit<
 };
 
 const baseClasses =
-  "inline-flex items-center justify-center rounded-md border px-3.5 font-sans text-base font-normal transition-[background-color,border-color,color,filter] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:border-zinc-200 disabled:bg-zinc-100 disabled:text-zinc-500 disabled:hover:brightness-100 disabled:active:brightness-100";
+  "inline-flex items-center justify-center rounded-md border px-3.5 font-sans text-base font-normal transition-[background-color,border-color,color,filter] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:border-zinc-700 disabled:bg-zinc-800 disabled:text-zinc-500 disabled:hover:brightness-100 disabled:active:brightness-100";
 
 const sizeClasses: Record<RsButtonSize, string> = {
   s: "h-8",

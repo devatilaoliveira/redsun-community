@@ -17,7 +17,7 @@ export type RsDividerProps = Omit<
 const baseClasses = "m-0 block h-px w-full flex-none border-0";
 
 const typeClasses: Record<RsDividerType | "default", string> = {
-  default: "bg-zinc-200",
+  default: "bg-zinc-700",
   gradient: "",
   solid: "bg-red-800",
 };
