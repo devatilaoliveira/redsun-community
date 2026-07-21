@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 
+import { RsRoundIconButton } from "@/components/ui/fragments/RsRoundIconButton";
 import type { HeaderText } from "@/lib/content/componentText";
 import { localizedPagePath } from "@/lib/content/routing";
 import type { PublishedLocale } from "@/lib/constants/locales";
@@ -35,8 +37,12 @@ export function TopBarNavigator({
   text,
 }: TopBarNavigatorProps) {
   const homeHref = localizedPagePath(locale, "/");
+  const pathname = usePathname();
+  const router = useRouter();
   const [sideNavVisible, setSideNavVisible] = useState(false);
   const [sideNavClosing, setSideNavClosing] = useState(false);
+  const showBackButton =
+    pathname.replace(/\/+$/, "") !== homeHref.replace(/\/+$/, "");
 
   const closeSideNav = useCallback(() => {
     setSideNavClosing(true);
@@ -55,6 +61,12 @@ export function TopBarNavigator({
 
     setSideNavClosing(false);
     setSideNavVisible(true);
+  }
+
+  function goBack() {
+    setSideNavVisible(false);
+    setSideNavClosing(false);
+    router.back();
   }
 
   return (
@@ -99,6 +111,16 @@ export function TopBarNavigator({
               {text.brandSuffix}
             </span>
           </Link>
+
+          {showBackButton ? (
+            <div className="ml-auto flex items-center">
+              <RsRoundIconButton
+                ariaLabel={text.backLabel}
+                iconSrc="/svgs/arrow.svg"
+                onClick={goBack}
+              />
+            </div>
+          ) : null}
         </div>
       </header>
 
