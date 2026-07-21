@@ -10,12 +10,9 @@ import {
   SITE_NAME,
   SITE_URL,
 } from "@/lib/constants/site";
+import type { BreadcrumbItem } from "./breadcrumbs";
 import type { PageContent } from "./pageContentSchema";
-import {
-  absoluteUrl,
-  localizedPagePath,
-  pathToSlugSegments,
-} from "./routing";
+import { absoluteUrl, localizedPagePath } from "./routing";
 
 const structuredDataLanguages = {
   en: "en",
@@ -39,41 +36,14 @@ function webPageData(page: PageContent, locale: PublishedLocale) {
   };
 }
 
-function getBreadcrumbCandidatePaths(pathname: string): string[] {
-  const segments = pathToSlugSegments(pathname);
-
-  return [
-    "/",
-    ...segments.map((_, index) => {
-      return `/${segments.slice(0, index + 1).join("/")}/`;
-    }),
-  ];
-}
-
-function breadcrumbData(
-  page: PageContent,
-  locale: PublishedLocale,
-  pages: PageContent[],
-) {
-  const pagesByPath = new Map(
-    pages.map((candidate) => [candidate.path, candidate]),
-  );
-  const breadcrumbPages = getBreadcrumbCandidatePaths(page.path).flatMap(
-    (pathname) => {
-      const matchedPage =
-        pathname === page.path ? page : pagesByPath.get(pathname);
-
-      return matchedPage ? [matchedPage] : [];
-    },
-  );
-
+function breadcrumbData(breadcrumbs: BreadcrumbItem[]) {
   return {
     "@type": "BreadcrumbList",
-    itemListElement: breadcrumbPages.map((breadcrumbPage, index) => ({
+    itemListElement: breadcrumbs.map((breadcrumb, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      name: breadcrumbPage.navigation.label || breadcrumbPage.seo.title,
-      item: absoluteUrl(localizedPagePath(locale, breadcrumbPage.path)),
+      name: breadcrumb.name,
+      item: absoluteUrl(breadcrumb.href),
     })),
   };
 }
@@ -110,13 +80,13 @@ function homeData() {
 export function getPageJsonLd(
   page: PageContent,
   locale: PublishedLocale,
-  pages: PageContent[],
+  breadcrumbs: BreadcrumbItem[],
 ) {
   const isHome = page.path === "/";
   const graph = [
     ...(isHome && locale === DEFAULT_LOCALE ? homeData() : []),
     webPageData(page, locale),
-    ...(!isHome ? [breadcrumbData(page, locale, pages)] : []),
+    ...(!isHome ? [breadcrumbData(breadcrumbs)] : []),
   ];
 
   return {

@@ -117,12 +117,12 @@ export function SideNav({
     return () => window.clearTimeout(closingTimer);
   }, [isClosing, isVisible, onClosed]);
 
-  if (!isVisible) {
-    return null;
-  }
-
   return (
-    <div className="fixed inset-x-0 bottom-0 top-[var(--topbar-height)] z-40">
+    <div
+      aria-hidden={!isVisible}
+      className="fixed inset-x-0 bottom-0 top-[var(--topbar-height)] z-40"
+      hidden={!isVisible}
+    >
       <button
         aria-label={closeLabel}
         className={`absolute inset-0 cursor-default bg-black/70 ${

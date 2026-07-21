@@ -10,6 +10,7 @@ import {
   SITE_SOCIAL_IMAGE,
   isPublishedLocale,
 } from "@/lib/constants";
+import { getPageBreadcrumbs } from "@/lib/content/breadcrumbs";
 import {
   getAllPages,
   getPageBySlugSegments,
@@ -126,11 +127,12 @@ export default async function CmsPage({ params }: CmsPageProps) {
   }
 
   const pages = await getAllPages(locale);
+  const breadcrumbs = getPageBreadcrumbs(page, locale, pages);
 
   return (
     <>
-      <JsonLd data={getPageJsonLd(page, locale, pages)} />
-      <CmsPageView locale={locale} page={page} />
+      <JsonLd data={getPageJsonLd(page, locale, breadcrumbs)} />
+      <CmsPageView breadcrumbs={breadcrumbs} locale={locale} page={page} />
     </>
   );
 }

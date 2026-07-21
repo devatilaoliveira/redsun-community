@@ -79,6 +79,53 @@ export function HomePageView({ locale, page }: HomePageViewProps) {
         </section>
       ) : null}
 
+      {page.featureCards.length > 0 ? (
+        <ul className="grid gap-4 sm:grid-cols-2">
+          {page.featureCards.map((card) => {
+            const iconMaskImage = card.icon
+              ? `url(${JSON.stringify(card.icon)})`
+              : undefined;
+            const content = (
+              <>
+                {iconMaskImage ? (
+                  <span
+                    aria-hidden="true"
+                    className="block size-8 bg-zinc-100 [mask-position:center] [mask-repeat:no-repeat] [mask-size:contain] [-webkit-mask-position:center] [-webkit-mask-repeat:no-repeat] [-webkit-mask-size:contain]"
+                    style={{
+                      maskImage: iconMaskImage,
+                      WebkitMaskImage: iconMaskImage,
+                    }}
+                  />
+                ) : null}
+                <h2 className="mt-4 text-xl font-semibold text-zinc-50">
+                  {card.title}
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-400">
+                  {card.text}
+                </p>
+              </>
+            );
+
+            return (
+              <li key={card.title}>
+                {card.href ? (
+                  <RsBoxClickable
+                    as="link"
+                    className="bg-black p-5 text-zinc-100 no-underline"
+                    href={localizedPagePath(locale, card.href)}
+                  >
+                    {content}
+                  </RsBoxClickable>
+                ) : (
+                  <article className="flex h-full flex-col overflow-hidden rounded-md border border-border bg-black p-5">
+                    {content}
+                  </article>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      ) : null}
     </main>
   );
 }
