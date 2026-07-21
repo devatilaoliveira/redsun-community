@@ -17,8 +17,10 @@ homeBanner:
   actions:
     - label: "Play RedSun online"
       href: "https://redsunrpg.com.br"
+      image: "/assets/images/site-login.jpeg"
     - label: "Digital book coming soon"
       href: "/downloads/redsun-rulebook.pdf"
+      image: "/assets/images/bookcover-redsun.jpeg"
       download: true
       disabled: true
 featureCards:
@@ -34,15 +36,3 @@ featureCards:
     text: "The weave of reality, Ancestral Gifts, rituals, and other magical practices."
     href: "/magic/"
     icon: "/assets/svg/sun.svg"
-sections:
-  - kicker: "MVP Direction"
-    title: "Local content first"
-    intro: "Every public page is authored as YAML and rendered into static HTML."
-    body:
-      - "The site keeps routes, metadata, navigation, and structured data connected to the same validated content source."
-      - "Future integrations can replace the loader behind server-side abstractions without rewriting the public route structure."
-    items:
-      - title: "Static export"
-        text: "Generated pages can be hosted from the out directory without a Node.js server."
-      - title: "Localized paths"
-        text: "Locale-prefixed routes keep the URL model ready for translated RedSun content."

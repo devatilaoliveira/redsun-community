@@ -30,6 +30,7 @@ export const HomeBannerSchema = z.object({
       z.object({
         label: z.string().min(1),
         href: z.union([LinkPathSchema, z.url()]),
+        image: PublicAssetPathSchema.optional(),
         download: z.boolean().default(false),
         disabled: z.boolean().default(false),
       }),

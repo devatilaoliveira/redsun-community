@@ -17,6 +17,7 @@ const HeaderTextSchema = z.object({
   skipToContent: z.string().min(1),
   menuLabel: z.string().min(1),
   closeMenuLabel: z.string().min(1),
+  backLabel: z.string().min(1),
   homeLabel: z.string().min(1),
   navigationLabel: z.string().min(1),
   brand: z.string().min(1),
@@ -26,6 +27,9 @@ const HeaderTextSchema = z.object({
 const FooterTextSchema = z.object({
   description: z.string().min(1),
   legalLabel: z.string().min(1),
+  rightsNotice: z.string().min(1),
+  craftedWith: z.string().min(1),
+  craftedBy: z.string().min(1),
 });
 
 export type HeaderText = z.infer<typeof HeaderTextSchema>;
