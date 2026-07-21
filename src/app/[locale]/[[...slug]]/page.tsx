@@ -121,9 +121,11 @@ export default async function CmsPage({ params }: CmsPageProps) {
     notFound();
   }
 
+  const pages = await getAllPages(locale);
+
   return (
     <>
-      <JsonLd data={getPageJsonLd(page, locale)} />
+      <JsonLd data={getPageJsonLd(page, locale, pages)} />
       <CmsPageView locale={locale} page={page} />
     </>
   );
