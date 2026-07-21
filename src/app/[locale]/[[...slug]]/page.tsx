@@ -37,10 +37,14 @@ export async function generateStaticParams() {
     PUBLISHED_LOCALES.map(async (locale) => {
       const pages = await getAllPages(locale);
 
-      return pages.map((page) => ({
+    return pages.map((page) => {
+      const slug = pathToSlugSegments(page.path);
+
+      return {
         locale,
-        slug: pathToSlugSegments(page.path),
-      }));
+        slug: slug.length === 0 ? undefined : slug,
+      };
+    });
     }),
   );
 

@@ -17,8 +17,10 @@ homeBanner:
   actions:
     - label: "RedSun online spielen"
       href: "https://redsunrpg.com.br"
+      image: "/assets/images/site-login.jpeg"
     - label: "Digitales Buch demnächst verfügbar"
       href: "/downloads/redsun-rulebook.pdf"
+      image: "/assets/images/bookcover-redsun.jpeg"
       download: true
       disabled: true
 featureCards:
@@ -30,9 +32,3 @@ featureCards:
     text: "Hintergrundwissen und Weltmaterial für RedSun."
     href: "/welt/"
     icon: "/assets/svg/sun.svg"
-sections:
-  - kicker: "Regelwerk"
-    title: "Lokalisierte und validierte Inhalte"
-    intro: "Jede öffentliche Seite wird in YAML verfasst und als lokalisiertes HTML dargestellt."
-    body:
-      - "Routen, Metadaten, Navigation und strukturierte Daten bleiben mit derselben validierten Inhaltsquelle verbunden."

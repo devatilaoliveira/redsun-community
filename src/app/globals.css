@@ -15,15 +15,22 @@
 
 :root {
   --background: #000000;
-  --foreground: #f4f4f5;
-  --surface: #0f0f0f;
-  --surface-muted: #2a292f;
+  --foreground: #ffffff;
+  --surface: #2a292f;
+  --surface-muted: #3a383f;
   --border: #3a383f;
-  --muted: #a1a1aa;
-  --primary: #b91c1c;
-  --primary-strong: #dc2626;
-  --accent: #f2b71f;
-  --backdrop: rgb(9 9 11 / 0.58);
+  --muted: #89888d;
+  --primary: #63a6e9;
+  --primary-strong: color-mix(in srgb, var(--primary) 88%, #000000);
+  --secondary: #ac93e6;
+  --accent: #454449;
+  --success: #29d65c;
+  --warning: #d97706;
+  --danger: #8b0000;
+  --yellow: #f2b71f;
+  --red: #ff0000;
+  --hover: rgb(255 255 255 / 0.12);
+  --backdrop: rgb(0 0 0 / 0.7);
   --space-1: 1rem;
   --radius-pill: 999px;
   --text-normal: 1rem;
@@ -47,7 +54,14 @@
   --color-muted: var(--muted);
   --color-primary: var(--primary);
   --color-primary-strong: var(--primary-strong);
+  --color-secondary: var(--secondary);
   --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-yellow: var(--yellow);
+  --color-red: var(--red);
+  --color-hover: var(--hover);
   --font-sans: var(--font-vend-sans);
   --font-serif: var(--font-cinzel-decorative);
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;

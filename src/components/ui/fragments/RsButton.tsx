@@ -39,15 +39,15 @@ const sizeClasses: Record<RsButtonSize, string> = {
 };
 
 const variantClasses: Record<RsButtonVariant, string> = {
-  primary: "border-transparent bg-primary text-white",
-  secondary: "border-transparent bg-zinc-200 text-zinc-950",
-  accent: "border-transparent bg-surface-muted text-foreground",
-  success: "border-transparent bg-emerald-500 text-black",
-  danger: "border-transparent bg-red-900 text-white",
-  warning: "border-transparent bg-amber-600 text-black",
+  primary: "border-transparent bg-primary text-black",
+  secondary: "border-transparent bg-secondary text-black",
+  accent: "border-transparent bg-accent text-foreground",
+  success: "border-transparent bg-success text-black",
+  danger: "border-transparent bg-danger text-white",
+  warning: "border-transparent bg-warning text-black",
   black: "border-zinc-800 bg-black text-white",
   // The Angular fragment accepts this variant without giving it distinct styles.
-  premium: "border-transparent bg-primary text-white",
+  premium: "border-transparent bg-primary text-black",
 };
 
 export function RsButton({
@@ -91,7 +91,7 @@ export function RsButton({
       {...buttonProps}
       aria-busy={inProgress || undefined}
       aria-disabled={inProgress || undefined}
-      className={`inline-flex w-full items-center justify-center rounded-md border px-3.5 font-sans text-base font-normal whitespace-nowrap transition-[background-color,border-color,color,filter] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 disabled:cursor-not-allowed disabled:border-border disabled:bg-surface-muted disabled:text-muted disabled:filter-none ${sizeClasses[size]} ${variantClasses[variant]} ${interactionClasses} ${activeClass} ${className ?? ""}`}
+      className={`inline-flex w-full items-center justify-center rounded-md border px-3.5 font-sans text-base font-normal whitespace-nowrap transition-[background-color,border-color,color,filter] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:cursor-not-allowed disabled:border-border disabled:bg-surface disabled:text-muted disabled:filter-none ${sizeClasses[size]} ${variantClasses[variant]} ${interactionClasses} ${activeClass} ${className ?? ""}`}
       data-size={size}
       data-variant={variant}
       disabled={disabled}

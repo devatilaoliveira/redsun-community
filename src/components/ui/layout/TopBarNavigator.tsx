@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
@@ -46,12 +47,12 @@ export function TopBarNavigator({
 
   const closeSideNav = useCallback(() => {
     setSideNavClosing(true);
-  }, []);
+  }, [setSideNavClosing]);
 
   const finishClosingSideNav = useCallback(() => {
     setSideNavVisible(false);
     setSideNavClosing(false);
-  }, []);
+  }, [setSideNavClosing, setSideNavVisible]);
 
   function toggleSideNav() {
     if (sideNavVisible) {
@@ -71,14 +72,14 @@ export function TopBarNavigator({
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 h-[var(--topbar-height)] border-b border-zinc-800 bg-black text-zinc-100 shadow-sm shadow-black/40">
+      <header className="fixed inset-x-0 top-0 z-50 h-[var(--topbar-height)] border-b border-border bg-background text-foreground shadow-sm shadow-black/40">
         <div className="relative mx-auto flex h-full w-full max-w-[var(--content-max)] items-center px-4 sm:px-6">
           <div className="flex items-center gap-2">
             <button
               aria-controls="site-side-navigation"
               aria-expanded={sideNavVisible && !sideNavClosing}
               aria-label={text.menuLabel}
-              className="inline-flex size-10 items-center justify-center rounded-full text-zinc-100 transition hover:bg-white/10 active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
+              className="inline-flex size-10 items-center justify-center rounded-full text-zinc-100 transition hover:bg-hover active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               onClick={toggleSideNav}
               type="button"
             >
@@ -86,15 +87,16 @@ export function TopBarNavigator({
             </button>
             <Link
               aria-label={text.homeLabel}
-              className="inline-flex size-[47px] items-center justify-center rounded-full transition hover:bg-white/10 active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 min-[1281px]:hidden"
+              className="inline-flex size-[47px] items-center justify-center rounded-full transition hover:bg-hover active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary min-[1281px]:hidden"
               href={homeHref}
               onClick={sideNavVisible ? closeSideNav : undefined}
             >
-              <img
+              <Image
                 alt=""
                 className="size-full"
                 height="32"
                 src="/svgs/rs.svg"
+                unoptimized
                 width="32"
               />
             </Link>
@@ -102,7 +104,7 @@ export function TopBarNavigator({
 
           <Link
             aria-label={text.homeLabel}
-            className="absolute left-1/2 hidden -translate-x-1/2 items-center rounded-full px-3 py-1 font-serif text-[1.4rem] leading-none font-bold uppercase text-accent transition hover:bg-white/10 active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 min-[1281px]:inline-flex"
+            className="absolute left-1/2 hidden -translate-x-1/2 items-center rounded-full px-3 py-1 font-serif text-[1.4rem] leading-none font-bold uppercase text-yellow transition hover:bg-hover active:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary min-[1281px]:inline-flex"
             href={homeHref}
             onClick={sideNavVisible ? closeSideNav : undefined}
           >

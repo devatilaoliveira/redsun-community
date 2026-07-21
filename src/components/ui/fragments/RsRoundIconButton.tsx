@@ -24,13 +24,13 @@ export type RsRoundIconButtonProps =
 
 const variantClasses: Record<RsRoundIconButtonVariant, string> = {
   default:
-    "border-transparent bg-transparent text-foreground enabled:hover:bg-white/10",
+    "border-transparent bg-transparent text-foreground enabled:hover:bg-hover",
   primary:
-    "border-primary bg-primary text-white enabled:hover:brightness-[0.88]",
+    "border-primary bg-primary text-black enabled:hover:brightness-[0.88]",
   secondary:
-    "border-surface-muted bg-surface-muted text-foreground enabled:hover:brightness-[0.88]",
+    "border-secondary bg-secondary text-black enabled:hover:brightness-[0.88]",
   premium:
-    "border-accent bg-accent text-black enabled:hover:brightness-[0.88]",
+    "border-yellow bg-yellow text-black enabled:hover:brightness-[0.88]",
 };
 
 type IconButtonStyle = CSSProperties & {
@@ -75,7 +75,7 @@ export function RsRoundIconButton({
       aria-controls={nativeAriaControls ?? ariaControls ?? undefined}
       aria-expanded={nativeAriaExpanded ?? ariaExpanded ?? undefined}
       aria-label={nativeAriaLabel ?? ariaLabel}
-      className={`inline-flex size-[calc(var(--rs-icon-size)_+_1rem)] shrink-0 cursor-pointer items-center justify-center rounded-full border p-0 transition-[color,background-color,filter] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 disabled:cursor-not-allowed disabled:opacity-[0.45] disabled:filter-none ${variantClasses[variant]} ${className ?? ""}`}
+      className={`inline-flex size-[calc(var(--rs-icon-size)_+_1rem)] shrink-0 cursor-pointer items-center justify-center rounded-full border p-0 transition-[color,background-color,filter] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:cursor-not-allowed disabled:opacity-[0.45] disabled:filter-none ${variantClasses[variant]} ${className ?? ""}`}
       data-variant={variant}
       disabled={disabled}
       onClick={handleClick}

@@ -1,6 +1,6 @@
 slug: "home"
 path: "/"
-lastModified: "2026-07-20"
+lastModified: "2026-07-21"
 navigation:
   label: "Início"
   group: "primary"
@@ -13,14 +13,16 @@ placeholder:
 homeBanner:
   kicker: "RPG de Mesa RedSun"
   title: "Bem-vindo ao Livro de Regras RedSun"
-  intro: "Inspirado no livro RedSun, escrito por Átila Oliveira Jr. Explore o cenário e as regras do RPG, jogue RedSun online ou baixe uma edição digital do livro quando ela estiver disponível."
+  intro: "Inspirado no livro RedSun, escrito por Átila Oliveira Jr. Explore o cenário e as regras do RPG, jogue RedSun online ou baixe o livro digital RedSun: Academia Lâmina Flamejante."
   actions:
     - label: "Jogar RedSun online"
       href: "https://redsunrpg.com.br"
-    - label: "Livro digital em breve"
-      href: "/downloads/redsun-rulebook.pdf"
+      image: "/assets/images/site-login.jpeg"
+    - label: "Baixar Academia Lâmina Flamejante"
+      href: "/downloads/redsun-academia-lamina-flamejante.pdf"
+      image: "/assets/images/bookcover-redsun.jpeg"
       download: true
-      disabled: true
+      disabled: false
 featureCards:
   - title: "Regras"
     text: "Material de referência para combate, recuperação e procedimentos de mesa."
@@ -38,9 +40,3 @@ featureCards:
     text: "Os Zeraphirs, os Meio-Zeraphirs e os demais povos sencientes de Ardenya."
     href: "/racas/"
     icon: "/assets/svg/book.svg"
-sections:
-  - kicker: "Livro de Regras"
-    title: "Conteúdo local e validado"
-    intro: "Cada página pública é escrita em YAML e renderizada como HTML localizado."
-    body:
-      - "Rotas, metadados, navegação e dados estruturados permanecem ligados à mesma fonte de conteúdo validada."

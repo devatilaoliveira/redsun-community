@@ -13,3 +13,4 @@ export const SITE_LOGO = "/svgs/rs.svg";
 
 export const SITE_CONTACT_NAME = "Átila Oliveira Jr";
 export const SITE_CONTACT_EMAIL = "atila.oliveira.jr@gmail.com";
+export const SITE_CONTACT_PROFILE_URL = "https://www.xing.com/profile/Atila_OliveiraJunior";

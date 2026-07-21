@@ -63,11 +63,11 @@ const sizeClasses: Record<RsButtonTextSize, string> = {
 
 const variantClasses: Record<RsButtonTextVariant, string> = {
   primary: "text-primary",
-  secondary: "text-zinc-200",
+  secondary: "text-secondary",
   accent: "text-accent",
-  success: "text-emerald-400",
-  danger: "text-red-700",
-  warning: "text-amber-500",
+  success: "text-success",
+  danger: "text-danger",
+  warning: "text-warning",
   black:
     "text-muted [&:not([aria-disabled=true]):hover]:text-foreground [&:not([aria-disabled=true]):focus-visible]:text-foreground",
   // The Angular fragment accepts this variant without distinct styling.
@@ -127,7 +127,7 @@ export function RsButtonText(props: RsButtonTextProps) {
     : inProgress
       ? "cursor-progress"
       : "cursor-pointer";
-  const sharedClassName = `inline-flex items-center justify-center gap-2 border-0 bg-transparent p-0 font-sans font-normal no-underline transition-[color,opacity] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 ${sizeClasses[size]} ${variantClasses[variant]} ${stateClasses} ${className ?? ""}`;
+  const sharedClassName = `inline-flex items-center justify-center gap-2 border-0 bg-transparent p-0 font-sans font-normal no-underline transition-[color,opacity] duration-[120ms] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${sizeClasses[size]} ${variantClasses[variant]} ${stateClasses} ${className ?? ""}`;
   const content = (
     <ButtonTextContent
       contentStyle={contentStyle}
