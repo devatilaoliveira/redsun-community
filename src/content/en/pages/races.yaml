@@ -1,0 +1,29 @@
+slug: "races"
+path: "/races/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Races"
+  group: "primary"
+  order: 40
+seo:
+  title: "Sentient Races"
+  description: "Learn about the sentient peoples of Ardenya, their origins, and their role in the world of RedSun."
+placeholder:
+  message: "Sentient Races"
+sections:
+  - kicker: "Peoples of Ardenya"
+    title: "Sentient Races"
+    intro: "Ardenya is home to peoples from different worlds, many of whom arrived during the Age of Portals."
+    body:
+      - "Some of these species developed civilizations, languages, beliefs, and cultures as ancient as the human kingdoms themselves. Others remained isolated in remote regions, forgotten ruins, or hostile territories."
+      - "Even after the portals closed, their descendants remain throughout the continent, making Ardenya a mosaic of peoples from countless origins."
+    items:
+      - title: "Zeraphirs"
+        text: "The ancient species that mastered magic and built portals between worlds orbiting the same Sun."
+        href: "/races/zeraphirs/"
+      - title: "Half-Zeraphirs"
+        text: "The only currently playable race, marked by an incomplete ancestral legacy and an affinity for magic."
+        href: "/races/half-zeraphirs/"
+      - title: "Other Peoples"
+        text: "Sentient species from distant origins that established their own cultures in Ardenya."
+        href: "/races/other-peoples/"

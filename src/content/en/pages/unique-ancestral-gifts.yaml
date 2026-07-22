@@ -1,24 +1,27 @@
 slug: "unique-ancestral-gifts"
-path: "/magic/unique-ancestral-gifts/"
+path: "/magic/unique-ancestral-callings/"
 lastModified: "2026-07-20"
 navigation:
-  label: "Unique Ancestral Gifts"
+  label: "Unique Ancestral Callings"
   group: "hidden"
   order: 100
 seo:
-  title: "Unique Ancestral Gifts"
-  description: "Explore rare Ancestral Gifts manifested by only some Half-Zeraphirs."
+  title: "Unique Ancestral Callings"
+  description: "Explore rare Ancestral Callings manifested by only some Half-Zeraphirs."
 placeholder:
-  message: "Unique Ancestral Gifts"
+  message: "Unique Ancestral Callings"
 sections:
-  - kicker: "Ancestral Gifts"
+  - kicker: "Ancestral Callings"
     title: "Unique affinities"
     body:
-      - "Unique Ancestral Gifts are rare magical affinities. Unlike common Gifts, only some Half-Zeraphirs manifest a natural connection to these particular patterns of reality."
+      - "Unique Ancestral Callings are rare magical affinities. Unlike common Callings, only some Half-Zeraphirs manifest a natural connection to these specific patterns of reality."
     items:
+      - title: "Animalismus"
+        text: "Communicates with animals, influences their behavior, and can control individuals or entire groups."
+        href: "/magic/unique-ancestral-callings/animalismus/"
       - title: "Betrüger"
         text: "Masters of illusion who reshape perception, identity, and expectation."
-        href: "/magic/unique-ancestral-gifts/betruger/"
+        href: "/magic/unique-ancestral-callings/betruger/"
       - title: "Mörder"
         text: "Shadow-bound killers who conceal weapons, silence combat, and vanish from sight."
-        href: "/magic/unique-ancestral-gifts/morder/"
+        href: "/magic/unique-ancestral-callings/morder/"

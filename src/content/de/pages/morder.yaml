@@ -1,0 +1,113 @@
+slug: "morder"
+path: "/magie/einzigartige-ahnenberufungen/morder/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Mörder"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Mörder"
+  description: "Mörder beherrscht Verbergen, Stille und Bewegung durch Schatten, verbirgt Waffen, dämpft Handlungen und wird unsichtbar, um unbemerkt zu agieren."
+placeholder:
+  message: "Mörder"
+sections:
+  - title: "1. Verborgener Schatten"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann Gegenstände nahezu unmerklich in seiner Kleidung oder Ausrüstung verbergen."
+      - title: "System"
+        body:
+          - "Gegenstände, die nicht länger als der Unterarm der Figur sind, bleiben vor Zielen ohne magische Entdeckungsmittel automatisch verborgen."
+          - "Größere Gegenstände können mit einer vergleichenden Probe auf Manipulation + Heimlichkeit gegen Wahrnehmung + Sicherheit/Wachsamkeit des Beobachters verborgen werden."
+          - "Typische Schwierigkeiten:"
+        bullets:
+          - "4 Erfolge, um ein Langschwert zu verbergen."
+          - "9 Erfolge, für jeden erzielten Erfolg um 1 reduziert, um eine vollständige Rüstung zu verbergen."
+      - title: "Impuls"
+        body:
+          - "Normalerweise erzeugt diese Fähigkeit keinen Impuls."
+          - "Das Verbergen mehrerer kleiner Gegenstände oder von zwei oder mehr mittelgroßen Gegenständen kann nach Ermessen der Spielleitung Impuls erzeugen."
+      - title: "Kosten"
+        body:
+          - "1 Aktion"
+  - title: "2.1 Ätherischer Schritt"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann über jede feste Oberfläche laufen, als würde er über den Boden gehen."
+      - title: "System"
+        body:
+          - "Rutschige Oberflächen wie Öl bergen weiterhin die normale Rutschgefahr."
+      - title: "Impuls"
+        body:
+          - "Erzeugt +1 Impuls pro Szene."
+      - title: "Kosten"
+        body:
+          - "Keine Aktion"
+  - title: "2.2 Tödliche Stille"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Im Nahkampf werden alle Handlungen des Halb-Zeraphirs auf natürliche Weise gedämpft."
+      - title: "System"
+        body:
+          - "Bei Heimlichkeitsproben verringert dies die Schwierigkeit um 2 und kann unter günstigen Umständen weitere Vorteile gewähren."
+      - title: "Beispiele"
+        bullets:
+          - "Die Schmerzensschreie getroffener Feinde."
+          - "Schritte durch Pfützen oder trockenes Laub."
+      - title: "Impuls"
+        body:
+          - "Nicht festgelegt."
+      - title: "Kosten"
+        body:
+          - "Keine Aktion"
+  - title: "3. Phantomschleier"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "In schwach beleuchteter Umgebung wird der Halb-Zeraphir praktisch unsichtbar, solange er nicht mit der Umgebung interagiert."
+      - title: "System"
+        body:
+          - "Jede Interaktion – das Bewegen von Gegenständen, ein Angriff oder das Öffnen einer Tür – verrät sofort seine Position."
+          - "Wird die Fähigkeit unter Beobachtung aktiviert, wird eine vergleichende Probe auf Mörder + Heimlichkeit gegen Wahrnehmung + Wachsamkeit des Beobachters abgelegt."
+          - "Gewinnt der Beobachter, wird der Halb-Zeraphir nicht unsichtbar."
+      - title: "Impuls"
+        body:
+          - "Wird der Halb-Zeraphir enthüllt, erhält er +1 Impuls."
+          - "Gewinnt der Beobachter, erhält der Halb-Zeraphir +1 Impuls."
+      - title: "Kosten"
+        body:
+          - "1 Aktion"
+  - title: "4. Schneide der Schatten"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Für die nächsten 3 Züge wird die Waffe des Halb-Zeraphirs von Schattenenergie umhüllt und verursacht verschärften Schaden."
+      - title: "System"
+        body:
+          - "Für die nächsten 3 Züge verursacht die Waffe des Halb-Zeraphirs verschärften Schaden."
+      - title: "Impuls"
+        body:
+          - "Erste Aktivierung: +2 Impuls."
+          - "Weitere Aktivierungen: +1 Impuls."
+      - title: "Kosten"
+        body:
+          - "Keine Aktion"
+  - title: "5. Vollständiger Schleier"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir wird wirklich unsichtbar."
+      - title: "System"
+        body:
+          - "Während der Unsichtbarkeit erhalten Gegner im Nahkampf +2 Schwierigkeit, wenn sie den Halb-Zeraphir angreifen oder sich gegen seine Handlungen verteidigen."
+          - "Flächenangriffe oder Verteidigungen mit einem großen Schild können den Abzug nach Ermessen der Spielleitung auf +1 verringern."
+      - title: "Impuls"
+        body:
+          - "Bei der Aktivierung erhält der Halb-Zeraphir +1 Impuls."
+          - "Interaktionen mit der Umgebung oder die Teilnahme am Kampf erhöhen den Impuls alle 3 Züge um +1, beginnend mit dem ersten Zug der Interaktion."
+      - title: "Kosten"
+        body:
+          - "1 Aktion"

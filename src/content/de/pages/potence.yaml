@@ -1,5 +1,5 @@
 slug: "potence"
-path: "/gaben/potenz/"
+path: "/magie/gewoehnliche-ahnenberufungen/potenz/"
 lastModified: "2026-07-20"
 navigation:
   label: "Potenz"
@@ -7,7 +7,7 @@ navigation:
   order: 100
 seo:
   title: "Potenz"
-  description: "Potenz steigert die körperliche Stärke einer Figur und verwandelt jeden Punkt der Gabe in zusätzliche Stärke und zuverlässigeren Nahkampfschaden."
+  description: "Potenz steigert die körperliche Stärke einer Figur und verwandelt jeden Punkt der Berufung in zusätzliche Stärke und zuverlässigeren Nahkampfschaden."
 placeholder:
   message: "Potenz"
 sections:

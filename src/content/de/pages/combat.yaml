@@ -1,0 +1,26 @@
+slug: "combat"
+path: "/regeln/kampf/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Kampf"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Kampf"
+  description: "Grundregeln für Initiative, Angriffe und Verteidigungen im Kampf von RedSun."
+placeholder:
+  message: "Kampf"
+sections:
+  - kicker: "Beginn des Zuges"
+    title: "Initiative"
+    body:
+      - "Zu Beginn des Zuges legt jede Figur eine Probe auf Geschicklichkeit + Wachsamkeit oder Intellekt + Wachsamkeit ab und verwendet die Kombination, die zur schnelleren Handlung führt. Das Ergebnis bestimmt die Angriffsreihenfolge."
+  - kicker: "Aktionsökonomie"
+    title: "Angriff und Verteidigung"
+    body:
+      - "Jede Figur hat während ihres Zuges Anspruch auf ein Angriffsmanöver und ein Verteidigungsmanöver."
+      - "Jedes weitere Verteidigungsmanöver nach dem ersten erleidet einen kumulativen Abzug von −2 Würfeln, bis zu einem Minimum von 0 Würfeln."
+    items:
+      - title: "Kampftalente"
+        text: "Sieh dir die Kampfstile und Manöver an, die für die einzelnen Fertigkeiten verfügbar sind."
+        href: "/regeln/kampftalente/"

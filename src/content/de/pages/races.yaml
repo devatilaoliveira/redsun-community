@@ -1,0 +1,29 @@
+slug: "races"
+path: "/voelker/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Völker"
+  group: "primary"
+  order: 40
+seo:
+  title: "Empfindungsfähige Völker"
+  description: "Erfahre mehr über die empfindungsfähigen Völker Ardenyas, ihre Ursprünge und ihre Rolle in der Welt von RedSun."
+placeholder:
+  message: "Empfindungsfähige Völker"
+sections:
+  - kicker: "Völker Ardenyas"
+    title: "Empfindungsfähige Völker"
+    intro: "Ardenya beherbergt Völker aus verschiedenen Welten, von denen viele im Zeitalter der Portale hierherkamen."
+    body:
+      - "Einige dieser Spezies entwickelten Zivilisationen, Sprachen, Glaubensvorstellungen und Kulturen, die so alt sind wie die menschlichen Königreiche selbst. Andere blieben in abgelegenen Regionen, vergessenen Ruinen oder feindlichen Gebieten isoliert."
+      - "Auch nach der Schließung der Portale leben ihre Nachfahren weiterhin auf dem gesamten Kontinent und machen Ardenya zu einem Mosaik von Völkern zahlloser Herkunft."
+    items:
+      - title: "Zeraphirs"
+        text: "Die alte Spezies, die die Magie meisterte und Portale zwischen Welten errichtete, die dieselbe Sonne umkreisten."
+        href: "/voelker/zeraphirs/"
+      - title: "Halb-Zeraphirs"
+        text: "Das derzeit einzige spielbare Volk, geprägt von einem unvollständigen Ahnenerbe und einer Affinität zur Magie."
+        href: "/voelker/halb-zeraphirs/"
+      - title: "Andere Völker"
+        text: "Empfindungsfähige Spezies ferner Herkunft, die in Ardenya eigene Kulturen gründeten."
+        href: "/voelker/andere-voelker/"

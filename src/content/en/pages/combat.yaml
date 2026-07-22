@@ -1,0 +1,26 @@
+slug: "combat"
+path: "/rules/combat/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Combat"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Combat"
+  description: "Core rules for initiative, attacks, and defenses during combat in RedSun."
+placeholder:
+  message: "Combat"
+sections:
+  - kicker: "Start of the turn"
+    title: "Initiative"
+    body:
+      - "At the start of the turn, each character makes a Dexterity + Alertness or Intellect + Alertness test, using whichever combination results in the faster action. The result determines the order of attack."
+  - kicker: "Action economy"
+    title: "Attack and Defense"
+    body:
+      - "Every character is entitled to one attack maneuver and one defense maneuver during the turn."
+      - "Each defense maneuver after the first suffers a cumulative penalty of −2 dice, to a minimum of 0 dice."
+    items:
+      - title: "Combat Talents"
+        text: "See the Combat Styles and Maneuvers available for each skill."
+        href: "/rules/combat-talents/"

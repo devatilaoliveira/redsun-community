@@ -1,0 +1,72 @@
+slug: "character-creation"
+path: "/rules/character-creation/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Character Creation"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Character Creation"
+  description: "The initial distribution of attributes, abilities, Callings, specializations, combat points, and bonus points in RedSun."
+placeholder:
+  message: "Character Creation"
+sections:
+  - kicker: "1. Attributes"
+    title: "Distributing Attributes"
+    body:
+      - "Distribute the values 7, 5, and 3 among the three attribute groups: 7 points in the primary group, 5 in the secondary group, and 3 in the tertiary group."
+    subsections:
+      - title: "Additional points"
+        bullets:
+          - "Bonus points: each additional point costs 4 bonus points, regardless of level."
+          - "Experience: each additional point costs the current level × 5 XP."
+  - kicker: "2. Abilities"
+    title: "Talents, Skills, and Knowledges"
+    body:
+      - "Distribute the values 13, 9, and 5 among the three categories: 13 points in the primary category, 9 in the secondary category, and 5 in the tertiary category."
+    subsections:
+      - title: "Additional points"
+        bullets:
+          - "Bonus points: each additional point costs 2 bonus points, regardless of level."
+          - "Experience: each additional point costs the current level × 2 XP. The first point costs 3 XP."
+  - kicker: "3. Magic"
+    title: "Ancestral Callings"
+    body:
+      - "The character begins with 4 points to distribute among Ancestral Callings. Every player character starts with 2 points in Resilience."
+      - "Choose three options from a custom Calling, Speed, Fortitude, and Potence. Fortitude grants one automatic success when soaking damage."
+      - "On the initial character sheet, the maximum level of a Calling is 3, whether purchased with XP or bonus points."
+    subsections:
+      - title: "Additional points"
+        bullets:
+          - "Bonus points: each additional point costs 7 bonus points, regardless of level."
+          - "Experience: each additional point costs the current level × 7 XP. The first level costs 10 XP."
+    items:
+      - title: "See Magic"
+        text: "Learn about common Ancestral Callings, unique Callings, and other forms of magic."
+        href: "/magic/"
+  - kicker: "4. Specializations"
+    title: "Specializations"
+    body:
+      - "The character receives 3 Specialization points."
+    subsections:
+      - title: "Additional points"
+        bullets:
+          - "Bonus points: each additional point costs 3 bonus points, regardless of level."
+          - "Experience: each additional point costs the current level × 3 XP. The first point costs 4 XP."
+  - kicker: "5. Combat"
+    title: "Combat"
+    body:
+      - "The character receives 4 Combat points."
+    subsections:
+      - title: "Additional points"
+        bullets:
+          - "Bonus points: each additional point costs 3 bonus points, regardless of level."
+          - "Experience: each additional point costs the current level × 3 XP. The first point costs 4 XP."
+    items:
+      - title: "Combat Talents"
+        text: "See the Combat Styles and Maneuvers that can be acquired through skills."
+        href: "/rules/combat-talents/"
+  - kicker: "Starting resources"
+    title: "Bonus Points"
+    body:
+      - "The character begins with 15 bonus points. Bonus points must always be spent before XP."

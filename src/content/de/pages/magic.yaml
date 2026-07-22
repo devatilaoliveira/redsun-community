@@ -1,0 +1,37 @@
+slug: "magic"
+path: "/magie/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Magie"
+  group: "primary"
+  order: 30
+seo:
+  title: "Magie"
+  description: "Erfahre mehr über das Gewebe der Realität, den Impuls und die verschiedenen Formen der Magie in RedSun."
+placeholder:
+  message: "Magie"
+sections:
+  - kicker: "Das Gewebe der Realität"
+    title: "Magiesystem"
+    body:
+      - "Die Realität gleicht einem gewaltigen Netz aus unsichtbaren Fäden. Jede Magie verändert dieses Gewebe auf irgendeine Weise, doch der Preis dieser Veränderung hängt nicht allein von der Stärke der hervorgerufenen Wirkung ab."
+      - "Stell dir vor, du versuchst, einen einzelnen Faden mit einer stumpfen Klinge zu durchtrennen. Die Anstrengung lässt das gesamte Netz erzittern. Diese Schwingungen kehren als Rückschlag zum Zaubernden zurück, der als Impuls bekannt ist."
+      - "Stell dir nun eine vollkommen scharfe Klinge vor. Mit ihr lassen sich mehrere Fäden auf einmal durchtrennen, ohne das umgebende Netz zu stören. Die Veränderung ist größer, trifft aber auf weniger Widerstand."
+      - "Aus diesem Grund kann einfache Magie einen starken Impuls erzeugen, während andere, weitaus mächtigere Magie überhaupt keinen Rückschlag hervorruft. Entscheidend ist nicht das Ausmaß der Veränderung der Realität, sondern die Art, wie sie vollzogen wird."
+      - "Magie wird nicht durch das begrenzt, was der Zaubernde erreichen will, sondern durch seine Fähigkeit, es im Einklang mit den Fäden der Welt zu tun."
+  - kicker: "Formen der Magie"
+    title: "Magisches Wissen"
+    intro: "Jede Form der Magie bietet eine andere Möglichkeit, das Gewebe der Realität zu verstehen und zu verändern."
+    items:
+      - title: "Gewöhnliche Ahnenberufungen"
+        text: "Unter Halb-Zeraphirs häufige Ahnenaffinitäten wie Schnelligkeit, Standhaftigkeit, Potenz und Resilienz."
+        href: "/magie/gewoehnliche-ahnenberufungen/"
+      - title: "Einzigartige Ahnenberufungen"
+        text: "Seltene Affinitäten, die sich nur bei manchen Halb-Zeraphirs zeigen, etwa Betrüger und Mörder."
+        href: "/magie/einzigartige-ahnenberufungen/"
+      - title: "Rituale"
+        text: "Strukturierte magische Praktiken, die mit der Festlegung neuer Regeln näher beschrieben werden."
+        href: "/magie/rituale/"
+      - title: "Statische Zauber und Grimoires"
+        text: "In der Ahnensprache aufgezeichnete Formeln, mit denen Menschen bestimmte magische Wirkungen erzeugen können."
+        href: "/magie/statische-zauber/"

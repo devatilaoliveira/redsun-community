@@ -1,38 +1,42 @@
 slug: "home"
 path: "/"
-lastModified: "2026-07-20"
+lastModified: "2026-07-21"
 navigation:
   label: "Home"
   group: "primary"
   order: 0
 seo:
   title: "RedSun Rulebook"
-  description: "Browse public RedSun tabletop RPG rules, lore, magic, races, monsters, equipment, and glossary material."
+  description: "Browse rules, lore, magic, and races for the RedSun tabletop RPG."
 placeholder:
   message: "RedSun Rulebook"
 homeBanner:
   kicker: "RedSun Tabletop RPG"
   title: "Welcome to the RedSun Rulebook"
-  intro: "Inspired by the book RedSun, written by Átila Oliveira Jr. Explore its setting and tabletop rules here, play RedSun online, or download a digital edition of the book when it becomes available."
+  intro: "Inspired by the book RedSun, written by Átila Oliveira Jr. Explore the RPG setting and rules, play RedSun online, or download the digital book RedSun: Flaming Blade Academy."
   actions:
     - label: "Play RedSun online"
       href: "https://redsunrpg.com.br"
       image: "/assets/images/site-login.jpeg"
-    - label: "Digital book coming soon"
-      href: "/downloads/redsun-rulebook.pdf"
+    - label: "Download Flaming Blade Academy"
+      href: "/downloads/redsun-academia-lamina-flamejante.pdf"
       image: "/assets/images/bookcover-redsun.jpeg"
       download: true
-      disabled: true
+      disabled: false
 featureCards:
   - title: "Rules"
     text: "Core reference material for combat, recovery, and tabletop procedures."
     href: "/rules/"
     icon: "/assets/svg/book.svg"
   - title: "Lore"
-    text: "Setting notes and world material prepared for future content expansion."
+    text: "RedSun setting and world material."
     href: "/lore/"
     icon: "/assets/svg/sun.svg"
   - title: "Magic"
-    text: "The weave of reality, Ancestral Gifts, rituals, and other magical practices."
+    text: "The weave of reality, Ancestral Callings, rituals, and static spells."
     href: "/magic/"
     icon: "/assets/svg/sun.svg"
+  - title: "Races"
+    text: "The Zeraphirs, Half-Zeraphirs, and other sentient peoples of Ardenya."
+    href: "/races/"
+    icon: "/assets/svg/book.svg"

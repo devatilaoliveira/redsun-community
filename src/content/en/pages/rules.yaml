@@ -7,16 +7,23 @@ navigation:
   order: 10
 seo:
   title: "Rules"
-  description: "Browse RedSun rulebook entries and core tabletop procedures."
+  description: "Browse RedSun's core rules and procedures."
 placeholder:
   message: "Rules"
 sections:
   - kicker: "Reference"
     title: "Rules"
     intro: "Rules pages collect the procedures and definitions that players need during play."
-    body:
-      - "The current static architecture treats this page as ordinary localized content. Additional rule entries can be added as YAML pages without creating new App Router files."
     items:
+      - title: "Character Creation"
+        text: "The initial distribution of attributes, abilities, Callings, specializations, and combat points."
+        href: "/rules/character-creation/"
+      - title: "Combat"
+        text: "Initiative, attack actions, defense actions, and penalties for additional defenses."
+        href: "/rules/combat/"
+      - title: "Combat Talents"
+        text: "Combat Styles and Maneuvers acquired through combat skills."
+        href: "/rules/combat-talents/"
       - title: "Aggravated Damage"
         text: "Damage that is severe, supernatural, or otherwise difficult to recover from."
         href: "/rules/aggravated-damage/"

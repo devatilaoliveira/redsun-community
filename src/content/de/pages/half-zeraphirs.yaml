@@ -1,0 +1,28 @@
+slug: "half-zeraphirs"
+path: "/voelker/halb-zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Halb-Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Halb-Zeraphirs"
+  description: "Erfahre mehr über das spielbare Volk, das von den alten Zeraphirs abstammt, und seine natürliche Verbindung zu Magie, Portalen und Verzerrungen der Realität."
+placeholder:
+  message: "Halb-Zeraphirs"
+sections:
+  - kicker: "Spielbares Volk"
+    title: "Ein unvollständiges Ahnenerbe"
+    body:
+      - "Halb-Zeraphirs sind entfernte Nachfahren der alten Zeraphirs und gingen aus der Vermischung von Zeraphir-Blut mit anderen empfindungsfähigen Spezies hervor."
+      - "Sie besitzen nicht die ganze Macht ihrer Ahnen, tragen jedoch Spuren dieses Erbes in sich. Bei manchen zeigt es sich in ungewöhnlichen Sinnen, einer Affinität zu alter Magie, tierischen Merkmalen oder Widerstand gegen Verzerrungen der Realität."
+      - "Halb-Zeraphirs sind selten und oft von Misstrauen umgeben. Manche Völker betrachten sie als heilige Erben einer verlorenen Zivilisation. Andere sehen in ihnen Missbildungen, schlechte Omen oder Überbleibsel eines Zeitalters, das vergessen bleiben sollte."
+  - kicker: "In der Welt"
+    title: "Portale und der Orden der Schwarzen Sonne"
+    body:
+      - "Mit dem Aufstieg des Ordens der Schwarzen Sonne und der Rückkehr der Portale während der Finsternisse sind Halb-Zeraphirs noch bedeutender geworden. Ihr Blut kann auf die Portale, die eindringenden Maschinen oder die vom Orden hinterlassene Verderbnis reagieren. Deshalb können sie gejagt, untersucht, verehrt oder als Waffen eingesetzt werden."
+      - "Im Spiel ist ein Halb-Zeraphir eine Figur, die von einem unvollständigen Ahnenerbe geprägt ist. Sie ist kein echter Zeraphir, besitzt aber eine natürliche Verbindung zu den Geheimnissen, die diese hinterlassen haben."
+    items:
+      - title: "Magie"
+        text: "Erfahre mehr über Ahnenberufungen und andere Möglichkeiten, mit dem Gewebe der Realität zu interagieren."
+        href: "/magie/"

@@ -1,0 +1,25 @@
+slug: "zeraphirs"
+path: "/races/zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Zeraphirs"
+  description: "Learn about the ancient species that mastered magic, built the portals, and influenced the peoples of Ardenya."
+placeholder:
+  message: "Zeraphirs"
+sections:
+  - kicker: "Ancestral race"
+    title: "Architects of reality"
+    body:
+      - "The Zeraphirs were an ancient sentient species that predated most known civilizations. In forgotten times, they mastered arts now lost and became capable of building portals between worlds orbiting the same Sun."
+      - "They were not merely explorers, but architects of reality with the ability to invoke powerful magic. Their portals crossed the void between planets, enabled the colonization of different worlds, and directly influenced the emergence of other intelligent species. Many cultures believe that some sentient life existing today was created, altered, or guided by them."
+      - "Each Zeraphir portal tore through the weave of reality, connecting worlds separated by the firmament. For ages, these passages sustained empires, trade, wars, alliances, and entire migrations."
+  - kicker: "Disappearance"
+    title: "The red Sun"
+    body:
+      - "Over time, something changed. The Sun lost its golden light and began to shine with a permanent red hue, like a sunset that never ends. Soon afterward, the portals collapsed, the routes between worlds disappeared, and the Zeraphirs vanished from history."
+      - "Today, they are remembered only through fragments of ruins, ancient myths, and incomplete records. To many peoples, they are dead gods, forgotten ancestors, or monsters from an age before the present world."
+      - "Zeraphirs are not a playable race option in the current era of RedSun."

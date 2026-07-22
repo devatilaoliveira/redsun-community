@@ -1,0 +1,29 @@
+slug: "static-spells"
+path: "/magic/static-spells/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Static Spells and Grimoires"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Static Spells and Grimoires"
+  description: "Learn about the formulas, grimoires, Ancestral Language, and Veil that allow humans to practice magic."
+placeholder:
+  message: "Static Spells and Grimoires"
+sections:
+  - kicker: "Human magic"
+    title: "Static Spells"
+    body:
+      - "Humans cannot manipulate reality intuitively, but they can still cast magic through rigid formulas known as static spells, usually called simply spells."
+      - "A static spell is an exact sequence of words, gestures, or rituals that always produces the same effect. To work, its instructions must be recorded and spoken in the Ancestral Language, a language far more complex than any modern tongue. Its terms cannot be translated with absolute precision, and even small changes can invalidate or distort the spell's result."
+  - kicker: "Memory"
+    title: "The Ancestral Language and the Veil"
+    body:
+      - "The Ancestral Language is affected by a phenomenon known as the Veil. Humans find it extremely difficult to retain its words and meanings, gradually forgetting them over time. For this reason, most humans can memorize only two or three static spells. Attempting to learn a fourth usually causes the oldest one to be forgotten."
+      - "Half-Zeraphirs are far more resistant to the effects of the Veil. On average, they can memorize three or four times as many spells as an ordinary human. Many therefore dedicate themselves to the study of magic, especially those whose natural Callings do not manifest in an obvious or powerful way."
+  - kicker: "Preservation"
+    title: "Grimoires"
+    body:
+      - "To overcome the limitations of memory, practitioners use special books called grimoires. These record the words of invocation, ritual instructions, and other elements needed to cast a spell. Mages regularly revisit their grimoires to reinforce their knowledge of the spells they command."
+      - "The Veil also prevents the Ancestral Language from being preserved on ordinary media. When written on paper, parchment, stone, or another mundane surface, ancestral writing gradually disappears. In practice, an ordinary book preserves an ancestral text for only a few days or until someone reads it for the first time."
+      - "Creating a grimoire requires a specific ritual capable of protecting it from the effects of the Veil. Even so, these books have limitations. Grimoires capable of storing more than a dozen spells are extremely rare, valuable, and often regarded as arcane treasures."
