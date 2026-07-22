@@ -18,7 +18,7 @@ export function SiteFooter({ navigation, text }: SiteFooterProps) {
   return (
     <footer className="border-t border-zinc-900 bg-black px-6 py-6 text-sm text-muted">
       <div className="mx-auto flex w-full max-w-[45rem] flex-col items-center gap-4 text-center">
-        <p className="max-w-2xl leading-6 text-zinc-400">{text.description}</p>
+        <p className="max-w-2xl leading-6">{text.description}</p>
 
         {navigation.length > 0 ? (
           <nav className="w-full" aria-label={text.legalLabel}>

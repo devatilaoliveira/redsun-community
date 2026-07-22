@@ -1,0 +1,27 @@
+slug: "unique-ancestral-gifts"
+path: "/magie/einzigartige-ahnenberufungen/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Einzigartige Ahnenberufungen"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Einzigartige Ahnenberufungen"
+  description: "Entdecke seltene Ahnenberufungen, die sich nur bei manchen Halb-Zeraphirs zeigen."
+placeholder:
+  message: "Einzigartige Ahnenberufungen"
+sections:
+  - kicker: "Ahnenberufungen"
+    title: "Einzigartige Affinitäten"
+    body:
+      - "Einzigartige Ahnenberufungen sind seltene magische Affinitäten. Anders als gewöhnliche Berufungen zeigen nur manche Halb-Zeraphirs eine natürliche Verbindung zu diesen besonderen Mustern der Realität."
+    items:
+      - title: "Animalismus"
+        text: "Kommuniziert mit Tieren, beeinflusst ihr Verhalten und kann einzelne Tiere oder ganze Gruppen kontrollieren."
+        href: "/magie/einzigartige-ahnenberufungen/animalismus/"
+      - title: "Betrüger"
+        text: "Meister der Illusion, die Wahrnehmung, Identität und Erwartung verändern."
+        href: "/magie/einzigartige-ahnenberufungen/betruger/"
+      - title: "Mörder"
+        text: "Mit Schatten verbundene Assassinen, die Waffen verbergen, den Kampf zum Schweigen bringen und aus dem Blick verschwinden."
+        href: "/magie/einzigartige-ahnenberufungen/morder/"

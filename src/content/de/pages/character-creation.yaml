@@ -1,0 +1,72 @@
+slug: "character-creation"
+path: "/regeln/charaktererschaffung/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Charaktererschaffung"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Charaktererschaffung"
+  description: "Die anfängliche Verteilung von Attributen, Fähigkeiten, Berufungen, Spezialisierungen, Kampfpunkten und Bonuspunkten in RedSun."
+placeholder:
+  message: "Charaktererschaffung"
+sections:
+  - kicker: "1. Attribute"
+    title: "Attribute verteilen"
+    body:
+      - "Verteile die Werte 7, 5 und 3 auf die drei Attributgruppen: 7 Punkte auf die primäre, 5 auf die sekundäre und 3 auf die tertiäre Gruppe."
+    subsections:
+      - title: "Zusätzliche Punkte"
+        bullets:
+          - "Bonuspunkte: Jeder zusätzliche Punkt kostet unabhängig von der Stufe 4 Bonuspunkte."
+          - "Erfahrung: Jeder zusätzliche Punkt kostet die aktuelle Stufe × 5 EP."
+  - kicker: "2. Fähigkeiten"
+    title: "Talente, Fertigkeiten und Kenntnisse"
+    body:
+      - "Verteile die Werte 13, 9 und 5 auf die drei Kategorien: 13 Punkte auf die primäre, 9 auf die sekundäre und 5 auf die tertiäre Kategorie."
+    subsections:
+      - title: "Zusätzliche Punkte"
+        bullets:
+          - "Bonuspunkte: Jeder zusätzliche Punkt kostet unabhängig von der Stufe 2 Bonuspunkte."
+          - "Erfahrung: Jeder zusätzliche Punkt kostet die aktuelle Stufe × 2 EP. Der erste Punkt kostet 3 EP."
+  - kicker: "3. Magie"
+    title: "Ahnenberufungen"
+    body:
+      - "Die Figur beginnt mit 4 Punkten, die sie auf Ahnenberufungen verteilen kann. Jede Spielerfigur beginnt mit 2 Punkten in Resilienz."
+      - "Wähle drei Optionen aus einer individuellen Berufung, Schnelligkeit, Standhaftigkeit und Potenz. Standhaftigkeit gewährt einen automatischen Erfolg beim Absorbieren von Schaden."
+      - "Auf dem anfänglichen Charakterbogen beträgt die Höchststufe einer Berufung 3, unabhängig davon, ob sie mit EP oder Bonuspunkten erworben wurde."
+    subsections:
+      - title: "Zusätzliche Punkte"
+        bullets:
+          - "Bonuspunkte: Jeder zusätzliche Punkt kostet unabhängig von der Stufe 7 Bonuspunkte."
+          - "Erfahrung: Jeder zusätzliche Punkt kostet die aktuelle Stufe × 7 EP. Die erste Stufe kostet 10 EP."
+    items:
+      - title: "Siehe Magie"
+        text: "Erfahre mehr über gewöhnliche Ahnenberufungen, einzigartige Berufungen und andere Formen der Magie."
+        href: "/magie/"
+  - kicker: "4. Spezialisierungen"
+    title: "Spezialisierungen"
+    body:
+      - "Die Figur erhält 3 Spezialisierungspunkte."
+    subsections:
+      - title: "Zusätzliche Punkte"
+        bullets:
+          - "Bonuspunkte: Jeder zusätzliche Punkt kostet unabhängig von der Stufe 3 Bonuspunkte."
+          - "Erfahrung: Jeder zusätzliche Punkt kostet die aktuelle Stufe × 3 EP. Der erste Punkt kostet 4 EP."
+  - kicker: "5. Kampf"
+    title: "Kampf"
+    body:
+      - "Die Figur erhält 4 Kampfpunkte."
+    subsections:
+      - title: "Zusätzliche Punkte"
+        bullets:
+          - "Bonuspunkte: Jeder zusätzliche Punkt kostet unabhängig von der Stufe 3 Bonuspunkte."
+          - "Erfahrung: Jeder zusätzliche Punkt kostet die aktuelle Stufe × 3 EP. Der erste Punkt kostet 4 EP."
+    items:
+      - title: "Kampftalente"
+        text: "Sieh dir die Kampfstile und Manöver an, die über Fertigkeiten erworben werden können."
+        href: "/regeln/kampftalente/"
+  - kicker: "Startressourcen"
+    title: "Bonuspunkte"
+    body:
+      - "Die Figur beginnt mit 15 Bonuspunkten. Bonuspunkte müssen immer vor EP ausgegeben werden."

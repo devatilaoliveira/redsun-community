@@ -1,0 +1,187 @@
+slug: "animalismus"
+path: "/magie/einzigartige-ahnenberufungen/animalismus/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Animalismus"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Animalismus"
+  description: "Animalismus erlaubt einem Halb-Zeraphir, mit Tieren zu kommunizieren, ihr Verhalten zu beeinflussen und einzelne Tiere oder ganze Gruppen zu kontrollieren."
+placeholder:
+  message: "Animalismus"
+sections:
+  - kicker: "Einzigartige Ahnenberufung"
+    title: "Animalismus"
+    body:
+      - "Animalismus erlaubt einem Halb-Zeraphir, mit Tieren zu kommunizieren, ihr Verhalten zu beeinflussen und auf höheren Stufen ihre Körper zu kontrollieren oder ganze Gruppen anzuführen."
+      - "Die Wirkungen dieser Berufung betreffen nur nicht empfindungsfähige Tiere. Kreaturen wie Drachen, Gorgonen, Meervölker und Gnolle gelten zu diesem Zweck nicht als Tiere."
+  - title: "1. Mit Tieren sprechen"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann Tiere verstehen und mit ihnen kommunizieren. Die Qualität des Gesprächs hängt von der Intelligenz und Wahrnehmungsfähigkeit des Tieres ab. Säugetiere können beispielsweise meist komplexere Informationen vermitteln als Insekten."
+      - title: "System"
+        body:
+          - "Um die Kommunikation zu beginnen oder aufrechtzuerhalten, ist keine Probe erforderlich. Versuche, das Tier zu überzeugen, zu täuschen, mit ihm zu verhandeln oder es zu beruhigen, können jedoch gesellschaftliche Proben erfordern, üblicherweise Einfluss + Tierführung."
+          - "Das Tier bleibt durch seine Intelligenz, seine Sinne und sein Wissen eingeschränkt. Es kann keine Konzepte erklären, die es nicht versteht."
+      - title: "Beispiele"
+        bullets:
+          - "Eine Krähe fragen, was sie aus der Luft gesehen hat."
+          - "Herausfinden, ob ein Pferd ein Raubtier in der Nähe bemerkt hat."
+          - "Eine Ratte überzeugen, einen von anderen Tieren genutzten Durchgang zu zeigen."
+      - title: "Impuls"
+        body:
+          - "Die erste tägliche Anwendung erzeugt keinen Impuls. Jede weitere Aktivierung am selben Tag erzeugt +1 Impuls."
+          - "Mit Tieren sprechen, Tiere rufen und Die Bestie beruhigen teilen sich diesen täglichen Zähler."
+      - title: "Kosten"
+        body:
+          - "Zum Beginn der Kommunikation ist keine Aktion erforderlich. Das Gespräch benötigt die übliche Zeit innerhalb der Szene."
+  - title: "2. Tiere rufen"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir ahmt einen Tierlaut nach, um Kreaturen dieser Art aus der Umgebung zu rufen. Er kann wie ein Wolf heulen, wie ein Vogel singen, wie eine Ratte quieken oder einen ähnlichen Ruf erzeugen."
+          - "Die Berufung erschafft keine Tiere und zwingt sie nicht zum Erscheinen. Nur Kreaturen, die den Ruf hören und erreichen können, können darauf reagieren."
+      - title: "System"
+        body:
+          - "Lege eine Probe auf Einfluss + Tierführung ab. Die Schwierigkeit hängt von der Anzahl der Tiere in der Umgebung ab."
+          - "Typische Schwierigkeiten:"
+        bullets:
+          - "Schwierigkeit 4 in einem Wald oder einer Region mit vielen Tieren."
+          - "Schwierigkeit 6 in einem Stadtgebiet."
+          - "Schwierigkeit 8 oder 9 in einer Wüstenregion oder einem Gebiet fast ohne Tierleben."
+          - "Anzahl und Art der reagierenden Tiere hängen von den erzielten Erfolgen, den anwesenden Arten und der Auslegung der Spielleitung ab."
+          - "Gerufene Tiere nähern sich der Figur, stehen aber nicht automatisch unter ihrer Kontrolle."
+      - title: "Beispiele"
+        bullets:
+          - "Heulen, um Wölfe in der Region zu rufen."
+          - "Den Gesang eines Vogels nachahmen, um Vögel aus der Nähe zu rufen."
+          - "Quieken, um in einer Stadt versteckte Ratten anzulocken."
+      - title: "Impuls"
+        body:
+          - "Die erste tägliche Anwendung erzeugt keinen Impuls. Jede weitere Aktivierung am selben Tag erzeugt +1 Impuls."
+          - "Tiere rufen, Mit Tieren sprechen und Die Bestie beruhigen teilen sich diesen täglichen Zähler."
+      - title: "Kosten"
+        body:
+          - "1 Aktion und Darbietung. Die Figur muss einen hörbaren Tierlaut erzeugen."
+  - title: "2.1 Die Bestie beruhigen"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir kann Angst, Unruhe oder Aggressivität eines beliebigen Tieres verringern, unabhängig von dessen anfänglicher Gefühlslage."
+          - "Das Tier wird für Annäherungen und andere Stufen von Animalismus empfänglich, gehorcht der Figur aber nicht automatisch."
+      - title: "System"
+        body:
+          - "Lege eine Probe auf Einfluss + Tierführung mit Schwierigkeit 4 bis 8 ab. Sie wird nach dem Zustand des Tieres und der Ursache seiner Feindseligkeit festgelegt."
+          - "Ein Erfolg genügt, um es zu beruhigen. Solange es in diesem Zustand bleibt, können andere Stufen von Animalismus normal auf das Tier angewendet werden."
+          - "Die Wirkung kann enden, wenn das Tier angegriffen, bedroht oder erneut der Ursache seines Stresses ausgesetzt wird."
+      - title: "Beispiele"
+        bullets:
+          - "Ein von einem Feuer verängstigtes Pferd beruhigen."
+          - "Eine in die Enge getriebene Bestie vom Angriff abbringen."
+          - "Ein verletztes Tier vor der Annäherung besänftigen."
+      - title: "Impuls"
+        body:
+          - "Die erste tägliche Anwendung erzeugt keinen Impuls. Jede weitere Aktivierung am selben Tag erzeugt +1 Impuls."
+          - "Die Bestie beruhigen, Mit Tieren sprechen und Tiere rufen teilen sich diesen täglichen Zähler."
+      - title: "Kosten"
+        body:
+          - "1 Aktion."
+  - title: "3. Tier befehligen"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir erteilt einem nicht feindseligen Tier einen direkten Befehl. Der Befehl muss einfach sein und dem entsprechen, was das Tier verstehen und ausführen kann."
+          - "Verwirrende, komplexe oder mehrstufige Befehle können unvorhersehbar ausgelegt werden."
+      - title: "System"
+        body:
+          - "Lege eine Probe auf Einfluss + Tierführung mit einer Schwierigkeit in Höhe der Willenskraft des Tieres ab."
+          - "Ein Erfolg erlaubt eine einfache Aufgabe, etwa jemandem zu folgen, einen Ort zu bewachen oder nach einer Information zu suchen, die das Tier verstehen kann."
+          - "Drei Erfolge sind nötig, um es zu einem Angriff oder in unmittelbare Lebensgefahr zu zwingen."
+          - "Der Befehl muss vor der nächsten Schlafphase des Tieres ausgeführt werden. Die Wirkung endet sofort, wenn es schläft oder betäubt wird."
+          - "Wenn die Wirkung endet, erkennt das Tier, dass es manipuliert wurde, und kann entsprechend seinem Temperament und dem erhaltenen Befehl reagieren."
+          - "Diese Berufung wirkt nicht auf empfindungsfähige Kreaturen wie Drachen, Gorgonen, Meervölker und Gnolle."
+      - title: "Beispiele"
+        bullets:
+          - "Einem Hund befehlen, einer bestimmten Fährte zu folgen."
+          - "Einen Vogel eine Straße beobachten lassen."
+          - "Einen Wolf zwingen, einen Feind anzugreifen."
+      - title: "Impuls"
+        body:
+          - "Jede Anwendung erzeugt +1 Impuls."
+      - title: "Kosten"
+        body:
+          - "1 Aktion und Darbietung. Der Befehl muss dem Tier klar vermittelt werden."
+  - title: "4.1 Das Fleisch reiten"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir überträgt sein Bewusstsein in den Körper eines Tieres und übernimmt die Kontrolle über dessen Bewegungen. Während der Besessenheit nimmt er die Welt durch die Sinne der Kreatur wahr, während sein eigener Körper reglos und verwundbar bleibt."
+          - "Die Berufung kann nur auf ein Tier angewendet werden, das nicht feindselig ist."
+      - title: "System"
+        body:
+          - "Der Halb-Zeraphir und das Tier legen eine vergleichende Probe ab. Die Figur würfelt auf Einfluss + Tierführung, das Ziel auf Willenskraft. Beide Proben haben Schwierigkeit 6."
+          - "Die Figur muss 5 Nettoerfolge ansammeln, um die Kontrolle zu übernehmen."
+          - "Während der Besessenheit erhalten alle Proben des Halb-Zeraphirs zur Wahrnehmung von Ereignissen rund um den ursprünglichen Körper +2 Schwierigkeit."
+          - "Wird der Körper verletzt, spürt der Halb-Zeraphir den Schmerz normal und kann sofort zurückkehren. Um im Tier zu bleiben, ist eine Willenskraftprobe mit einer Schwierigkeit in Höhe von 2 + erlittenem Schaden erforderlich."
+          - "Stirbt das Tier während der Besessenheit, kehrt das Bewusstsein des Halb-Zeraphirs gewaltsam in den ursprünglichen Körper zurück. Er wird ohnmächtig und bleibt 6 − Vitalität Stunden bewusstlos, mindestens jedoch 1 Stunde."
+      - title: "Beispiele"
+        bullets:
+          - "Einen Vogel kontrollieren, um eine Festung aus der Luft zu beobachten."
+          - "Mit einer Ratte einen engen Durchgang durchqueren."
+          - "Den Körper eines Pferdes übernehmen, um zu fliehen, ohne den eigenen Körper preiszugeben."
+      - title: "Impuls"
+        body:
+          - "Erzeugt +1 Impuls pro Stunde der Besessenheit. Die erste Stunde wird beim Herstellen der Kontrolle gezählt."
+      - title: "Kosten"
+        body:
+          - "1 Aktion zum Einleiten der Besessenheit. Die Kontrolle aufrechtzuerhalten erfordert keine weiteren Aktionen."
+  - title: "4.2 Tiergefährte"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir knüpft eine tiefe Bindung zu einem Haustier und macht es zu seinem Gefährten. Das Tier erkennt ihn als Vertrauensperson an und wird für seine Berufungen besonders empfänglich."
+      - title: "System"
+        body:
+          - "Alle Stufen von Animalismus können ohne Proben auf den Gefährten angewendet werden."
+          - "Dieser Vorteil ermöglicht dem Tier keine Aufgaben, die mit seiner Intelligenz, seinen körperlichen Fähigkeiten oder seinen Sinnen unvereinbar sind."
+          - "Die Figur kann nur einen Tiergefährten gleichzeitig haben. Die Bestimmung eines neuen Gefährten beendet die vorherige Bindung."
+      - title: "Beispiele"
+        bullets:
+          - "Frei mit dem Krähengefährten kommunizieren."
+          - "Dem Hund ohne Probe Befehle erteilen."
+          - "Das Fleisch des Gefährten reiten, ohne um die Kontrolle zu ringen."
+      - title: "Impuls"
+        body:
+          - "Der von Animalismus beim Beeinflussen des Gefährten erzeugte Impuls wird halbiert und aufgerundet."
+      - title: "Kosten"
+        body:
+          - "Keine Aktion. Die Bindung bleibt bestehen, bis sie gelöst oder ersetzt wird."
+  - title: "5. Die Horde anführen"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Halb-Zeraphir erweitert seine geistige Herrschaft und kontrolliert mehrere Tiere gleichzeitig. Er kann normal handeln und zugleich die Handlungen der beherrschten Kreaturen bestimmen."
+          - "Anfangs können nur nicht feindselige Tiere in die Horde aufgenommen werden."
+      - title: "System"
+        body:
+          - "Lege eine Probe auf Einfluss + Tierführung ab. Die Anzahl der Erfolge bestimmt, wie viele Tiere während der Szene kontrolliert werden können."
+          - "Das Maximum wird außerdem durch die Willenskraft der Figur und die Anzahl verfügbarer Tiere begrenzt. Eine Figur mit Willenskraft 2 kann beispielsweise höchstens zwei Tiere kontrollieren, auch wenn sie mehr Erfolge erzielt."
+          - "Die Spielleitung kann zusätzliche Proben verlangen, um komplexe oder mit dem natürlichen Verhalten der Tiere unvereinbare Handlungen zu koordinieren."
+      - title: "Beispiele"
+        bullets:
+          - "Eine Gruppe Ratten kontrollieren, um ein Gebäude zu durchsuchen."
+          - "Mehreren Vögeln befehlen, verschiedene Wege zu beobachten."
+          - "Ein Rudel im Kampf anführen."
+      - title: "Impuls"
+        body:
+          - "Der Impuls richtet sich nach der Anzahl kontrollierter Tiere:"
+        bullets:
+          - "1 Tier: +1 Impuls."
+          - "2 bis 4 Tiere: +2 Impuls."
+          - "5 bis 8 Tiere: +3 Impuls."
+          - "9 oder mehr Tiere: +4 Impuls."
+      - title: "Kosten"
+        body:
+          - "1 Aktion, um die Kontrolle herzustellen. Einfache Befehle während der Szene erfordern keine weiteren Aktionen."

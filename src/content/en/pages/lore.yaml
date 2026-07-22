@@ -13,6 +13,4 @@ placeholder:
 sections:
   - kicker: "World"
     title: "Lore"
-    intro: "This section is ready for setting material as the public content set expands."
-    body:
-      - "Localized YAML pages can carry lore entries, regional notes, factions, and future reference material without changing route code."
+    intro: "This section brings together RedSun's setting, regions, factions, and other narrative material."

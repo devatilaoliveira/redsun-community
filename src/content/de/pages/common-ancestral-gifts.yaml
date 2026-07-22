@@ -1,0 +1,31 @@
+slug: "common-ancestral-gifts"
+path: "/magie/gewoehnliche-ahnenberufungen/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Gewöhnliche Ahnenberufungen"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Gewöhnliche Ahnenberufungen"
+  description: "Entdecke die Ahnenberufungen, die unter Halb-Zeraphirs am häufigsten vorkommen."
+placeholder:
+  message: "Gewöhnliche Ahnenberufungen"
+sections:
+  - kicker: "Ahnenberufungen"
+    title: "Gewöhnliche Affinitäten"
+    body:
+      - "Ahnenberufungen sind Werkzeuge, mit denen sich das Gewebe der Realität präzise verändern lässt. Jede Berufung steht für ein tiefes Verständnis eines Aspekts der Existenz und eine ererbte Verbundenheit mit bestimmten Mustern der Schöpfung."
+      - "Gewöhnliche Ahnenberufungen zeigen sich unter Halb-Zeraphirs häufiger. Je größer die Affinität zwischen der verwendeten Berufung und der beabsichtigten Wirkung ist, desto weniger wird das Gewebe der Realität gestört."
+    items:
+      - title: "Schnelligkeit"
+        text: "Gewährt zusätzliche Aktionen pro Zug, die ohne Abzüge zum Angreifen oder Verteidigen eingesetzt werden können."
+        href: "/magie/gewoehnliche-ahnenberufungen/schnelligkeit/"
+      - title: "Standhaftigkeit"
+        text: "Verstärkt Proben gegen Schaden, Krankheiten, Gifte und ähnliche Wirkungen."
+        href: "/magie/gewoehnliche-ahnenberufungen/standhaftigkeit/"
+      - title: "Potenz"
+        text: "Erhöht die Stärke und gewährt zusätzliche automatische Erfolge beim Nahkampfschaden."
+        href: "/magie/gewoehnliche-ahnenberufungen/potenz/"
+      - title: "Resilienz"
+        text: "Erlaubt es, zunehmend schwere Verletzungen zu absorbieren, zu heilen und zu regenerieren."
+        href: "/magie/gewoehnliche-ahnenberufungen/resilienz/"

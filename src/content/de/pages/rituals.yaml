@@ -1,0 +1,17 @@
+slug: "rituals"
+path: "/magie/rituale/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Rituale"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Rituale"
+  description: "Eine vorläufige Einführung in die magischen Rituale von RedSun."
+placeholder:
+  message: "Rituale"
+sections:
+  - kicker: "In Entwicklung"
+    title: "Rituale"
+    body:
+      - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Regeln und Beispiele für Rituale werden ergänzt, sobald diese Form der Magie festgelegt ist."

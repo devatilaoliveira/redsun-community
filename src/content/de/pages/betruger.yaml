@@ -1,0 +1,178 @@
+slug: "betruger"
+path: "/magie/einzigartige-ahnenberufungen/betruger/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Betrüger"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Betrüger"
+  description: "Die standardisierten Kräfte der Berufung Betrüger in RedSun."
+placeholder:
+  message: "Betrüger"
+sections:
+  - title: "1. Einfache Illusion"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Erschafft eine Illusion, die nur einen ausgewählten Sinn betrifft: Sehen, Hören, Tasten, Riechen oder Schmecken."
+          - "Die Illusion muss an einen Gegenstand oder einen festen Ort gebunden sein und kann keine komplexen Bewegungen oder eigenständiges Verhalten nachbilden."
+      - title: "System"
+        body:
+          - "Um die Illusion zu durchbrechen, benötigt das Ziel einen Grund für Misstrauen."
+          - "Ein Beobachter braucht normalerweise einen Verdachtsgrund, bevor er die Probe ablegen kann."
+          - "Sorgfältige Interaktion oder widersprüchliche Hinweise können die illusorische Natur enthüllen."
+          - "Die Schwierigkeit, die Illusion zu erkennen, hängt vom Unterschied zwischen ihrer Erscheinung und der Realität ab. Je näher die Illusion den tatsächlichen Eigenschaften des Gegenstands kommt, desto schwerer ist sie zu erkennen."
+          - "Wahrnehmungsschwierigkeiten:"
+        bullets:
+          - "Eine Eisenplatte wie eine andere Metallart erscheinen lassen: Schwierigkeit 8 oder höher."
+          - "Ein Stück Holz wie Eisen erscheinen lassen: Schwierigkeit 4–6, da Textur, Gewicht und Klang sehr verschieden sind."
+          - "Eine Spielkarte wie eine andere Karte desselben Decks erscheinen lassen: Schwierigkeit 9 oder höher."
+          - "Erfordert zum Erschaffen eine Darbietungsaktion."
+          - "Kann automatisch enden, wenn ein körperlicher Hinweis der Illusion widerspricht."
+      - title: "Beispiele"
+        bullets:
+          - "Das legendäre Schwert kann keinen weichen Gegenstand durchtrennen."
+          - "Einen Stein wie einen Goldklumpen erscheinen lassen."
+          - "Das entfernte Geräusch von Schritten oder Stimmen erzeugen."
+          - "Eine Spielkarte mit einem anderen Wert erscheinen lassen."
+          - "Den Geruch eines Gegenstands oder Lebensmittels verändern."
+      - title: "Impuls"
+        body:
+          - "Erzeugt keinen Impuls, wenn die Kraft nur einmal in der Szene eingesetzt wird."
+      - title: "Kosten"
+        body:
+          - "Nicht festgelegt."
+  - title: "2. Vollständige Illusion"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Kann mehrere Sinne gleichzeitig beeinflussen und dadurch wesentlich überzeugendere Illusionen erschaffen."
+          - "Die Illusion kann auf unbelebte Gegenstände angewendet werden, einschließlich solcher mit beweglichen Teilen wie Kleidung, Mechanismen, Fahrzeuge oder Maschinen."
+          - "Sie folgt deren natürlichen Bewegungen und wahrt die Übereinstimmung von Aussehen, Klang, Geruch und anderen wahrnehmbaren Eigenschaften."
+          - "Sie kann weiterhin nicht direkt auf Lebewesen angewendet werden."
+      - title: "System"
+        body:
+          - "Die Schwierigkeit, die Illusion zu erkennen, hängt von ihrer Glaubwürdigkeit und davon ab, wie eingehend der Beobachter mit dem Gegenstand interagiert."
+          - "Wahrnehmungsschwierigkeiten:"
+        bullets:
+          - "Eine rostige Rüstung gut gepflegt erscheinen lassen: Schwierigkeit 8."
+          - "Groben Stoff edel erscheinen lassen: Schwierigkeit 8."
+          - "Verdorbenes Obst frisch erscheinen lassen: optisch Schwierigkeit 8, bei Berührung oder Geschmack jedoch niedriger."
+          - "Erfordert zum Erschaffen eine Darbietungsaktion."
+          - "Die Illusion kann den natürlichen Bewegungen eines Gegenstands folgen, aber kein eigenständiges Verhalten erzeugen."
+      - title: "Beispiele"
+        bullets:
+          - "Eine alte Rüstung neu und verziert erscheinen lassen."
+          - "Gewöhnlichen Stoff wie feine Seide erscheinen lassen."
+          - "Verdorbenes Obst selten und köstlich erscheinen lassen."
+          - "Feuer, Rauch oder Kampfgeräusche nachbilden."
+          - "Eine Tür wie eine Wand erscheinen lassen."
+      - title: "Impuls"
+        body:
+          - "Erzeugt keinen Impuls, wenn die Kraft nur einmal in der Szene eingesetzt wird."
+      - title: "Kosten"
+        body:
+          - "Nicht festgelegt."
+  - title: "3. Lebendige Illusion"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Kann Illusionen direkt auf Lebewesen anwenden, einschließlich des Anwenders."
+          - "Sie kann Aussehen, Stimme, Geruch, scheinbare Kleidung und andere wahrnehmbare Eigenschaften verändern."
+          - "Die Illusion folgt den Bewegungen des Ziels und reagiert natürlich auf dessen Handlungen."
+          - "Einfache Verkleidungen erfordern wenig Aufmerksamkeit, erfundene Figuren, komplexe Verwandlungen oder ständige Änderungen dagegen fortwährende Konzentration."
+      - title: "System"
+        body:
+          - "Wahrnehmungsschwierigkeiten:"
+        bullets:
+          - "Eine zuvor eingeübte Identität annehmen: Schwierigkeit 9 oder höher."
+          - "Die Identität einer den Beobachtern bekannten Person annehmen: Schwierigkeit 6–10, je nach Vertrautheit."
+          - "Ein gewöhnliches Pferd wie ein Schlachtross erscheinen lassen: Schwierigkeit 8."
+          - "Erfordert zum Erschaffen eine Darbietungsaktion."
+          - "Während eine komplexe Illusion aufrechterhalten wird, erhält der Anwender +2 Schwierigkeit auf komplexe Aufgaben."
+          - "Dieser Modifikator gilt nicht, wenn der Anwender sein eigenes Aussehen in eine bereits eingeübte illusorische Identität verwandelt."
+          - "Immer wenn der Anwender Schaden erleidet, kann eine Probe auf Vitalität oder Beharrlichkeit erforderlich sein, um die Illusion aufrechtzuerhalten."
+          - "Illusionen der Stufen 1 und 2 können bis zu ihrer Entdeckung dauerhaft werden."
+          - "Dafür muss der Anwender 1 Willenskraftpunkt investieren, solange die Illusion besteht."
+      - title: "Beispiele"
+        bullets:
+          - "Das Aussehen einer anderen Person annehmen."
+          - "Einen Verbündeten verkleiden."
+          - "Narben, Wunden oder auffällige Merkmale verbergen."
+          - "Einen Klepper wie ein reinrassiges Schlachtross erscheinen lassen."
+          - "Eine Gruppe erscheinen lassen, als gehöre sie einer anderen Fraktion an."
+      - title: "Impuls"
+        body:
+          - "Nicht festgelegt."
+      - title: "Kosten"
+        body:
+          - "Nicht festgelegt."
+  - title: "4. Illusorische Verdopplung"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Der Anwender kann bis zu drei illusorische Doppelgänger seiner selbst erschaffen."
+          - "Die Doppelgänger ahmen die Bewegungen des Anwenders eigenständig nach und erfordern keine Konzentration, um bestehen zu bleiben."
+          - "Alle wirken gleich real, weshalb sich das Original nur schwer bestimmen lässt."
+          - "Die Illusion beeinflusst die unmittelbare Wahrnehmung der Realität durch die Beobachter und verwirrt die jüngste Erinnerung, Positionierung und Aufmerksamkeit."
+          - "Selbst Kreaturen, die eine Illusion vermuten, können das Original möglicherweise nicht sofort erkennen."
+      - title: "System"
+        body:
+          - "Erfordert zum Erschaffen eine Darbietungsaktion."
+          - "Das Erschaffen der Doppelgänger erfordert eine Darbietungsaktion."
+          - "Die Doppelgänger können gehen, laufen, sprechen und körperliche Reaktionen nachbilden."
+          - "Sie können weder körperlich mit Gegenständen interagieren noch Schaden verursachen."
+          - "Werden sie angegriffen, reagieren sie wie echte Kreaturen und können scheinbar Schmerzen empfinden, bluten oder Wunden erleiden."
+          - "Die Doppelgänger erkennen:"
+        bullets:
+          - "Schwierigkeit 9, um zu erkennen, dass eine Kopie illusorisch ist."
+          - "Jede Situation, die offenbart, dass eine Kopie nicht körperlich mit der Welt interagieren kann, verringert die Schwierigkeit der Probe nach Ermessen der Spielleitung."
+          - "Jeder Doppelgänger löst sich auf, nachdem er 4 Schadenspunkte erlitten hat."
+          - "Wird er zerstört, verschwindet er sofort und offenbart seine illusorische Natur."
+      - title: "Beispiele"
+        bullets:
+          - "Sich im Kampf mit identischen Kopien umgeben."
+          - "Einen Doppelgänger zur Untersuchung einer verdächtigen Gruppe schicken."
+          - "Eine kleine Gruppe viel größer erscheinen lassen, als sie tatsächlich ist."
+      - title: "Impuls"
+        body:
+          - "Erzeugt alle 3 Züge +1 Impuls oder wenn die Berufung erneut aktiviert wird."
+      - title: "Kosten"
+        body:
+          - "Nicht festgelegt."
+  - title: "5. Gebrochene Identität"
+    subsections:
+      - title: "Beschreibung"
+        body:
+          - "Die Illusion wirkt direkt auf den Verstand des Ziels und verändert seine Fähigkeit, die Identitäten der Menschen um sich herum zu erkennen und zu deuten."
+          - "Das Ziel kann Verbündete als Feinde, Feinde als Verbündete, Fremde als Bekannte oder Bekannte als völlig Fremde wahrnehmen."
+          - "Die Magie kontrolliert seine Handlungen nicht, sondern verändert nur, wie es die Person vor sich deutet."
+          - "Seine Reaktionen hängen daher von Persönlichkeit, Zielen und Situation ab."
+          - "Der Anwender bestimmt nicht genau, wie sich die Verwirrung äußert. Er legt nur das Ziel der Illusion fest; die Spielleitung bestimmt die falsche Deutung."
+          - "Nach dem Einsatz der Berufung wird dem Anwender bewusst, welche Wirkungen die Magie hervorgerufen hat."
+          - "Da sie direkt auf den Verstand wirkt, ist keine sichtbare illusorische Erscheinung erforderlich. Das Ziel glaubt einfach, die Person zu sehen, die sein Verstand erwartet."
+      - title: "System"
+        body:
+          - "Einschränkungen und Regeln:"
+        bullets:
+          - "Die Magie verändert Erkennung und Identität, pflanzt aber keine Erinnerungen oder komplexes Wissen ein."
+          - "Sehr starke Beweise können das Ziel dazu bringen, seine Wahrnehmung infrage zu stellen."
+          - "Kreaturen ohne Intelligenz oder ohne die Fähigkeit, Identitäten zu unterscheiden, können normalerweise nicht betroffen werden."
+          - "Die Wirkung betrifft standardmäßig eine Kreatur."
+          - "Für jedes weitere Ziel muss der Anwender +1 Impuls erzeugen oder 1 Willenskraftpunkt ausgeben."
+          - "Die Spielleitung legt die Schwierigkeit des Widerstands nach der Vertrautheit zwischen dem Ziel und den beteiligten Personen fest."
+      - title: "Beispiele"
+        bullets:
+          - "Eine Wache lässt einen Eindringling eintreten, weil sie ihn für ein Mitglied derselben Patrouille hält."
+          - "Ein Soldat sieht in einem Verbündeten einen feindlichen Kämpfer."
+          - "Ein Adliger hält einen politischen Rivalen für einen alten Freund."
+          - "Ein Händler erkennt in einem Fremden einen Stammkunden."
+          - "Im Kampf kann ein Kämpfer seine Gefährten angreifen, weil er glaubt, gegen Gegner zu kämpfen."
+      - title: "Impuls"
+        body:
+          - "Erzeugt beim Einsatz immer 1 Impuls."
+          - "Für jedes weitere Ziel muss der Anwender +1 Impuls erzeugen oder 1 Willenskraftpunkt ausgeben."
+      - title: "Kosten"
+        body:
+          - "Nicht festgelegt."

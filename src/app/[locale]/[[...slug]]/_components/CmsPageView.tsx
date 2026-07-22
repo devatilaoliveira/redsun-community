@@ -1,15 +1,18 @@
+import type { BreadcrumbItem } from "@/lib/content/breadcrumbs";
 import type { PageContent } from "@/lib/content/pageContentSchema";
 import type { PublishedLocale } from "@/lib/constants/locales";
+import { Breadcrumbs } from "./Breadcrumbs";
 import { HomePageView } from "./HomePageView";
 import { PageSections } from "./PageSections";
 import { PlaceholderView } from "./PlaceholderView";
 
 type CmsPageViewProps = {
+  breadcrumbs: BreadcrumbItem[];
   locale: PublishedLocale;
   page: PageContent;
 };
 
-export function CmsPageView({ locale, page }: CmsPageViewProps) {
+export function CmsPageView({ breadcrumbs, locale, page }: CmsPageViewProps) {
   if (page.slug === "home") {
     return <HomePageView locale={locale} page={page} />;
   }
@@ -17,7 +20,8 @@ export function CmsPageView({ locale, page }: CmsPageViewProps) {
   if (page.sections.length > 0) {
     return (
       <main className="mx-auto w-full max-w-5xl bg-black px-6 py-12 text-zinc-100 sm:px-10">
-        <header className="max-w-3xl border-b border-zinc-800 pb-8">
+        <Breadcrumbs items={breadcrumbs} locale={locale} />
+        <header className="mt-6 max-w-3xl border-b border-zinc-800 pb-8">
           {page.navigation.label !== page.seo.title ? (
             <p className="text-sm font-semibold uppercase text-amber-400">
               {page.navigation.label}
@@ -39,5 +43,10 @@ export function CmsPageView({ locale, page }: CmsPageViewProps) {
     );
   }
 
-  return <PlaceholderView message={page.placeholder.message} />;
+  return (
+    <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col bg-black px-6 py-12 text-zinc-100 sm:px-10">
+      <Breadcrumbs items={breadcrumbs} locale={locale} />
+      <PlaceholderView message={page.placeholder.message} />
+    </main>
+  );
 }

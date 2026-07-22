@@ -1,5 +1,5 @@
 slug: "betruger"
-path: "/magic/unique-ancestral-gifts/betruger/"
+path: "/magic/unique-ancestral-callings/betruger/"
 lastModified: "2026-07-20"
 navigation:
   label: "Betrüger"
@@ -120,6 +120,7 @@ sections:
       - title: "System"
         body:
           - "Requires a Performance action to create."
+          - "Creating the duplicates requires a Performance action."
           - "The duplicates can walk, run, speak, and simulate physical reactions."
           - "They cannot physically interact with objects or deal damage."
           - "When attacked, they react like real creatures and may appear to feel pain, bleed, or suffer wounds."
@@ -136,7 +137,7 @@ sections:
           - "Make a small group appear much larger than it really is."
       - title: "Momentum"
         body:
-          - "Generates +1 Momentum every 3 turns, or when the gift is reactivated."
+          - "Generates +1 Momentum every 3 turns, or when the Calling is reactivated."
       - title: "Cost"
         body:
           - "Not specified."
@@ -149,7 +150,7 @@ sections:
           - "The magic does not control their actions; it only changes how they interpret the person before them."
           - "Their reactions therefore depend on their personality, goals, and situation."
           - "The user does not choose exactly how the confusion manifests. They define only the illusion's target, while the Narrator determines the mistaken interpretation."
-          - "After using the gift, the user becomes aware of the effects caused by the magic."
+          - "After using the Calling, the user becomes aware of the effects caused by the magic."
           - "Because it acts directly on the mind, no visible illusory appearance is required. The target simply believes they see the person their mind expects."
       - title: "System"
         body:

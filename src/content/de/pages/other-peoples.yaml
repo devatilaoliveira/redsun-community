@@ -1,0 +1,19 @@
+slug: "other-peoples"
+path: "/voelker/andere-voelker/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Andere Völker"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Andere Völker Ardenyas"
+  description: "Eine Einführung in die anderen empfindungsfähigen Spezies, die im Zeitalter der Portale nach Ardenya kamen."
+placeholder:
+  message: "Andere Völker Ardenyas"
+sections:
+  - kicker: "Zeitalter der Portale"
+    title: "Völker aus fernen Welten"
+    body:
+      - "In Ardenya leben zahllose weitere empfindungsfähige Spezies, von denen viele aus fernen und unbekannten Welten stammen. Sie kamen im Zeitalter der Portale, als die Übergänge zwischen Realitäten und Planeten offen standen."
+      - "Viele entwickelten eigene Zivilisationen, Sprachen, Glaubensvorstellungen und Kulturen, die so alt sind wie die menschlichen Königreiche. Andere blieben in abgelegenen Regionen, vergessenen Ruinen oder feindlichen Gebieten isoliert, wo sie nur selten mit den bekannten Völkern in Kontakt kommen."
+      - "Manche sind bekannt und katalogisiert. Andere existieren nur in bruchstückhaften Berichten, Legenden von Reisenden oder Aufzeichnungen in alten Bibliotheken. Wieder andere sollen an den Grenzen zwischen den Welten warten, wo die Realität dünn wird und die Echos des Zeitalters der Portale nie ganz verschwunden sind."

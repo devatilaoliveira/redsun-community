@@ -1,0 +1,187 @@
+slug: "animalismus"
+path: "/magic/unique-ancestral-callings/animalismus/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Animalismus"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Animalismus"
+  description: "Animalismus allows a Half-Zeraphir to communicate with animals, influence their behavior, and control individuals or entire groups."
+placeholder:
+  message: "Animalismus"
+sections:
+  - kicker: "Unique Ancestral Calling"
+    title: "Animalismus"
+    body:
+      - "Animalismus allows a Half-Zeraphir to communicate with animals, influence their behavior, and, at more advanced levels, control their bodies or lead entire groups."
+      - "The effects of this Calling work only on non-sentient animals. Creatures such as dragons, gorgons, merfolk, and gnolls are not considered animals for this purpose."
+  - title: "1. Speak with Animals"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can understand animals and communicate with them. The quality of the conversation depends on the animal's intelligence and perceptive ability. Mammals, for example, can generally convey more complex information than insects."
+      - title: "System"
+        body:
+          - "No test is required to begin or maintain communication. Attempts to persuade, deceive, negotiate with, or calm the animal may, however, require social tests, usually Influence + Animal Handling."
+          - "The animal remains limited by its intelligence, senses, and knowledge. It cannot explain concepts it does not understand."
+      - title: "Examples"
+        bullets:
+          - "Ask a crow what it saw from above."
+          - "Find out whether a horse noticed a predator nearby."
+          - "Convince a rat to point out a passage used by other animals."
+      - title: "Momentum"
+        body:
+          - "The first daily use generates no Momentum. Each new activation on the same day generates +1 Momentum."
+          - "Speak with Animals, Summon Animals, and Calm the Beast share this daily count."
+      - title: "Cost"
+        body:
+          - "No action is required to begin communication. The conversation takes the normal amount of time within the scene."
+  - title: "2. Summon Animals"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir imitates an animal sound to summon nearby creatures of that species. They may howl like a wolf, sing like a bird, squeak like a rat, or make another similar call."
+          - "The Calling does not create animals or force them to appear. Only creatures able to hear and reach the call can respond."
+      - title: "System"
+        body:
+          - "Make an Influence + Animal Handling test. The difficulty depends on the number of animals available in the environment."
+          - "Typical difficulties:"
+        bullets:
+          - "Difficulty 4 in a forest or region with many animals."
+          - "Difficulty 6 in an urban area."
+          - "Difficulty 8 or 9 in a desert region or an area with almost no animal life."
+          - "The number and type of animals that respond depend on the successes rolled, the species present, and the Game Master's interpretation."
+          - "Summoned animals approach the character but do not automatically fall under their control."
+      - title: "Examples"
+        bullets:
+          - "Howl to call wolves in the region."
+          - "Imitate a bird's song to summon nearby birds."
+          - "Squeak to attract rats hidden in a city."
+      - title: "Momentum"
+        body:
+          - "The first daily use generates no Momentum. Each new activation on the same day generates +1 Momentum."
+          - "Summon Animals, Speak with Animals, and Calm the Beast share this daily count."
+      - title: "Cost"
+        body:
+          - "1 action and performance. The character must make an audible animal sound."
+  - title: "2.1 Calm the Beast"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir can reduce the fear, agitation, or aggression of any animal, regardless of its initial emotional state."
+          - "The animal becomes receptive to approach and to other levels of Animalismus, but does not automatically begin to obey the character."
+      - title: "System"
+        body:
+          - "Make an Influence + Animal Handling test with a difficulty from 4 to 8, determined by the animal's state and the cause of its hostility."
+          - "One success is enough to calm it. While it remains in this state, other levels of Animalismus can be used on it normally."
+          - "The effect may end if the animal is attacked, threatened, or exposed once more to the source of its stress."
+      - title: "Examples"
+        bullets:
+          - "Calm a horse frightened by a fire."
+          - "Make a cornered beast stop attacking."
+          - "Soothe an injured animal before approaching it."
+      - title: "Momentum"
+        body:
+          - "The first daily use generates no Momentum. Each new activation on the same day generates +1 Momentum."
+          - "Calm the Beast, Speak with Animals, and Summon Animals share this daily count."
+      - title: "Cost"
+        body:
+          - "1 action."
+  - title: "3. Command Animal"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir imposes a direct command on an animal that is not hostile. The command must be simple and compatible with what the animal can understand and perform."
+          - "Confusing, complex, or multistep commands may be interpreted unpredictably."
+      - title: "System"
+        body:
+          - "Make an Influence + Animal Handling test with a difficulty equal to the animal's Willpower."
+          - "One success allows the character to impose a simple task, such as following someone, guarding a place, or seeking information the animal is capable of understanding."
+          - "Three successes are required to force it to attack or place itself directly at risk of death."
+          - "The command must be completed before the animal's next sleep period. The effect ends immediately if it sleeps or is stunned."
+          - "When the effect ends, the animal realizes it was manipulated and may react according to its temperament and the command it received."
+          - "This Calling does not work on sentient creatures such as dragons, gorgons, merfolk, and gnolls."
+      - title: "Examples"
+        bullets:
+          - "Order a dog to follow a particular scent."
+          - "Tell a bird to watch a road."
+          - "Force a wolf to attack an enemy."
+      - title: "Momentum"
+        body:
+          - "Each use generates +1 Momentum."
+      - title: "Cost"
+        body:
+          - "1 action and performance. The command must be conveyed clearly to the animal."
+  - title: "4.1 Ride the Flesh"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir projects their consciousness into an animal's body and takes control of its movements. During possession, they perceive the world through the creature's senses while their own body remains motionless and vulnerable."
+          - "The Calling can only be used on an animal that is not hostile."
+      - title: "System"
+        body:
+          - "The Half-Zeraphir and the animal make an opposed test. The character tests Influence + Animal Handling while the target tests Willpower. Both tests have difficulty 6."
+          - "The character must accumulate 5 net successes to take control."
+          - "During possession, any test made by the Half-Zeraphir to perceive events around their original body suffers +2 difficulty."
+          - "If their body is injured, they feel the pain normally and may return immediately. To remain in the animal, they must make a Willpower test with a difficulty equal to 2 + the damage suffered."
+          - "If the animal dies during possession, the Half-Zeraphir's consciousness returns violently to the original body. They faint and remain unconscious for 6 − Vigor hours, to a minimum of 1 hour."
+      - title: "Examples"
+        bullets:
+          - "Control a bird to observe a fortress from above."
+          - "Use a rat to cross a narrow passage."
+          - "Take over a horse's body to escape without exposing the character's own body."
+      - title: "Momentum"
+        body:
+          - "Generates +1 Momentum per hour of possession. The first hour is counted when control is established."
+      - title: "Cost"
+        body:
+          - "1 action to begin the possession. Maintaining control requires no additional actions."
+  - title: "4.2 Animal Companion"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir forms a deep bond with a pet, making it their companion. The animal recognizes them as a trusted figure and becomes especially receptive to their Callings."
+      - title: "System"
+        body:
+          - "All levels of Animalismus can be used on the companion without tests."
+          - "This benefit does not allow the animal to perform tasks incompatible with its intelligence, physical capabilities, or senses."
+          - "The character may have only one animal companion at a time. Designating a new companion ends the previous bond."
+      - title: "Examples"
+        bullets:
+          - "Communicate freely with a crow companion."
+          - "Command a dog without making tests."
+          - "Ride the Flesh of the companion without contesting control."
+      - title: "Momentum"
+        body:
+          - "Momentum generated by Animalismus when affecting the companion is halved, rounded up."
+      - title: "Cost"
+        body:
+          - "No action. The bond is permanent until broken or replaced."
+  - title: "5. Lead the Horde"
+    subsections:
+      - title: "Description"
+        body:
+          - "The Half-Zeraphir expands their mental dominion and begins to control several animals at once. They can act normally while also directing the dominated creatures' actions."
+          - "Only non-hostile animals can initially be included in the horde."
+      - title: "System"
+        body:
+          - "Make an Influence + Animal Handling test. The number of successes determines how many animals can be controlled during the scene."
+          - "The maximum is also limited by the character's Willpower and the number of animals available. A character with Willpower 2, for example, can control no more than two animals even if they roll more successes."
+          - "The Game Master may require additional tests to coordinate complex actions or actions incompatible with the animals' natural behavior."
+      - title: "Examples"
+        bullets:
+          - "Control a group of rats to search a building."
+          - "Command several birds to watch different paths."
+          - "Lead a pack during combat."
+      - title: "Momentum"
+        body:
+          - "Momentum is determined by the number of animals controlled:"
+        bullets:
+          - "1 animal: +1 Momentum."
+          - "2 to 4 animals: +2 Momentum."
+          - "5 to 8 animals: +3 Momentum."
+          - "9 or more animals: +4 Momentum."
+      - title: "Cost"
+        body:
+          - "1 action to establish control. Giving simple commands during the scene requires no additional actions."

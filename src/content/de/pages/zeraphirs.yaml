@@ -1,0 +1,25 @@
+slug: "zeraphirs"
+path: "/voelker/zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Zeraphirs"
+  description: "Erfahre mehr über die alte Spezies, die die Magie meisterte, die Portale errichtete und die Völker Ardenyas beeinflusste."
+placeholder:
+  message: "Zeraphirs"
+sections:
+  - kicker: "Ahnenvolk"
+    title: "Architekten der Realität"
+    body:
+      - "Die Zeraphirs waren eine alte empfindungsfähige Spezies, die älter war als die meisten bekannten Zivilisationen. In vergessenen Zeiten meisterten sie heute verlorene Künste und waren in der Lage, Portale zwischen Welten zu errichten, die dieselbe Sonne umkreisten."
+      - "Sie waren nicht nur Entdecker, sondern Architekten der Realität, die mächtige Magie heraufbeschwören konnten. Ihre Portale durchquerten die Leere zwischen Planeten, ermöglichten die Besiedlung verschiedener Welten und beeinflussten unmittelbar die Entstehung anderer intelligenter Spezies. Viele Kulturen glauben, dass ein Teil des heutigen empfindungsfähigen Lebens von ihnen erschaffen, verändert oder gelenkt wurde."
+      - "Jedes Zeraphir-Portal riss das Gewebe der Realität auf und verband Welten, die durch das Firmament getrennt waren. Über Zeitalter hinweg trugen diese Übergänge Reiche, Handel, Kriege, Bündnisse und ganze Völkerwanderungen."
+  - kicker: "Verschwinden"
+    title: "Die rote Sonne"
+    body:
+      - "Mit der Zeit änderte sich etwas. Die Sonne verlor ihr goldenes Licht und begann dauerhaft rot zu leuchten, wie ein Sonnenuntergang, der niemals endet. Kurz darauf brachen die Portale zusammen, die Wege zwischen den Welten verschwanden und die Zeraphirs verschwanden aus der Geschichte."
+      - "Heute erinnert man sich nur noch durch Ruinenfragmente, alte Mythen und unvollständige Aufzeichnungen an sie. Für viele Völker sind sie tote Götter, vergessene Ahnen oder Monster aus einem Zeitalter vor der heutigen Welt."
+      - "Zeraphirs sind in der gegenwärtigen Epoche von RedSun keine spielbare Option."

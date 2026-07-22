@@ -1,0 +1,65 @@
+slug: "combat-talents"
+path: "/rules/combat-talents/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Combat Talents"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Combat Talents"
+  description: "Special styles and maneuvers acquired through RedSun's combat skills."
+placeholder:
+  message: "Combat Talents"
+sections:
+  - kicker: "Progression"
+    title: "Acquiring talents"
+    body:
+      - "Combat skills grant special techniques as the character becomes more experienced."
+      - "Whenever a character acquires a new point in a combat skill, they may choose a Special Maneuver or Combat Style associated with that skill."
+      - "A character may learn several maneuvers and styles as they progress. In most cases, however, only one Combat Style can be active at a time, while all known maneuvers remain available for use."
+    subsections:
+      - title: "Example"
+        body:
+          - "A character with Melee Weapons 3 might have chosen the Defensive Style, the Disarm maneuver, and the Duelist style, for a total of three talents acquired through the skill."
+  - kicker: "Combat skill"
+    title: "Melee Weapons"
+    subsections:
+      - title: "Combat Styles"
+        bullets:
+          - "Defensive Style: gain +1 die on tests to block attacks using a shield."
+          - "Duelist: gain +1 die on attacks made with a one-handed weapon. A shield cannot be used in the off hand."
+          - "Two-Weapon Fighting: replace one defense action with an additional attack. This attack suffers a −2 die penalty to Strength or Dexterity, depending on the attribute used. Only short or medium weapons can be used this way."
+          - "Long-Weapon Specialist: gain +1 damage die when using long weapons."
+          - "Bulwark: forgo the defense action to take cover behind a shield and perform several defensive maneuvers without penalty. Requires a large shield."
+      - title: "Maneuvers"
+        bullets:
+          - "Disarm: instead of dealing damage, attempt to knock the weapon from an opponent's hand. On a success, the weapon lands up to one meter away. The number of successes must exceed the target's Strength."
+          - "Powerful Attack: gain +1 damage die, but suffer +1 difficulty on the attack test."
+          - "Shield Bash: on a hit, the opponent's next attack action suffers +2 difficulty."
+  - kicker: "Combat skill"
+    title: "Ranged Weapons"
+    subsections:
+      - title: "Combat Styles"
+        bullets:
+          - "Sharpshooter: suffer no penalty when attacking targets at long range."
+          - "Hunter: ignore up to +2 difficulty caused by partial cover or adverse terrain conditions."
+          - "Precise Shot: gain +2 damage dice on attacks against surprised targets."
+          - "Mobile Archer: shoot while moving without penalties."
+      - title: "Maneuvers"
+        bullets:
+          - "Aim: forgo the defense action during the turn to gain +2 dice on the next ranged attack."
+          - "Rapid Shot: forgo the defense action to make an additional attack. Both attacks suffer +1 difficulty. Only shortbows can use this maneuver."
+          - "Suppressing Shot: fire three arrows at once with +2 difficulty. Only relatively close targets can be attacked simultaneously, and the same target can take damage from only one arrow."
+  - kicker: "Combat skill"
+    title: "Unarmed Combat"
+    subsections:
+      - title: "Combat Styles"
+        bullets:
+          - "Instinctive Dodge: gain +1 die on defense actions when not wearing heavy armor or using a shield."
+          - "Counterattacker: always attack after the opponent, but after a successful dodge, gain −1 difficulty on the next attack turn."
+      - title: "Maneuvers"
+        bullets:
+          - "Sweep: instead of dealing damage, attempt to knock the opponent down."
+          - "Restrain: attempt to grapple the target and restrict its movement. The maneuver suffers +2 difficulty if the target is not surprised. On a success, the target is restrained."
+          - "Bonebreaker: can only be used against restrained targets. No new attack roll is required; damage is calculated directly."
+          - "Stunning Blow: instead of dealing additional damage, attempt to disorient the target. The attack deals −2 damage and, if it still causes damage, the target suffers +2 difficulty on its next action."

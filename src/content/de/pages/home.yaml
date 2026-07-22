@@ -1,28 +1,28 @@
 slug: "home"
 path: "/"
-lastModified: "2026-07-20"
+lastModified: "2026-07-21"
 navigation:
   label: "Startseite"
   group: "primary"
   order: 0
 seo:
   title: "RedSun-Regelwerk"
-  description: "Regeln, Hintergrundwissen und Gaben für das RedSun-Tischrollenspiel."
+  description: "Regeln, Hintergrundwissen, Magie und Völker für das RedSun-Tischrollenspiel."
 placeholder:
   message: "RedSun-Regelwerk"
 homeBanner:
   kicker: "RedSun-Tischrollenspiel"
   title: "Willkommen im RedSun-Regelwerk"
-  intro: "Inspiriert vom Buch RedSun von Átila Oliveira Jr. Entdecke die Welt und die Regeln, spiele RedSun online oder lade eine digitale Ausgabe herunter, sobald sie verfügbar ist."
+  intro: "Inspiriert vom Buch RedSun von Átila Oliveira Jr. Entdecke die Welt und die Regeln des Rollenspiels, spiele RedSun online oder lade das digitale Buch RedSun: Akademie der Flammenden Klinge herunter."
   actions:
     - label: "RedSun online spielen"
       href: "https://redsunrpg.com.br"
       image: "/assets/images/site-login.jpeg"
-    - label: "Digitales Buch demnächst verfügbar"
-      href: "/downloads/redsun-rulebook.pdf"
+    - label: "Akademie der Flammenden Klinge herunterladen"
+      href: "/downloads/redsun-academia-lamina-flamejante.pdf"
       image: "/assets/images/bookcover-redsun.jpeg"
       download: true
-      disabled: true
+      disabled: false
 featureCards:
   - title: "Regeln"
     text: "Referenzmaterial für Kampf, Erholung und Abläufe am Spieltisch."
@@ -32,3 +32,11 @@ featureCards:
     text: "Hintergrundwissen und Weltmaterial für RedSun."
     href: "/welt/"
     icon: "/assets/svg/sun.svg"
+  - title: "Magie"
+    text: "Das Gewebe der Realität, Ahnenberufungen, Rituale und statische Zauber."
+    href: "/magie/"
+    icon: "/assets/svg/sun.svg"
+  - title: "Völker"
+    text: "Die Zeraphirs, Halb-Zeraphirs und anderen empfindungsfähigen Völker Ardenyas."
+    href: "/voelker/"
+    icon: "/assets/svg/book.svg"

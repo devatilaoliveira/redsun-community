@@ -1,0 +1,28 @@
+slug: "half-zeraphirs"
+path: "/races/half-zeraphirs/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Half-Zeraphirs"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Half-Zeraphirs"
+  description: "Learn about the playable race descended from the ancient Zeraphirs and its natural connection to magic, portals, and distortions of reality."
+placeholder:
+  message: "Half-Zeraphirs"
+sections:
+  - kicker: "Playable race"
+    title: "An incomplete ancestral legacy"
+    body:
+      - "Half-Zeraphirs are distant descendants of the ancient Zeraphirs, born from the mingling of Zeraphir blood with that of other sentient species."
+      - "They do not possess the full power of their ancestors, but they carry traces of that legacy. In some, it appears as unusual senses, an affinity for ancient magic, animal-like traits, or resistance to distortions of reality."
+      - "Half-Zeraphirs are rare and often regarded with suspicion. Some peoples treat them as sacred heirs to a lost civilization. Others see them as aberrations, ill omens, or remnants of an age that should remain forgotten."
+  - kicker: "In the world"
+    title: "Portals and the Order of the Black Sun"
+    body:
+      - "With the rise of the Order of the Black Sun and the return of the portals during eclipses, Half-Zeraphirs have become even more important. Their blood may react to the portals, invading machines, or the corruption left by the Order. For this reason, they may be hunted, studied, revered, or used as weapons."
+      - "In the game, a Half-Zeraphir is a character marked by an incomplete ancestral legacy. They are not a true Zeraphir, but possess a natural connection to the mysteries the Zeraphirs left behind."
+    items:
+      - title: "Magic"
+        text: "Learn about Ancestral Callings and other ways to interact with the weave of reality."
+        href: "/magic/"

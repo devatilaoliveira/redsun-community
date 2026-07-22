@@ -4,7 +4,7 @@ export const SITE_DESCRIPTION = "Public rules and lore for the RedSun tabletop R
 export const SITE_URL =
   process.env.SITE_URL ??
   process.env.NEXT_PUBLIC_SITE_URL ??
-  "http://localhost:3000";
+  "https://rulebook.redsunrpg.com.br";
 
 export const SITE_THEME_COLOR = "#8b1e1e";
 export const SITE_BACKGROUND_COLOR = "#000000";

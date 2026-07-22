@@ -1,0 +1,29 @@
+slug: "static-spells"
+path: "/magie/statische-zauber/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Statische Zauber und Grimoires"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Statische Zauber und Grimoires"
+  description: "Erfahre mehr über die Formeln, Grimoires, die Ahnensprache und den Schleier, die es Menschen ermöglichen, Magie zu wirken."
+placeholder:
+  message: "Statische Zauber und Grimoires"
+sections:
+  - kicker: "Menschliche Magie"
+    title: "Statische Zauber"
+    body:
+      - "Menschen können die Realität nicht intuitiv manipulieren, aber mithilfe starrer Formeln, die als statische Zauber oder im Alltag einfach als Zauber bekannt sind, dennoch Magie wirken."
+      - "Ein statischer Zauber ist eine genaue Abfolge von Worten, Gesten oder Ritualen, die stets dieselbe Wirkung hervorruft. Damit er funktioniert, müssen seine Anweisungen in der Ahnensprache festgehalten und ausgesprochen werden, einer Sprache, die weitaus komplexer ist als jede moderne Sprache. Ihre Begriffe lassen sich nicht vollkommen genau übersetzen, und selbst kleine Änderungen können das Ergebnis des Zaubers ungültig machen oder verzerren."
+  - kicker: "Erinnerung"
+    title: "Die Ahnensprache und der Schleier"
+    body:
+      - "Die Ahnensprache wird von einem Phänomen beeinflusst, das als Schleier bekannt ist. Menschen haben größte Schwierigkeiten, sich ihre Worte und Bedeutungen zu merken, und vergessen sie mit der Zeit. Deshalb können die meisten Menschen nur zwei oder drei statische Zauber auswendig lernen. Der Versuch, einen vierten zu lernen, führt in der Regel dazu, dass der älteste vergessen wird."
+      - "Halb-Zeraphirs sind gegen die Auswirkungen des Schleiers wesentlich widerstandsfähiger. Im Durchschnitt können sie drei- oder viermal so viele Zauber auswendig lernen wie ein gewöhnlicher Mensch. Daher widmen sich viele von ihnen dem Studium der Magie, besonders jene, deren natürliche Berufungen sich nicht deutlich oder mächtig zeigen."
+  - kicker: "Bewahrung"
+    title: "Grimoires"
+    body:
+      - "Um die Grenzen des Gedächtnisses zu umgehen, verwenden Praktizierende besondere Bücher, die Grimoires genannt werden. Darin werden die Anrufungsworte, rituellen Anweisungen und alle weiteren zum Wirken eines Zaubers erforderlichen Bestandteile festgehalten. Magier greifen regelmäßig auf ihre Grimoires zurück, um ihr Wissen über die von ihnen beherrschten Zauber zu festigen."
+      - "Der Schleier verhindert auch, dass die Ahnensprache auf gewöhnlichen Trägern bewahrt wird. Wird sie auf Papier, Pergament, Stein oder eine andere gewöhnliche Oberfläche geschrieben, verschwindet die Ahnenschrift allmählich. In der Praxis bewahrt ein gewöhnliches Buch einen Ahnentext nur einige Tage lang oder bis ihn jemand zum ersten Mal liest."
+      - "Die Erschaffung eines Grimoires erfordert ein besonderes Ritual, das es vor den Auswirkungen des Schleiers schützt. Dennoch haben diese Bücher Grenzen. Grimoires, die mehr als ein Dutzend Zauber speichern können, sind äußerst selten, wertvoll und gelten oft als arkane Schätze."

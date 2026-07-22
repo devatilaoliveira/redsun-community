@@ -1,0 +1,19 @@
+slug: "other-peoples"
+path: "/races/other-peoples/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Other Peoples"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Other Peoples of Ardenya"
+  description: "An introduction to the other sentient species that came to Ardenya during the Age of Portals."
+placeholder:
+  message: "Other Peoples of Ardenya"
+sections:
+  - kicker: "Age of Portals"
+    title: "Peoples from distant worlds"
+    body:
+      - "Countless other sentient species inhabit Ardenya, many originating in distant and unknown worlds. They arrived during the Age of Portals, when passages between realities and planets remained open."
+      - "Many developed their own civilizations, languages, beliefs, and cultures as ancient as the human kingdoms. Others remained isolated in remote regions, forgotten ruins, or hostile territories, where they rarely come into contact with known peoples."
+      - "Some are known and cataloged. Others exist only in fragmented accounts, travelers' legends, or records preserved in ancient libraries. Still others are said to wait at the borders between worlds, where reality grows thin and the echoes of the Age of Portals have never completely faded."

@@ -1,0 +1,65 @@
+slug: "combat-talents"
+path: "/regeln/kampftalente/"
+lastModified: "2026-07-20"
+navigation:
+  label: "Kampftalente"
+  group: "hidden"
+  order: 100
+seo:
+  title: "Kampftalente"
+  description: "Besondere Stile und Manöver, die über die Kampffertigkeiten von RedSun erworben werden."
+placeholder:
+  message: "Kampftalente"
+sections:
+  - kicker: "Fortschritt"
+    title: "Talente erwerben"
+    body:
+      - "Kampffertigkeiten gewähren besondere Techniken, wenn die Figur erfahrener wird."
+      - "Immer wenn eine Figur einen neuen Punkt in einer Kampffertigkeit erwirbt, darf sie ein besonderes Manöver oder einen Kampfstil wählen, der mit dieser Fertigkeit verbunden ist."
+      - "Eine Figur kann im Laufe ihrer Entwicklung mehrere Manöver und Stile erlernen. Meist kann jedoch nur ein Kampfstil gleichzeitig aktiv sein, während alle bekannten Manöver verfügbar bleiben."
+    subsections:
+      - title: "Beispiel"
+        body:
+          - "Eine Figur mit Nahkampfwaffen 3 könnte den Defensiven Stil, das Manöver Entwaffnen und den Stil Duellant gewählt haben und damit insgesamt drei Talente über diese Fertigkeit erworben haben."
+  - kicker: "Kampffertigkeit"
+    title: "Nahkampfwaffen"
+    subsections:
+      - title: "Kampfstile"
+        bullets:
+          - "Defensiver Stil: +1 Würfel auf Proben zum Blocken von Angriffen mit einem Schild."
+          - "Duellant: +1 Würfel auf Angriffe mit einer einhändigen Waffe. In der Nebenhand darf kein Schild geführt werden."
+          - "Kampf mit zwei Waffen: Eine Verteidigungsaktion kann durch einen zusätzlichen Angriff ersetzt werden. Dieser Angriff erleidet einen Abzug von −2 Würfeln auf Stärke oder Geschicklichkeit, je nach verwendetem Attribut. Nur kurze oder mittellange Waffen können auf diese Weise eingesetzt werden."
+          - "Spezialist für lange Waffen: +1 Schadenswürfel beim Einsatz langer Waffen."
+          - "Bollwerk: Die Verteidigungsaktion wird aufgegeben, um hinter dem Schild Deckung zu suchen und mehrere Verteidigungsmanöver ohne Abzug auszuführen. Erfordert einen großen Schild."
+      - title: "Manöver"
+        bullets:
+          - "Entwaffnen: Statt Schaden zu verursachen, kann versucht werden, dem Gegner die Waffe aus der Hand zu schlagen. Bei Erfolg landet sie bis zu einen Meter entfernt. Die Anzahl der Erfolge muss die Stärke des Ziels übersteigen."
+          - "Wuchtiger Angriff: +1 Schadenswürfel, aber +1 Schwierigkeit auf die Angriffsprobe."
+          - "Schildstoß: Bei einem Treffer erhält die nächste Angriffsaktion des Gegners +2 Schwierigkeit."
+  - kicker: "Kampffertigkeit"
+    title: "Fernkampfwaffen"
+    subsections:
+      - title: "Kampfstile"
+        bullets:
+          - "Scharfschütze: Keine Abzüge bei Angriffen auf weit entfernte Ziele."
+          - "Jäger: Ignoriert bis zu +2 Schwierigkeit durch teilweise Deckung oder ungünstiges Gelände."
+          - "Präziser Schuss: +2 Schadenswürfel bei Angriffen auf überraschte Ziele."
+          - "Mobiler Bogenschütze: Kann sich beim Schießen ohne Abzüge bewegen."
+      - title: "Manöver"
+        bullets:
+          - "Zielen: Die Verteidigungsaktion des Zuges wird aufgegeben, um +2 Würfel auf den nächsten Fernkampfangriff zu erhalten."
+          - "Schnellschuss: Die Verteidigungsaktion wird aufgegeben, um einen zusätzlichen Angriff auszuführen. Beide Angriffe erhalten +1 Schwierigkeit. Nur Kurzbögen können dieses Manöver nutzen."
+          - "Sperrfeuer: Drei Pfeile werden gleichzeitig mit +2 Schwierigkeit abgefeuert. Nur Ziele, die relativ nah beieinanderstehen, können gleichzeitig angegriffen werden, und dasselbe Ziel kann nur durch einen Pfeil Schaden erleiden."
+  - kicker: "Kampffertigkeit"
+    title: "Unbewaffneter Kampf"
+    subsections:
+      - title: "Kampfstile"
+        bullets:
+          - "Instinktives Ausweichen: +1 Würfel auf Verteidigungsaktionen, wenn keine schwere Rüstung und kein Schild verwendet werden."
+          - "Konterkämpfer: Greift immer nach dem Gegner an, erhält aber nach erfolgreichem Ausweichen −1 Schwierigkeit im eigenen Angriffszug."
+      - title: "Manöver"
+        bullets:
+          - "Beinfeger: Statt Schaden zu verursachen, kann versucht werden, den Gegner zu Boden zu werfen."
+          - "Festsetzen: Versucht, das Ziel zu packen und seine Bewegung einzuschränken. Das Manöver erhält +2 Schwierigkeit, wenn das Ziel nicht überrascht ist. Bei Erfolg wird das Ziel festgesetzt."
+          - "Knochenbrecher: Kann nur gegen festgesetzte Ziele eingesetzt werden. Es ist kein neuer Angriffswurf erforderlich; der Schaden wird direkt berechnet."
+          - "Betäubender Schlag: Statt zusätzlichen Schaden zu verursachen, kann versucht werden, das Ziel zu desorientieren. Der Angriff verursacht −2 Schaden. Verursacht er dennoch Schaden, erhält das Ziel +2 Schwierigkeit auf seine nächste Aktion."
